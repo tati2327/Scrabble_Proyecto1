@@ -4,7 +4,8 @@
 
 #include <bits/signum.h>
 #include <csignal>
-#include "Server.h"
+#include "Server.h"}
+#include <cstdlib>
 
 void Server::error(const char *msg){
     perror(msg);
@@ -16,16 +17,14 @@ void Server::dostuff (int sock){
     char buffer[256];
 
     bzero(buffer,256);
-    n = read(sock,buffer,255);
+    n = static_cast<int>(read(sock, buffer, 255));
     if (n < 0) error("ERROR reading from socket");
-    printf("Here is the message: %s\n",buffer);
-    n = write(sock,"I got your message",18);
+        printf("Here is the message: %s\n",buffer);
+    n = send(sock,"I got your message",18);
     if (n < 0) error("ERROR writing to socket");
 }
 
 int Server::newServer(int argc, char *argv[]){
-
-    //signal (SIGCHLD, SIG_IGN);
 
     if (argc < 2) {
         fprintf(stderr,"ERROR, no port provided\n");
@@ -48,13 +47,16 @@ int Server::newServer(int argc, char *argv[]){
     listen(sockfd, 5);
     clilen = sizeof(cli_addr);
     while (1) {
-        signal(SIGCHLD, SIG_IGN);
-        newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
+
+        if (connections<5) {
+            newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr, &clilen);
+            connections += 1;
+        }
 
         if (newsockfd < 0)
             error("ERROR on accept");
 
-        pid = fork();
+        pid = fork(); /*! Se llama para crear un nuevo proceso */
         if (pid < 0)
             error("ERROR on fork");
 
@@ -62,10 +64,12 @@ int Server::newServer(int argc, char *argv[]){
             close(sockfd);
             dostuff(newsockfd);
             exit(0);
-        } else
+        } else {
+            signal(SIGCHLD, SIG_IGN);
             close(newsockfd);
-    } /* end of while */
+        }
+    } /*! end of while */
 
-    close(sockfd);
-    return 0; /* we never get here */
+    //close(sockfd);
+    return 0;
 }

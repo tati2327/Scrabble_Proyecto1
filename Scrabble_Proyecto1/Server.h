@@ -24,6 +24,7 @@ class Server {
 
     public:
 
+        int connections = 0;
         int sockfd, newsockfd, portno, pid;
         socklen_t clilen;
         struct sockaddr_in serv_addr, cli_addr;

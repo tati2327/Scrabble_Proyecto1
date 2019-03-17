@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PruebaServer.dir/main.cpp.o  -o PruebaServer 
