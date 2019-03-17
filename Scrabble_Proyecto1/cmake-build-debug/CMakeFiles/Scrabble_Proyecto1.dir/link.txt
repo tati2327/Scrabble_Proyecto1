@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Scrabble_Proyecto1.dir/main.cpp.o CMakeFiles/Scrabble_Proyecto1.dir/Server.cpp.o CMakeFiles/Scrabble_Proyecto1.dir/Client.cpp.o  -o Scrabble_Proyecto1 
