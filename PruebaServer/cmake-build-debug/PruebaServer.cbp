@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.h">
+			<Option target="PruebaServer"/>
+		</Unit>
 		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/main.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/server.cpp">
+			<Option target="PruebaServer"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/server.h">
 			<Option target="PruebaServer"/>
 		</Unit>
 		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/CMakeLists.txt">

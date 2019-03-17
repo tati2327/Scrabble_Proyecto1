@@ -3,4 +3,4 @@ project(PruebaServer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PruebaServer main.cpp)
+add_executable(PruebaServer main.cpp server.cpp server.h client.cpp client.h)
