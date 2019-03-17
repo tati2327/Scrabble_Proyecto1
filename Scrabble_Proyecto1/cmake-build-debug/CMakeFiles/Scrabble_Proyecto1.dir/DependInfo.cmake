@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tati2327/CLionProjects/Scrabble_Proyecto1/Client.cpp" "/home/tati2327/CLionProjects/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/Client.cpp.o"
-  "/home/tati2327/CLionProjects/Scrabble_Proyecto1/Server.cpp" "/home/tati2327/CLionProjects/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/Server.cpp.o"
-  "/home/tati2327/CLionProjects/Scrabble_Proyecto1/main.cpp" "/home/tati2327/CLionProjects/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/main.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/Client.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/Client.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/Server.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/Server.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/main.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Scrabble_Proyecto1/cmake-build-debug/CMakeFiles/Scrabble_Proyecto1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

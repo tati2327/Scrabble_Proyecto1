@@ -31,11 +31,12 @@ class Server {
         void error(const char *msg);
         int newServer(int argc, char *argv[]);
 
-        /******** DOSTUFF() *********************
-         There is a separate instance of this function
-         for each connection.  It handles all communication
-         once a connnection has been established.
-         *****************************************/
+        /*!
+         * dostuff.
+         * Hay una instancia separada de esta función para cada conexión. Maneja toda la comunicación.
+         * Una vez establecida una conexión.
+         * @param sock
+         */
         void dostuff (int sock);
 };
 #endif //SCRABBLE_PROYECTO1_SERVER_H

@@ -2,6 +2,8 @@
 // Created by tati2327 on 17/03/19.
 //
 
+#include <bits/signum.h>
+#include <csignal>
 #include "Server.h"
 
 void Server::error(const char *msg){
