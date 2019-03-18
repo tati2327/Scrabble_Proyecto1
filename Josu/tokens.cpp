@@ -7,7 +7,6 @@
 #include <cstdlib>
 using namespace std;
 
-
 Tokens::Tokens(LinkedList UsedNumbers, LinkedList letters1) {
     LinkedList L1;
 

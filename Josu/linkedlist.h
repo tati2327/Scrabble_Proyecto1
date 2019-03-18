@@ -18,6 +18,7 @@ public:
 
     void Add(char data);                //Funciones para agregar elementos a la lista, ya sean ints o chars
     void Add(int data);
+    void Add(char data, int x, int y);
 
     void Delete(int data);              //Borrar nodos por valor
     void Delete(char data);
@@ -31,6 +32,8 @@ public:
     char bring(int pos);                //Retorna un char encontrado en una lista
 
     void size();                        //Dimension de la lista
+
+    Node getLast();
 
     LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
 

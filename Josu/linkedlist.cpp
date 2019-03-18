@@ -36,6 +36,23 @@ void LinkedList::Add(char _data) {
 
 /////////////////////////////////////////////
 
+void LinkedList::Add(char _data,int x, int y) {                               //Mismo funcionamiento que el Add anterior
+    NPtr newPtr = new Node(_data,x,y);
+
+    if (Head != NULL){
+        Curr = Head;
+        while (Curr->getNext() != NULL){
+            Curr = Curr->getNext();
+        }
+        Curr->setNext(newPtr);
+    }
+    else{
+        Head = newPtr;
+    }
+}
+
+////////////////////////////////////////////
+
 void LinkedList::Add(int _data) {                               //Mismo funcionamiento que el Add anterior
     NPtr newPtr = new Node(_data);
 
@@ -85,10 +102,10 @@ void LinkedList::Showmat(){
     Curr = Head;
     int cont= 0;
     while (Curr != NULL) {
-        cout << Curr->getValue() << "->";
+        cout << Curr->getValue()<<" "<<Curr->getPosX()<<" "<<Curr->getPosY() << "->";
         Curr = Curr->getNext();
         cont=cont+1;
-        if (cont==14){
+        if (cont==15){
             cout<<endl;
             cont=0;
         }
@@ -159,6 +176,16 @@ void LinkedList::size() {
         count=count+1;
     }
     cout<<count<<endl<<endl;
+}
+
+////////////////////////////////////////////
+
+Node LinkedList::getLast() {
+    Curr = Head;
+    while (Curr->getNext()!=NULL){
+        Curr=Curr->getNext();
+    }
+    return *Curr;
 }
 
 ////////////////////////////////////////////

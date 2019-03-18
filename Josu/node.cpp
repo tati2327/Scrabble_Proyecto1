@@ -17,6 +17,13 @@ Node::Node(char _letter) {
     setLetter(_letter);
 }
 
+Node::Node(char _letter, int x, int y) {
+    setNext(NULL);
+    setLetter(_letter);
+    setPosY(y);
+    setPosX(x);
+}
+
 int Node::getValue() const {
     return value;
 }
@@ -49,4 +56,20 @@ char Node::getLetter() const {
 
 void Node::setLetter(char letter) {
     Node::letter = letter;
+}
+
+int Node::getPosX() const {
+    return posX;
+}
+
+void Node::setPosX(int posX) {
+    Node::posX = posX;
+}
+
+int Node::getPosY() const {
+    return posY;
+}
+
+void Node::setPosY(int posY) {
+    Node::posY = posY;
 }
