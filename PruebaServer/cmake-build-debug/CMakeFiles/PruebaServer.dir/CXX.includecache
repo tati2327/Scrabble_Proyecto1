@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.cpp
-client.h
-/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.h
+/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/server.cpp
 iostream
 -
 sys/types.h
@@ -25,16 +23,8 @@ string.h
 -
 string
 -
-
-/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.h
-
-/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/main.cpp
-iostream
--
 server.h
 /home/tati2327/Documentos/GITHUB/Project1/PruebaServer/server.h
-client.h
-/home/tati2327/Documentos/GITHUB/Project1/PruebaServer/client.h
 
 /home/tati2327/Documentos/GITHUB/Project1/PruebaServer/server.h
 

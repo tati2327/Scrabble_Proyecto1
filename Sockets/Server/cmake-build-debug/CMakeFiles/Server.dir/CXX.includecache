@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tati2327/Documentos/GITHUB/Project1/Sockets/Server/Server.h
+
+/home/tati2327/Documentos/GITHUB/Project1/Sockets/Server/main.cpp
+iostream
+-
+Server.h
+/home/tati2327/Documentos/GITHUB/Project1/Sockets/Server/Server.h
+

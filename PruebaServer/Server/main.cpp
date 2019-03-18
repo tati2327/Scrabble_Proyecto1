@@ -8,8 +8,9 @@ int main() {
 
     server s;
     s.newServer();
-    client c;
-    c.newClient();
+
+    //client c;
+    //c.newClient();
 
     return 0;
 }

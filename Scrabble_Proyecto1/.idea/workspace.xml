@@ -12,27 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2d298e3-8e8c-4469-b733-66558f2507eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PruebaServer/client.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PruebaServer/client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PruebaServer/server.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PruebaServer/server.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PruebaServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/PruebaServer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/PruebaServer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaServer/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/client.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/client.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/CMakeFiles/PruebaServer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/PruebaServer" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaServer/cmake-build-debug/PruebaServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/server.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaServer/server.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,19 +37,19 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="255">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#116#134#0" expanded="true" />
@@ -114,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1366" />
     <option name="height" value="743" />
@@ -125,13 +113,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scrabble_Proyecto1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scrabble_Proyecto1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PruebaServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -167,17 +165,18 @@
       <workItem from="1552844328880" duration="418000" />
       <workItem from="1552845081511" duration="6820000" />
       <workItem from="1552856544497" duration="598000" />
+      <workItem from="1552926833333" duration="184000" />
+      <workItem from="1552927081414" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7836000" />
+    <option name="totallyTimeSpent" value="8049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19924243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,13 +205,10 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#116#134#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -239,10 +235,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Server.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#116#134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

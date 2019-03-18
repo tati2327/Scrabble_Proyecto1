@@ -6,8 +6,7 @@
 #define PRUEBASERVER_CLIENT_H
 
 class client {
-    public:
-        int newClient();
+    ;
 };
 
 #endif //PRUEBASERVER_CLIENT_H

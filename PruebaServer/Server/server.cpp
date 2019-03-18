@@ -24,7 +24,7 @@ int server::newServer(){
     sockaddr_in hint{};
     hint.sin_family = AF_INET;
     hint.sin_port = htons(54000);
-    inet_pton(AF_INET, "0.0.0.0", &hint.sin_addr);
+    inet_pton(AF_INET, "127.0.0.1", &hint.sin_addr);
 
     bind(serverSocket, (sockaddr*)&hint, sizeof(hint));
 
@@ -35,6 +35,9 @@ int server::newServer(){
     sockaddr_in client{};
     socklen_t clientSize = sizeof(client);
 
+    cout<<"fffffffff" <<endl;
+
+    cout<<"Esperando cliente"<<endl;
     int clientSocket = accept(serverSocket, (sockaddr*)&client, &clientSize);
 
     char host[NI_MAXHOST];      // Client's remote name
@@ -85,6 +88,5 @@ int server::newServer(){
 
     // Close the socket
     close(clientSocket);
-
     return 0;
 }
