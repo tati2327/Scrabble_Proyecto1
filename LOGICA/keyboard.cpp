@@ -8,7 +8,6 @@
 using namespace std;
 
 Keyboard::Keyboard() {
-    LinkedList L1;
     int count=0;
     int x=0;
     int y=0;

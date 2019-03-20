@@ -1,9 +1,8 @@
 //
-// Created by tati2327 on 19/03/19.
+// Created by josu on 20/03/19.
 //
-
 #include <iostream>
-#include "Dictionary.h"
+#include "dictionary.h"
 
 using namespace std;
 

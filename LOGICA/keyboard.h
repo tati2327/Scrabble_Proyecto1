@@ -11,6 +11,7 @@
 class Keyboard {
 private:
 public:
+    LinkedList L1;
     Keyboard();
 };
 

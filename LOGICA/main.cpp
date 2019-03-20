@@ -3,15 +3,8 @@
 #include "tokens.h"
 #include "cstdlib"
 #include "game.h"
-#include "Dictionary.h"
-
 using  namespace std;
-
 int main() {
-
-    //Game G1;
-    Dictionary d;
-    d.searchWord("holangas");
-
+    Game G1;
     return 0;
 }

@@ -4,26 +4,24 @@
 #include <iostream>
 #include "cstdlib"
 #include "keyboard.h"
-#include "tokens.h"
+#include "player.h"
 #include "game.h"
-#include "Dictionary.h"
+using namespace std;
 
 Game::Game() {
-    LinkedList L1;
-    LinkedList Usable;
-    Usable = Usable.moveletters(letters);
-
+    letterlist = letterlist.moveletters(letters);
     Keyboard K1;
-    Tokens T1(L1,Usable);
-    Tokens T2(L1,Usable);
-    Tokens T3(L1,Usable);
-    Tokens T4(L1,Usable);
+    Player P1(letterlist);
+    P1.rail.Showchar();
+    K1.L1.putletter(P1.rail.bring(2),7,8);
+    P1.rail.Showchar();
+
 }
 
-/*!
- * Buscar solución más optima para el diccionario, un archivo de texto o un array dentro de una clase
- * @param word
- */
-void Game::validWord(string word) {
+int Game::getTurno() const {
+    return turno;
+}
 
+void Game::setTurno(int turno) {
+    Game::turno = turno;
 }

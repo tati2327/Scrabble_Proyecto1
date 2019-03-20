@@ -7,25 +7,24 @@
 #include <cstdlib>
 using namespace std;
 
-Tokens::Tokens(LinkedList UsedNumbers, LinkedList letters1) {
-    LinkedList L1;
-
+Tokens::Tokens(LinkedList letterlist) {
     int count=0;
-    while(count<7){
-        random = rand()%99;
-        UsedNumbers.Add(random);
-        while (UsedNumbers.Seek(random)== true){
-            random =rand()%99;
-        }
+    while(count<8){
+        int random = rand()%(letterlist.size()-1);
         char alo;
-        alo = letters1.bring(random);
+        alo = letterlist.bring(random);
         L1.Add(alo);
         count=count+1;
 
     }
-    L1.Showchar();
+    cout<<"Lista"<<endl;
+    letterlist.Showchar();
     cout<<endl;
-    UsedNumbers.Showint();
+    cout<<"Letras restantes"<<endl;
+    letterlist.size();
+    cout<<endl;
+
+    L1.Showchar();
     cout<<endl;
 }
 

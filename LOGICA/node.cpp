@@ -55,7 +55,7 @@ char Node::getLetter() const {
 }
 
 void Node::setLetter(char letter) {
-    Node::letter = letter;
+        Node::letter = letter;
 }
 
 int Node::getPosX() const {

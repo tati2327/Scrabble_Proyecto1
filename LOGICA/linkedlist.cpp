@@ -95,14 +95,68 @@ void LinkedList::Delete(char data) {
     }
 
 }
-
 ////////////////////////////////////////////
+
+void LinkedList::Delete(int pos) {
+    NPtr deleted = NULL;
+    Tmp = Head;
+    Curr = Head;
+    int count = 0;
+
+    while (Curr != NULL && count!=pos){
+        Tmp=Curr;
+        Curr = Curr->getNext();
+        count= count+1;
+    }
+    if (Curr == NULL){
+        cout<<"Not found";
+        delete deleted;
+    }
+    else{
+        deleted=Curr;
+        Curr = Curr->getNext();
+        Tmp->setNext(Curr);
+        if (deleted==Head){
+            Head = Head->getNext();
+            Tmp = NULL;
+        }
+        delete deleted;
+    }
+
+}
+////////////////////////////////////////////
+
+void LinkedList::Delete(int posx, int posy) {
+    NPtr deleted = NULL;
+    Tmp = Head;
+    Curr = Head;
+
+    while (Curr != NULL && Curr->getPosY()==posy && Curr->getPosX()==posx){
+        Tmp=Curr;
+        Curr = Curr->getNext();
+    }
+    if (Curr == NULL){
+        cout<<"Not found";
+        delete deleted;
+    }
+    else{
+        deleted=Curr;
+        Curr = Curr->getNext();
+        Tmp->setNext(Curr);
+        if (deleted==Head){
+            Head = Head->getNext();
+            Tmp = NULL;
+        }
+        delete deleted;
+    }
+
+}////////////////////////////////////////////
 
 void LinkedList::Showmat(){
     Curr = Head;
     int cont= 0;
     while (Curr != NULL) {
-        cout << Curr->getValue()<<" "<<Curr->getPosX()<<" "<<Curr->getPosY() << "->";
+        cout << Curr->getLetter()<<" "<<Curr->getPosX()<<" "<<Curr->getPosY() << "->";
         Curr = Curr->getNext();
         cont=cont+1;
         if (cont==15){
@@ -163,19 +217,23 @@ char LinkedList::bring(int pos) {
         Curr=Curr->getNext();
         count=count+1;
     }
-    return Curr->getLetter();
+    char result = Curr->getLetter();
+    Delete(pos);
+    return result;
 }
 
 ////////////////////////////////////////////
 
-void LinkedList::size() {
+int LinkedList::size() {
     Curr=Head;
     int count=0;
     while(Curr!=NULL){
         Curr=Curr->getNext();
         count=count+1;
     }
+
     cout<<count<<endl<<endl;
+    return count;
 }
 
 ////////////////////////////////////////////
@@ -186,6 +244,22 @@ Node LinkedList::getLast() {
         Curr=Curr->getNext();
     }
     return *Curr;
+}
+
+Node* LinkedList::getpos(int x, int y) {
+    Curr=Head;
+    while (Curr!=NULL){
+        if (Curr->getPosX()==x && Curr->getPosY()==y){
+            return Curr;
+        } else{
+            Curr=Curr->getNext();
+        }
+    }
+}
+
+void LinkedList::putletter(char data,int x, int y) {
+    getpos(x,y)->setLetter(data);
+    Showmat();
 }
 
 ////////////////////////////////////////////

@@ -20,8 +20,9 @@ public:
     void Add(int data);
     void Add(char data, int x, int y);
 
-    void Delete(int data);              //Borrar nodos por valor
+    void Delete(int pos);              //Borrar nodos por valor
     void Delete(char data);
+    void Delete(int posx, int posy);
 
     void Showmat();                     //Mustra la matriz
     void Showint();                     //Muestra las listas
@@ -31,9 +32,13 @@ public:
 
     char bring(int pos);                //Retorna un char encontrado en una lista
 
-    void size();                        //Dimension de la lista
+    int size();                        //Dimension de la lista
 
     Node getLast();
+
+    Node* getpos(int x, int y);
+
+    void putletter(char data, int x, int y);
 
     LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/josu/Documents/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/josu/Documents/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/Project1/LOGICA
+CMAKE_SOURCE_DIR = /home/josu/CLionProjects/untitled1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug
+CMAKE_BINARY_DIR = /home/josu/CLionProjects/untitled1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/josu/Documents/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/josu/Documents/clion-2018.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josu/CLionProjects/untitled1/cmake-build-debug/CMakeFiles /home/josu/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/josu/CLionProjects/untitled1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Josu
+# Target rules for targets named untitled1
 
 # Build rule for target.
-Josu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Josu
-.PHONY : Josu
+untitled1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 untitled1
+.PHONY : untitled1
 
 # fast build rule for target.
-Josu/fast:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/build
-.PHONY : Josu/fast
+untitled1/fast:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
+.PHONY : untitled1/fast
 
-Dictionary.o: Dictionary.cpp.o
+dictionary.o: dictionary.cpp.o
 
-.PHONY : Dictionary.o
+.PHONY : dictionary.o
 
 # target to build an object file
-Dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/Dictionary.cpp.o
-.PHONY : Dictionary.cpp.o
+dictionary.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/dictionary.cpp.o
+.PHONY : dictionary.cpp.o
 
-Dictionary.i: Dictionary.cpp.i
+dictionary.i: dictionary.cpp.i
 
-.PHONY : Dictionary.i
+.PHONY : dictionary.i
 
 # target to preprocess a source file
-Dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/Dictionary.cpp.i
-.PHONY : Dictionary.cpp.i
+dictionary.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/dictionary.cpp.i
+.PHONY : dictionary.cpp.i
 
-Dictionary.s: Dictionary.cpp.s
+dictionary.s: dictionary.cpp.s
 
-.PHONY : Dictionary.s
+.PHONY : dictionary.s
 
 # target to generate assembly for a file
-Dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/Dictionary.cpp.s
-.PHONY : Dictionary.cpp.s
+dictionary.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/dictionary.cpp.s
+.PHONY : dictionary.cpp.s
 
 game.o: game.cpp.o
 
@@ -156,7 +156,7 @@ game.o: game.cpp.o
 
 # target to build an object file
 game.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/game.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/game.cpp.o
 .PHONY : game.cpp.o
 
 game.i: game.cpp.i
@@ -165,7 +165,7 @@ game.i: game.cpp.i
 
 # target to preprocess a source file
 game.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/game.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/game.cpp.i
 .PHONY : game.cpp.i
 
 game.s: game.cpp.s
@@ -174,7 +174,7 @@ game.s: game.cpp.s
 
 # target to generate assembly for a file
 game.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/game.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/game.cpp.s
 .PHONY : game.cpp.s
 
 keyboard.o: keyboard.cpp.o
@@ -183,7 +183,7 @@ keyboard.o: keyboard.cpp.o
 
 # target to build an object file
 keyboard.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/keyboard.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/keyboard.cpp.o
 .PHONY : keyboard.cpp.o
 
 keyboard.i: keyboard.cpp.i
@@ -192,7 +192,7 @@ keyboard.i: keyboard.cpp.i
 
 # target to preprocess a source file
 keyboard.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/keyboard.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/keyboard.cpp.i
 .PHONY : keyboard.cpp.i
 
 keyboard.s: keyboard.cpp.s
@@ -201,7 +201,7 @@ keyboard.s: keyboard.cpp.s
 
 # target to generate assembly for a file
 keyboard.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/keyboard.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/keyboard.cpp.s
 .PHONY : keyboard.cpp.s
 
 linkedlist.o: linkedlist.cpp.o
@@ -210,7 +210,7 @@ linkedlist.o: linkedlist.cpp.o
 
 # target to build an object file
 linkedlist.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/linkedlist.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/linkedlist.cpp.o
 .PHONY : linkedlist.cpp.o
 
 linkedlist.i: linkedlist.cpp.i
@@ -219,7 +219,7 @@ linkedlist.i: linkedlist.cpp.i
 
 # target to preprocess a source file
 linkedlist.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/linkedlist.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/linkedlist.cpp.i
 .PHONY : linkedlist.cpp.i
 
 linkedlist.s: linkedlist.cpp.s
@@ -228,7 +228,7 @@ linkedlist.s: linkedlist.cpp.s
 
 # target to generate assembly for a file
 linkedlist.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/linkedlist.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/linkedlist.cpp.s
 .PHONY : linkedlist.cpp.s
 
 main.o: main.cpp.o
@@ -237,7 +237,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -246,7 +246,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -255,7 +255,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 node.o: node.cpp.o
@@ -264,7 +264,7 @@ node.o: node.cpp.o
 
 # target to build an object file
 node.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/node.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.o
 .PHONY : node.cpp.o
 
 node.i: node.cpp.i
@@ -273,7 +273,7 @@ node.i: node.cpp.i
 
 # target to preprocess a source file
 node.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/node.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.i
 .PHONY : node.cpp.i
 
 node.s: node.cpp.s
@@ -282,8 +282,35 @@ node.s: node.cpp.s
 
 # target to generate assembly for a file
 node.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/node.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.s
 .PHONY : node.cpp.s
+
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/player.cpp.s
+.PHONY : player.cpp.s
 
 tokens.o: tokens.cpp.o
 
@@ -291,7 +318,7 @@ tokens.o: tokens.cpp.o
 
 # target to build an object file
 tokens.cpp.o:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/tokens.cpp.o
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/tokens.cpp.o
 .PHONY : tokens.cpp.o
 
 tokens.i: tokens.cpp.i
@@ -300,7 +327,7 @@ tokens.i: tokens.cpp.i
 
 # target to preprocess a source file
 tokens.cpp.i:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/tokens.cpp.i
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/tokens.cpp.i
 .PHONY : tokens.cpp.i
 
 tokens.s: tokens.cpp.s
@@ -309,7 +336,7 @@ tokens.s: tokens.cpp.s
 
 # target to generate assembly for a file
 tokens.cpp.s:
-	$(MAKE) -f CMakeFiles/Josu.dir/build.make CMakeFiles/Josu.dir/tokens.cpp.s
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/tokens.cpp.s
 .PHONY : tokens.cpp.s
 
 # Help Target
@@ -319,11 +346,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Josu"
+	@echo "... untitled1"
 	@echo "... edit_cache"
-	@echo "... Dictionary.o"
-	@echo "... Dictionary.i"
-	@echo "... Dictionary.s"
+	@echo "... dictionary.o"
+	@echo "... dictionary.i"
+	@echo "... dictionary.s"
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"
@@ -339,6 +366,9 @@ help:
 	@echo "... node.o"
 	@echo "... node.i"
 	@echo "... node.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
 	@echo "... tokens.o"
 	@echo "... tokens.i"
 	@echo "... tokens.s"

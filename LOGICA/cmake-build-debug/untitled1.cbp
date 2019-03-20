@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/josu/CLionProjects/untitled1/dictionary.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/josu/CLionProjects/untitled1/dictionary.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/josu/CLionProjects/untitled1/game.cpp">
 			<Option target="untitled1"/>
 		</Unit>
@@ -109,6 +115,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/josu/CLionProjects/untitled1/node.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/josu/CLionProjects/untitled1/player.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/josu/CLionProjects/untitled1/player.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/josu/CLionProjects/untitled1/tokens.cpp">

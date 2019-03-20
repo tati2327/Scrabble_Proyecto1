@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/josu/CLionProjects/untitled1/dictionary.cpp
+iostream
+-
+dictionary.h
+/home/josu/CLionProjects/untitled1/dictionary.h
+
+/home/josu/CLionProjects/untitled1/dictionary.h
+fstream
+-
+string.h
+-
+stdlib.h
+-
+
+/home/josu/CLionProjects/untitled1/node.cpp
+iostream
+-
+stdlib.h
+-
+node.h
+/home/josu/CLionProjects/untitled1/node.h
+
+/home/josu/CLionProjects/untitled1/node.h
+iostream
+-
+stdlib.h
+-
+
