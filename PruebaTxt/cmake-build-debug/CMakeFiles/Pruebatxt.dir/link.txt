@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pruebatxt.dir/main.cpp.o CMakeFiles/Pruebatxt.dir/Dictionary.cpp.o  -o Pruebatxt 

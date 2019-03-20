@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tati2327/Documentos/GITHUB/Project1/Pruebatxt/Dictionary.cpp
+iostream
+-
+Dictionary.h
+/home/tati2327/Documentos/GITHUB/Project1/Pruebatxt/Dictionary.h
+
+/home/tati2327/Documentos/GITHUB/Project1/Pruebatxt/Dictionary.h
+fstream
+-
+string.h
+-
+stdlib.h
+-
+
