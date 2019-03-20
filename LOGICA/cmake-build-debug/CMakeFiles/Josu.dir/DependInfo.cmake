@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/Dictionary.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/game.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/game.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/keyboard.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/linkedlist.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/main.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/main.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/node.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/node.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.cpp" "/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/tokens.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/Dictionary.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/game.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/keyboard.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/linkedlist.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/main.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/main.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/node.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.cpp" "/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/tokens.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -43,10 +43,10 @@ RM = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/Project1/Josu
+CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/Project1/LOGICA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Josu.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/Josu.dir/flags.make
 
 CMakeFiles/Josu.dir/game.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/game.cpp.o: ../game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Josu.dir/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/game.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Josu.dir/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/game.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.cpp
 
 CMakeFiles/Josu.dir/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/game.cpp > CMakeFiles/Josu.dir/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.cpp > CMakeFiles/Josu.dir/game.cpp.i
 
 CMakeFiles/Josu.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/game.cpp -o CMakeFiles/Josu.dir/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.cpp -o CMakeFiles/Josu.dir/game.cpp.s
 
 CMakeFiles/Josu.dir/keyboard.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/keyboard.cpp.o: ../keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Josu.dir/keyboard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/keyboard.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Josu.dir/keyboard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/keyboard.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.cpp
 
 CMakeFiles/Josu.dir/keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/keyboard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.cpp > CMakeFiles/Josu.dir/keyboard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.cpp > CMakeFiles/Josu.dir/keyboard.cpp.i
 
 CMakeFiles/Josu.dir/keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/keyboard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.cpp -o CMakeFiles/Josu.dir/keyboard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.cpp -o CMakeFiles/Josu.dir/keyboard.cpp.s
 
 CMakeFiles/Josu.dir/linkedlist.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/linkedlist.cpp.o: ../linkedlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Josu.dir/linkedlist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/linkedlist.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Josu.dir/linkedlist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/linkedlist.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.cpp
 
 CMakeFiles/Josu.dir/linkedlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/linkedlist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.cpp > CMakeFiles/Josu.dir/linkedlist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.cpp > CMakeFiles/Josu.dir/linkedlist.cpp.i
 
 CMakeFiles/Josu.dir/linkedlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/linkedlist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.cpp -o CMakeFiles/Josu.dir/linkedlist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.cpp -o CMakeFiles/Josu.dir/linkedlist.cpp.s
 
 CMakeFiles/Josu.dir/main.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Josu.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/main.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Josu.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/main.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/main.cpp
 
 CMakeFiles/Josu.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/main.cpp > CMakeFiles/Josu.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/main.cpp > CMakeFiles/Josu.dir/main.cpp.i
 
 CMakeFiles/Josu.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/main.cpp -o CMakeFiles/Josu.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/main.cpp -o CMakeFiles/Josu.dir/main.cpp.s
 
 CMakeFiles/Josu.dir/node.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/node.cpp.o: ../node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Josu.dir/node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/node.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Josu.dir/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/node.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.cpp
 
 CMakeFiles/Josu.dir/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/node.cpp > CMakeFiles/Josu.dir/node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.cpp > CMakeFiles/Josu.dir/node.cpp.i
 
 CMakeFiles/Josu.dir/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/node.cpp -o CMakeFiles/Josu.dir/node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.cpp -o CMakeFiles/Josu.dir/node.cpp.s
 
 CMakeFiles/Josu.dir/tokens.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/tokens.cpp.o: ../tokens.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Josu.dir/tokens.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/tokens.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Josu.dir/tokens.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/tokens.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.cpp
 
 CMakeFiles/Josu.dir/tokens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/tokens.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.cpp > CMakeFiles/Josu.dir/tokens.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.cpp > CMakeFiles/Josu.dir/tokens.cpp.i
 
 CMakeFiles/Josu.dir/tokens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/tokens.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.cpp -o CMakeFiles/Josu.dir/tokens.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.cpp -o CMakeFiles/Josu.dir/tokens.cpp.s
 
 CMakeFiles/Josu.dir/Dictionary.cpp.o: CMakeFiles/Josu.dir/flags.make
 CMakeFiles/Josu.dir/Dictionary.cpp.o: ../Dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Josu.dir/Dictionary.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/Dictionary.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Josu.dir/Dictionary.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Josu.dir/Dictionary.cpp.o -c /home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.cpp
 
 CMakeFiles/Josu.dir/Dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Josu.dir/Dictionary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.cpp > CMakeFiles/Josu.dir/Dictionary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.cpp > CMakeFiles/Josu.dir/Dictionary.cpp.i
 
 CMakeFiles/Josu.dir/Dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Josu.dir/Dictionary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.cpp -o CMakeFiles/Josu.dir/Dictionary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.cpp -o CMakeFiles/Josu.dir/Dictionary.cpp.s
 
 # Object files for target Josu
 Josu_OBJECTS = \
@@ -170,7 +170,7 @@ Josu: CMakeFiles/Josu.dir/tokens.cpp.o
 Josu: CMakeFiles/Josu.dir/Dictionary.cpp.o
 Josu: CMakeFiles/Josu.dir/build.make
 Josu: CMakeFiles/Josu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Josu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Josu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Josu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/Josu.dir/clean:
 .PHONY : CMakeFiles/Josu.dir/clean
 
 CMakeFiles/Josu.dir/depend:
-	cd /home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tati2327/Documentos/GITHUB/Project1/Josu /home/tati2327/Documentos/GITHUB/Project1/Josu /home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug /home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug /home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeFiles/Josu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tati2327/Documentos/GITHUB/Project1/LOGICA /home/tati2327/Documentos/GITHUB/Project1/LOGICA /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug /home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Josu.dir/depend
 

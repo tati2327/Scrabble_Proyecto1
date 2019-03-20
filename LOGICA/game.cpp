@@ -6,6 +6,7 @@
 #include "keyboard.h"
 #include "tokens.h"
 #include "game.h"
+#include "Dictionary.h"
 
 Game::Game() {
     LinkedList L1;
@@ -17,4 +18,12 @@ Game::Game() {
     Tokens T2(L1,Usable);
     Tokens T3(L1,Usable);
     Tokens T4(L1,Usable);
+}
+
+/*!
+ * Buscar solución más optima para el diccionario, un archivo de texto o un array dentro de una clase
+ * @param word
+ */
+void Game::validWord(string word) {
+
 }

@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Josu">
-				<Option output="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Josu" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug"/>
+				<Option output="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Josu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/tati2327/Documentos/GITHUB/Project1/Josu/."/>
+					<Add directory="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -45,20 +45,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 Josu"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Josu"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Josu/fast">
-				<Option output="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Josu" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug"/>
+				<Option output="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Josu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/tati2327/Documentos/GITHUB/Project1/Josu/."/>
+					<Add directory="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -69,81 +69,81 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 Josu/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Josu/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/CMakeLists.txt">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/CMakeLists.txt">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/Dictionary.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/Dictionary.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/CMakeCache.txt">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeCache.txt">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/Makefile">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/Makefile">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/cmake_install.cmake">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/cmake_install.cmake">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/untitled1">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/untitled1">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/cmake-build-debug/untitled1.cbp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/untitled1.cbp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/game.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/game.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/game.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/keyboard.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/keyboard.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/linkedlist.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/linkedlist.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/main.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/main.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/node.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/node.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/node.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.cpp">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.cpp">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/tokens.h">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/tokens.h">
 			<Option target="Josu"/>
 		</Unit>
-		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/Josu/CMakeLists.txt">
+		<Unit filename="/home/tati2327/Documentos/GITHUB/Project1/LOGICA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
