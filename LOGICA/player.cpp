@@ -7,11 +7,13 @@
 #include "cstdlib"
 #include "tokens.h"
 
-Player::Player(LinkedList letterlist) {
+Player::Player(LinkedList _letterlist, LinkedList _keyboard) {
 
-    LinkedList L1 = Tokens(letterlist).L1;
+    LinkedList L1 = Tokens(_letterlist).L1;
+    letterlist = _letterlist;
     setJugando(false);
     rail = L1;
+    keyboard = _keyboard;
 }
 
 bool Player::isJugando() const {
@@ -25,19 +27,14 @@ void Player::setJugando(bool jugando) {
 int Player::getPuntaje() const {
     return puntaje;
 }
-
 void Player::setPuntaje(int puntaje) {
     Player::puntaje = puntaje;
 }
 
-const LinkedList &Player::getRail() const {
-    return rail;
-}
-
-void Player::setRail(const LinkedList &rail) {
-    Player::rail = rail;
-}
-
-LinkedList Player::getList(Tokens tokens){
-    return tokens.L1;
+void Player::putLetter(int letter, int posx, int posy) {
+    keyboard.putletter(rail.bring(letter),posx,posy);
+    int random = rand()%(letterlist.size()-1);
+    char alo;
+    alo = letterlist.bring(random);
+    rail.Add(alo);
 }

@@ -6,31 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/josu/CLionProjects/untitled1/dictionary.cpp
+/home/josu/Documents/Github/Proyecto1/LOGICA/game.cpp
 iostream
 -
-dictionary.h
-/home/josu/CLionProjects/untitled1/dictionary.h
+cstdlib
+/home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
+keyboard.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.h
+player.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.h
+game.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/game.h
 
-/home/josu/CLionProjects/untitled1/dictionary.h
-fstream
--
-string.h
--
-stdlib.h
--
+/home/josu/Documents/Github/Proyecto1/LOGICA/game.h
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
 
-/home/josu/CLionProjects/untitled1/node.cpp
-iostream
--
-stdlib.h
--
+/home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.h
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
 node.h
-/home/josu/CLionProjects/untitled1/node.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/node.h
 
-/home/josu/CLionProjects/untitled1/node.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/node.h
 iostream
 -
 stdlib.h
 -
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.h
+iostream
+-
+cstdlib
+/home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
+tokens.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
 

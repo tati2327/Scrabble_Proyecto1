@@ -10,6 +10,7 @@
 class Game {
 private:
     LinkedList letterlist;
+    LinkedList keyboard;
     int turno;
 public:
     int getTurno() const;

@@ -11,16 +11,14 @@
 
 class Player {
 private:
-public:
-    const LinkedList &getRail() const;
-
-    void setRail(const LinkedList &rail);
-
-public:
-    Player(LinkedList letterlist);
     bool jugando;
     int puntaje;
+
+public:
+    Player(LinkedList letterlist, LinkedList keyboard);
+    LinkedList letterlist;
     LinkedList rail;
+    LinkedList keyboard;
 
     bool isJugando() const;
 
@@ -30,7 +28,7 @@ public:
 
     void setPuntaje(int puntaje);
 
-    LinkedList getList(Tokens tokens);
+    void putLetter(int letter, int posx, int posy);
 };
 
 

@@ -11,9 +11,20 @@ using namespace std;
 Game::Game() {
     letterlist = letterlist.moveletters(letters);
     Keyboard K1;
-    Player P1(letterlist);
+    keyboard = K1.L1;
+    Player P1(letterlist, keyboard);
     P1.rail.Showchar();
-    K1.L1.putletter(P1.rail.bring(2),7,8);
+    P1.putLetter(2,7,8);
+    letterlist.Showchar();
+    letterlist.size();
+    P1.rail.Showchar();
+    P1.putLetter(7,1,1);
+    letterlist.Showchar();
+    letterlist.size();
+    P1.rail.Showchar();
+    P1.putLetter(1,3,1);
+    letterlist.Showchar();
+    letterlist.size();
     P1.rail.Showchar();
 
 }

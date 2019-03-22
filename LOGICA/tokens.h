@@ -13,11 +13,6 @@ public:
     Tokens(LinkedList letterlist);
     int random;
     LinkedList L1;
-
-
-
-
-
 };
 
 
