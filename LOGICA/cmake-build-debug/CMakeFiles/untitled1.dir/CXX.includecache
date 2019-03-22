@@ -36,6 +36,16 @@ iostream
 stdlib.h
 -
 
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.cpp
+player.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.h
+iostream
+-
+cstdlib
+/home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
+tokens.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+
 /home/josu/Documents/Github/Proyecto1/LOGICA/player.h
 iostream
 -

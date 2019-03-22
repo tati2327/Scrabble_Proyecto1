@@ -5,6 +5,6 @@
 #include "game.h"
 using  namespace std;
 int main() {
-    Game G1;
+    Game G1(2,0);
     return 0;
 }

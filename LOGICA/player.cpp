@@ -6,6 +6,7 @@
 #include <iostream>
 #include "cstdlib"
 #include "tokens.h"
+using namespace std;
 
 Player::Player(LinkedList _letterlist, LinkedList _keyboard) {
 
@@ -32,9 +33,15 @@ void Player::setPuntaje(int puntaje) {
 }
 
 void Player::putLetter(int letter, int posx, int posy) {
+    if (keyboard.getpos(posx,posy)->getLetter()!='0'){
+        cout <<"Ya hay una letra dude";
+        return;
+    }
+    else{
     keyboard.putletter(rail.bring(letter),posx,posy);
     int random = rand()%(letterlist.size()-1);
     char alo;
     alo = letterlist.bring(random);
     rail.Add(alo);
+    }
 }

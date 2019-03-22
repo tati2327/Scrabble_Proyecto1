@@ -29,7 +29,7 @@ private:
                        'B','M','M','P','P','H','H','F','V','Y',
                        '1','Q','J','2','4','3','X','Z','5','5'};
 public:
-    Game();
+    Game(int players, int turno);
 };
 
 

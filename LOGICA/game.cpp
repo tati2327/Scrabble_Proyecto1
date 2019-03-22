@@ -8,24 +8,22 @@
 #include "game.h"
 using namespace std;
 
-Game::Game() {
+Game::Game(int jugadores, int turno) {
+    for(int i=0; i<jugadores;i++){
+        
+    }
     letterlist = letterlist.moveletters(letters);
     Keyboard K1;
     keyboard = K1.L1;
     Player P1(letterlist, keyboard);
+    Player P2(letterlist,keyboard);
     P1.rail.Showchar();
-    P1.putLetter(2,7,8);
-    letterlist.Showchar();
-    letterlist.size();
+    P2.rail.Showchar();
+    P1.putLetter(3,1,2);
+    P2.putLetter(4,3,5);
     P1.rail.Showchar();
-    P1.putLetter(7,1,1);
-    letterlist.Showchar();
-    letterlist.size();
-    P1.rail.Showchar();
-    P1.putLetter(1,3,1);
-    letterlist.Showchar();
-    letterlist.size();
-    P1.rail.Showchar();
+    P2.rail.Showchar();
+    P1.putLetter(1,1,2);
 
 }
 
