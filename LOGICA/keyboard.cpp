@@ -21,6 +21,8 @@ Keyboard::Keyboard() {
 
         x=x+1;
     }
+    L1.multipliers();
     L1.Showmat();
+
 
 }

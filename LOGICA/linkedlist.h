@@ -42,5 +42,24 @@ public:
 
     LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
 
+    void multipliers();
+
+    Node* pointer(int y);
+
+    Node* N0;
+    Node* N1;
+    Node* N2;
+    Node* N3;
+    Node* N4;
+    Node* N5;
+    Node* N6;
+    Node* N7;
+    Node* N8;
+    Node* N9;
+    Node* N10;
+    Node* N11;
+    Node* N12;
+    Node* N13;
+    Node* N14;
 };
 #endif //UNTITLED1_LINKEDLIST_H

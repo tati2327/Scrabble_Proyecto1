@@ -38,7 +38,25 @@ void LinkedList::Add(char _data) {
 
 void LinkedList::Add(char _data,int x, int y) {                               //Mismo funcionamiento que el Add anterior
     NPtr newPtr = new Node(_data,x,y);
+    if (x==0){
+        if (y==0) N0 = newPtr;
+        if (y==1) N1 = newPtr;
+        if (y==2) N2 = newPtr;
+        if (y==3) N3 = newPtr;
+        if (y==4) N4 = newPtr;
+        if (y==5) N5 = newPtr;
+        if (y==6) N6 = newPtr;
+        if (y==7) N7 = newPtr;
+        if (y==8) N8 = newPtr;
+        if (y==9) N9 = newPtr;
+        if (y==10) N10 = newPtr;
+        if (y==11) N11 = newPtr;
+        if (y==12) N12 = newPtr;
+        if (y==13) N13 = newPtr;
+        if (y==14) N14 = newPtr;
 
+
+    }
     if (Head != NULL){
         Curr = Head;
         while (Curr->getNext() != NULL){
@@ -155,8 +173,12 @@ void LinkedList::Delete(int posx, int posy) {
 void LinkedList::Showmat(){
     Curr = Head;
     int cont= 0;
+    for(int i=0; i<15;i++){
+    cout << "L" << " " << "ML" << " " << "MP    ";}
+    cout<< endl;
     while (Curr != NULL) {
-        cout << Curr->getLetter()<<" "<<Curr->getPosX()<<" "<<Curr->getPosY() << "->";
+
+        cout << Curr->getLetter()<< " " << Curr->getMultiplierl()<<" " << Curr->getMultiplierp() <<"  ->  ";
         Curr = Curr->getNext();
         cont=cont+1;
         if (cont==15){
@@ -247,7 +269,8 @@ Node LinkedList::getLast() {
 }
 
 Node* LinkedList::getpos(int x, int y) {
-    Curr=Head;
+    Curr=pointer(y);
+    //Curr=Head;
     while (Curr!=NULL){
         if (Curr->getPosX()==x && Curr->getPosY()==y){
             return Curr;
@@ -273,3 +296,109 @@ LinkedList LinkedList::moveletters(char *letters) {
     }
     return L1;
 }
+
+void LinkedList::multipliers(){
+    Node* Usable;
+    for (int i=0;i<14;i++){
+        if (i==6 || i==8){
+            Usable=getpos(i,i);
+            Usable->setMultiplierl(3);
+            i++;
+        }
+        if (i==0){
+            Usable=getpos(i,i);
+            Usable->setMultiplierp(3);
+            i++;
+        }
+        Usable = getpos(i,i);
+        Usable->setMultiplierl(2);
+    }
+    Usable = getpos(14,14);
+    Usable->setMultiplierp(3);
+    Usable = getpos(0,14);
+    Usable->setMultiplierp(3);
+    Usable = getpos(14,0);
+    Usable->setMultiplierp(3);
+    Usable = getpos(0,7);
+    Usable->setMultiplierp(3);
+    Usable = getpos(7,0);
+    Usable->setMultiplierp(3);
+    Usable = getpos(14,7);
+    Usable->setMultiplierp(3);
+    Usable = getpos(7,14);
+    Usable->setMultiplierp(3);
+    for (int i=1; i<14;i++){
+        for (int j=13;j>0;j--){
+            if (i==8 || i==6){
+                if (i+j==14) {
+                    Usable = getpos(i,j);
+                    Usable->setMultiplierl(3);
+                }
+            }
+            else{
+                if (i+j==14){
+                    Usable = getpos(i,j);
+                    Usable->setMultiplierl(2);
+            }
+            }
+        }
+    }
+    Usable = getpos(1,5);
+    Usable->setMultiplierp(2);
+    Usable = getpos(2,6);
+    Usable->setMultiplierl(2);
+    Usable = getpos(3,7);
+    Usable->setMultiplierl(2);
+    Usable = getpos(2,8);
+    Usable->setMultiplierl(2);
+    Usable = getpos(1,9);
+    Usable->setMultiplierp(2);
+    Usable = getpos(5,1);
+    Usable->setMultiplierp(2);
+    Usable = getpos(6,2);
+    Usable->setMultiplierl(2);
+    Usable = getpos(7,3);
+    Usable->setMultiplierl(2);
+    Usable = getpos(8,2);
+    Usable->setMultiplierl(2);
+    Usable = getpos(9,1);
+    Usable->setMultiplierp(2);
+    Usable = getpos(5,13);
+    Usable->setMultiplierp(2);
+    Usable = getpos(6,12);
+    Usable->setMultiplierl(2);
+    Usable = getpos(7,11);
+    Usable->setMultiplierl(2);
+    Usable = getpos(8,12);
+    Usable->setMultiplierl(2);
+    Usable = getpos(9,13);
+    Usable->setMultiplierp(2);
+    Usable = getpos(13,5);
+    Usable->setMultiplierp(2);
+    Usable = getpos(12,6);
+    Usable->setMultiplierl(2);
+    Usable = getpos(11,7);
+    Usable->setMultiplierl(2);
+    Usable = getpos(12,8);
+    Usable->setMultiplierl(2);
+    Usable = getpos(13,9);
+    Usable->setMultiplierp(2);
+}
+
+Node* LinkedList::pointer(int y) {
+    if (y==0) return N0;
+    if (y==1) return N1;
+    if (y==2) return N2;
+    if (y==3) return N3;
+    if (y==4) return N4;
+    if (y==5) return N5;
+    if (y==6) return N6;
+    if (y==7) return N7;
+    if (y==8) return N8;
+    if (y==9) return N9;
+    if (y==10) return N10;
+    if (y==11) return N11;
+    if (y==12) return N12;
+    if (y==13) return N13;
+    if (y==14) return N14;
+    }

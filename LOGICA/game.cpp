@@ -9,9 +9,6 @@
 using namespace std;
 
 Game::Game(int jugadores, int turno) {
-    for(int i=0; i<jugadores;i++){
-        
-    }
     letterlist = letterlist.moveletters(letters);
     Keyboard K1;
     keyboard = K1.L1;

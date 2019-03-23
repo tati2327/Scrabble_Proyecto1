@@ -16,6 +16,10 @@ private:
     Node* next;                                          //Son listas simples, por eso solo tiene next
     int posX;
     int posY;
+    int multiplierl;
+    int multiplierp;
+
+
 public:
     Node(int _value);                                    //Getter and setters
     Node(char _letter);
@@ -38,6 +42,12 @@ public:
 
     int getPosY() const;
     void setPosY(int posY);
+
+    int getMultiplierl() const;
+    void setMultiplierl(int multiplierl);
+
+    int getMultiplierp() const;
+    void setMultiplierp(int multiplierp);
 };
 
 
