@@ -1,65 +1,82 @@
-//
-// Created by josu on 11/03/19.
-//
 #ifndef UNTITLED1_LINKEDLIST_H
 #define UNTITLED1_LINKEDLIST_H
-
 #include "node.h"
 
-class LinkedList {                      //Clase lista para los nodos de la matriz de juego
-private:
+/*!
+ * Clase LinkedList
+ *
+ * Clase que crea una lista enlazada de nodos
+ */
+class LinkedList {
+    private:
+        Node* Head; /*! <Head es la cabeza de la lista. */
+        Node* Tmp; /*! <Tmp sirve para guardar nodos que se pueden usar luego */
+        Node* Curr; /*! <Curr sera el un puntero por si se recorre la lista para saber por donde va.*/
 
-    Node* Head;                         //Se tiene 3 punteros a Nodos, Head es la cabeza de la lista, Tmp sirve para
-    Node* Tmp;                          //guardar nodos que se pueden usar luego y Curr sera el un puntero por si se
-    Node* Curr;                         //recorra la lista para saber por donde va.
+    public:
+        LinkedList(); /*! <Constructor de la clase */
 
-public:
-    LinkedList();                       //Constructor de la clase
+        /*!
+         * Funcion para agregar un elemento de tipo char a la lista
+         * Se agrega el elemneto al final de la lista
+         * @param data de tipo char
+         */
+        void Add(char data);
 
-    void Add(char data);                //Funciones para agregar elementos a la lista, ya sean ints o chars
-    void Add(int data);
-    void Add(char data, int x, int y);
+        /*!
+         * Funcion para agregar un elemento de tipo int a la lista
+         * @param data
+         */
+        void Add(int data);
 
-    void Delete(int pos);              //Borrar nodos por valor
-    void Delete(char data);
-    void Delete(int posx, int posy);
+        /*!
+         * Funcion para agregar un elemento de tipo int a la lista
+         * @param data
+         * @param x
+         * @param y
+         */
+        void Add(char data, int x, int y);
 
-    void Showmat();                     //Mustra la matriz
-    void Showint();                     //Muestra las listas
-    void Showchar();
+        void Delete(int pos);              //Borrar nodos por valor
+        void Delete(char data);
+        void Delete(int posx, int posy);
 
-    bool Seek(int number);              //Retorna un booleano si se encuentra un valor indicado
+        void Showmat();                     //Mustra la matriz
+        void Showint();                     //Muestra las listas
+        void Showchar();
 
-    char bring(int pos);                //Retorna un char encontrado en una lista
+        bool Seek(int number);              //Retorna un booleano si se encuentra un valor indicado
 
-    int size();                        //Dimension de la lista
+        char bring(int pos);                //Retorna un char encontrado en una lista
 
-    Node getLast();
+        int size();                        //Dimension de la lista
 
-    Node* getpos(int x, int y);
+        Node getLast();
 
-    void putletter(char data, int x, int y);
+        Node* getpos(int x, int y);
 
-    LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
+        void putletter(char data, int x, int y);
 
-    void multipliers();
+        LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
 
-    Node* pointer(int y);
+        void multipliers();
 
-    Node* N0;
-    Node* N1;
-    Node* N2;
-    Node* N3;
-    Node* N4;
-    Node* N5;
-    Node* N6;
-    Node* N7;
-    Node* N8;
-    Node* N9;
-    Node* N10;
-    Node* N11;
-    Node* N12;
-    Node* N13;
-    Node* N14;
+        Node* pointer(int y);
+
+        Node* N0;
+        Node* N1;
+        Node* N2;
+        Node* N3;
+        Node* N4;
+        Node* N5;
+        Node* N6;
+        Node* N7;
+        Node* N8;
+        Node* N9;
+        Node* N10;
+        Node* N11;
+        Node* N12;
+        Node* N13;
+        Node* N14;
 };
 #endif //UNTITLED1_LINKEDLIST_H

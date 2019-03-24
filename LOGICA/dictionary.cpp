@@ -1,6 +1,3 @@
-//
-// Created by josu on 20/03/19.
-//
 #include <iostream>
 #include "dictionary.h"
 

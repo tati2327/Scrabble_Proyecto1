@@ -1,24 +1,21 @@
-//
-// Created by josu on 15/03/19.
-//
-
 #include<iostream>
 #include<stdlib.h>
 #include "node.h"
-using namespace std;
-Node::Node(int _value) {                   //Constructor del Nodo, tanto si es para un int como para char,
-    setNext(NULL);                         //siempre el next se le asigna como NULL
-    setValue(_value);
 
+using namespace std;
+
+Node::Node(int _value) {
+    setNext(nullptr);
+    setValue(_value);
 }
 
 Node::Node(char _letter) {
-    setNext(NULL);
+    setNext(nullptr);
     setLetter(_letter);
 }
 
 Node::Node(char _letter, int x, int y) {
-    setNext(NULL);
+    setNext(nullptr);
     setLetter(_letter);
     setPosY(y);
     setPosX(x);
@@ -40,8 +37,7 @@ void Node::setNext(Node *next) {
     Node::next = next;
 }
 
-void* Node::operator new(size_t size){     //Sobrecarga de new, haciendo Malloc
-
+void* Node::operator new(size_t size){
     void* PPP = malloc(size);
     return PPP;
 }
@@ -74,20 +70,18 @@ void Node::setPosY(int posY) {
     Node::posY = posY;
 }
 
-int Node::getMultiplierl() const {
-    return multiplierl;
+int Node::getMultiplierL() const {
+    return multiplierL;
 }
 
-void Node::setMultiplierl(int multiplierl) {
-    Node::multiplierl = multiplierl;
+void Node::setMultiplierL(int multiplierl) {
+    Node::multiplierL = multiplierl;
 }
 
-int Node::getMultiplierp() const {
-    return multiplierp;
+int Node::getMultiplierP() const {
+    return multiplierP;
 }
 
-void Node::setMultiplierp(int multiplierp) {
-    Node::multiplierp = multiplierp;
+void Node::setMultiplierP(int multiplierp) {
+    Node::multiplierP = multiplierp;
 }
-
-

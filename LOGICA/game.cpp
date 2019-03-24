@@ -1,6 +1,3 @@
-//
-// Created by josu on 11/03/19.
-//
 #include <iostream>
 #include "cstdlib"
 #include "keyboard.h"
@@ -8,9 +5,9 @@
 #include "game.h"
 using namespace std;
 
-Game::Game(int jugadores, int turno) {
+Game::Game(int players, int turn) {
     letterlist = letterlist.moveletters(letters);
-    Keyboard K1;
+    Board K1;
     keyboard = K1.L1;
     Player P1(letterlist, keyboard);
     Player P2(letterlist,keyboard);
@@ -21,13 +18,12 @@ Game::Game(int jugadores, int turno) {
     P1.rail.Showchar();
     P2.rail.Showchar();
     P1.putLetter(1,1,2);
-
 }
 
-int Game::getTurno() const {
-    return turno;
+int Game::getTurn() const {
+    return turn;
 }
 
-void Game::setTurno(int turno) {
-    Game::turno = turno;
+void Game::setTurn(int turn) {
+    Game::turn = turn;
 }

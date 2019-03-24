@@ -1,47 +1,48 @@
-//
-// Created by josu on 20/03/19.
-//
-
 #include "player.h"
 #include <iostream>
 #include "cstdlib"
 #include "tokens.h"
+
 using namespace std;
 
-Player::Player(LinkedList _letterlist, LinkedList _keyboard) {
-
+Player::Player(LinkedList _letterlist, LinkedList _board) {
     LinkedList L1 = Tokens(_letterlist).L1;
     letterlist = _letterlist;
-    setJugando(false);
+    setPlaying(false);
     rail = L1;
-    keyboard = _keyboard;
+    board = _board;
 }
 
-bool Player::isJugando() const {
-    return jugando;
+/*----------------------------------------------------------------------------------------------------------*/
+bool Player::getPlaying() const {
+    return playing;
 }
 
-void Player::setJugando(bool jugando) {
-    Player::jugando = jugando;
+/*----------------------------------------------------------------------------------------------------------*/
+void Player::setPlaying(bool jugando) {
+    Player::playing = jugando;
 }
 
-int Player::getPuntaje() const {
-    return puntaje;
-}
-void Player::setPuntaje(int puntaje) {
-    Player::puntaje = puntaje;
+/*----------------------------------------------------------------------------------------------------------*/
+int Player::getScore() const {
+    return score;
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
+void Player::setScore(int _score) {
+    Player::score = _score;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
 void Player::putLetter(int letter, int posx, int posy) {
-    if (keyboard.getpos(posx,posy)->getLetter()!='0'){
-        cout <<"Ya hay una letra dude";
-        return;
+    if (board.getpos(posx,posy)->getLetter() != '0'){
+        cout <<"Ya hay una letra aquí";
     }
     else{
-    keyboard.putletter(rail.bring(letter),posx,posy);
-    int random = rand()%(letterlist.size()-1);
-    char alo;
-    alo = letterlist.bring(random);
-    rail.Add(alo);
+        board.putletter(rail.bring(letter),posx,posy);
+        int random = rand()%(letterlist.size()-1);
+        char alo;
+        alo = letterlist.bring(random);
+        rail.Add(alo);
     }
 }

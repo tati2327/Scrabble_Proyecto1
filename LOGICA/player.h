@@ -1,7 +1,3 @@
-//
-// Created by josu on 20/03/19.
-//
-
 #ifndef UNTITLED1_PLAYER_H
 #define UNTITLED1_PLAYER_H
 
@@ -9,26 +5,27 @@
 #include "cstdlib"
 #include "tokens.h"
 
+/*!
+ * Clase Player
+ */
 class Player {
-private:
-    bool jugando;
-    int puntaje;
+    private:
+        bool playing;
+        int score;
 
-public:
-    Player(LinkedList letterlist, LinkedList keyboard);
-    LinkedList letterlist;
-    LinkedList rail;
-    LinkedList keyboard;
+    public:
+        Player(LinkedList _letterlist, LinkedList _board);
+        LinkedList letterlist;
+        LinkedList rail;
+        LinkedList board;
 
-    bool isJugando() const;
+        bool getPlaying() const;
+        void setPlaying(bool playing);
 
-    void setJugando(bool jugando);
+        int getScore() const;
+        void setScore(int playing);
 
-    int getPuntaje() const;
-
-    void setPuntaje(int puntaje);
-
-    void putLetter(int letter, int posx, int posy);
+        void putLetter(int letter, int posx, int posy);
 };
 
 

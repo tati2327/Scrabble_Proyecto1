@@ -1,43 +1,42 @@
-//
-// Created by josu on 11/03/19.
-//
 #include <cstdlib>
 #include "linkedlist.h"
 #include <iostream>
 
-using namespace std;                                           //Facilidad para imprimir en consola
-typedef struct Node* NPtr;                                     //Para no escribir Node* se puede escribir NPtr
+using namespace std;
 
-LinkedList::LinkedList(){                                      //Contructor de la clase
-    Tmp = NULL;
-    Head = NULL;
-    Curr = NULL;
+LinkedList::LinkedList(){
+    Tmp = nullptr;
+    Head = nullptr;
+    Curr = nullptr;
 }
-
-//////////////////////////////////////
-
+ /*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::Add(char _data) {
 
-    NPtr newPtr = new Node(_data);                              //Se usa el new sobrecargado para agregar un char a una
-                                                                //lista
-    if (Head != NULL){
+    Node* newPtr = new Node(_data); /*! Se usa el new sobrecargado para agregar un char a una lista*/
 
-        Curr = Head;                                            //Curr es un puntero que nos ayuda a recorrer la lista
-        while (Curr->getNext() != NULL){                        //con esto voy recorriendo la lista hasta llegar al
-            Curr = Curr->getNext();                             //ultimo elemento que es el que apunta a NULL;
+    if (Head != nullptr){
+        /*! Curr es un puntero que nos ayuda a recorrer la lista
+         * hasta llegar al ultimo elemento que es el que apunta a nullptr*/
+        Curr = Head;
+
+        while (Curr->getNext() != nullptr){
+            Curr = Curr->getNext();
         }
-        Curr->setNext(newPtr);                                  //Cuando se llega al final se asigna a que el ultimo ya
-    }                                                           //no apunte a NULL sino al nuevo Nodo agregado, este apu
-                                                                //apuntara a NULL
-    else{
-        Head = newPtr;                                          //Si Head==NULL significa que no hay elementos por lo
-    }                                                           //cual se "agrega" al principio
+        /*! Cuando se llega al final se asigna a que el ultimo ya no apunte a NULL sino
+         * al nuevo Nodo agregado y este apuntara a nullptr*/
+        Curr->setNext(newPtr);
+    }
+    else {
+        /*! Si Head==NULL significa que no hay elementos por lo cual se "agrega" al principio */
+        Head = newPtr;
+    }
 }
 
-/////////////////////////////////////////////
+/*----------------------------------------------------------------------------------------------------------*/
+/*! Mismo funcionamiento que el Add anterior */
+void LinkedList::Add(char _data,int x, int y) {
+    Node* newPtr = new Node(_data,x,y);
 
-void LinkedList::Add(char _data,int x, int y) {                               //Mismo funcionamiento que el Add anterior
-    NPtr newPtr = new Node(_data,x,y);
     if (x==0){
         if (y==0) N0 = newPtr;
         if (y==1) N1 = newPtr;
@@ -54,12 +53,11 @@ void LinkedList::Add(char _data,int x, int y) {                               //
         if (y==12) N12 = newPtr;
         if (y==13) N13 = newPtr;
         if (y==14) N14 = newPtr;
-
-
     }
-    if (Head != NULL){
+
+    if (Head != nullptr){
         Curr = Head;
-        while (Curr->getNext() != NULL){
+        while (Curr->getNext() != nullptr){
             Curr = Curr->getNext();
         }
         Curr->setNext(newPtr);
@@ -69,14 +67,14 @@ void LinkedList::Add(char _data,int x, int y) {                               //
     }
 }
 
-////////////////////////////////////////////
+/*----------------------------------------------------------------------------------------------------------*/
+/*! Mismo funcionamiento que el Add anterior */
+void LinkedList::Add(int _data) {
+    Node* newPtr = new Node(_data);
 
-void LinkedList::Add(int _data) {                               //Mismo funcionamiento que el Add anterior
-    NPtr newPtr = new Node(_data);
-
-    if (Head != NULL){
+    if (Head != nullptr){
         Curr = Head;
-        while (Curr->getNext() != NULL){
+        while (Curr->getNext() != nullptr){
             Curr = Curr->getNext();
         }
         Curr->setNext(newPtr);
@@ -86,18 +84,19 @@ void LinkedList::Add(int _data) {                               //Mismo funciona
     }
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
+/*! Borra por dato*/
 void LinkedList::Delete(char data) {
-    NPtr deleted = NULL;
+    Node* deleted = nullptr;
     Tmp = Head;
     Curr = Head;
 
-    while (Curr != NULL && Curr->getLetter() != data){
+    while (Curr != nullptr && Curr->getLetter() != data){
         Tmp=Curr;
         Curr = Curr->getNext();
     }
-    if (Curr == NULL){
+
+    if (Curr == nullptr){
         cout<<"Not found";
         delete deleted;
     }
@@ -105,28 +104,58 @@ void LinkedList::Delete(char data) {
         deleted=Curr;
         Curr = Curr->getNext();
         Tmp->setNext(Curr);
+
         if (deleted==Head){
             Head = Head->getNext();
-            Tmp = NULL;
+            Tmp = nullptr;
         }
         delete deleted;
     }
-
 }
-////////////////////////////////////////////
 
+/*----------------------------------------------------------------------------------------------------------*/
+/*! Borra por posicion*/
 void LinkedList::Delete(int pos) {
-    NPtr deleted = NULL;
+    Node* deleted = nullptr;
     Tmp = Head;
     Curr = Head;
     int count = 0;
 
-    while (Curr != NULL && count!=pos){
+    while (Curr != nullptr && count!=pos){
         Tmp=Curr;
         Curr = Curr->getNext();
         count= count+1;
     }
-    if (Curr == NULL){
+
+    if (Curr == nullptr){
+        cout<<"Not found";
+        delete deleted;
+    }
+    else{
+        deleted=Curr;
+        Curr = Curr->getNext();
+        Tmp->setNext(Curr);
+
+        if (deleted==Head){
+            Head = Head->getNext();
+            Tmp = nullptr;
+        }
+        delete deleted;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+void LinkedList::Delete(int posx, int posy) {
+    Node* deleted = nullptr;
+    Tmp = Head;
+    Curr = Head;
+
+    while (Curr != nullptr && Curr->getPosY()==posy && Curr->getPosX()==posx){
+        Tmp=Curr;
+        Curr = Curr->getNext();
+    }
+
+    if (Curr == nullptr){
         cout<<"Not found";
         delete deleted;
     }
@@ -136,105 +165,74 @@ void LinkedList::Delete(int pos) {
         Tmp->setNext(Curr);
         if (deleted==Head){
             Head = Head->getNext();
-            Tmp = NULL;
+            Tmp = nullptr;
         }
         delete deleted;
     }
 
 }
-////////////////////////////////////////////
-
-void LinkedList::Delete(int posx, int posy) {
-    NPtr deleted = NULL;
-    Tmp = Head;
-    Curr = Head;
-
-    while (Curr != NULL && Curr->getPosY()==posy && Curr->getPosX()==posx){
-        Tmp=Curr;
-        Curr = Curr->getNext();
-    }
-    if (Curr == NULL){
-        cout<<"Not found";
-        delete deleted;
-    }
-    else{
-        deleted=Curr;
-        Curr = Curr->getNext();
-        Tmp->setNext(Curr);
-        if (deleted==Head){
-            Head = Head->getNext();
-            Tmp = NULL;
-        }
-        delete deleted;
-    }
-
-}////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::Showmat(){
     Curr = Head;
     int cont= 0;
     for(int i=0; i<15;i++){
     cout << "L" << " " << "ML" << " " << "MP    ";}
     cout<< endl;
-    while (Curr != NULL) {
 
-        cout << Curr->getLetter()<< " " << Curr->getMultiplierl()<<" " << Curr->getMultiplierp() <<"  ->  ";
+    while (Curr != nullptr) {
+        cout << Curr->getLetter()<< " " << Curr->getMultiplierL()<<" " << Curr->getMultiplierP() <<"  ->  ";
         Curr = Curr->getNext();
         cont=cont+1;
+
         if (cont==15){
             cout<<endl;
             cont=0;
         }
         else{}
-
     }
     cout<<endl;
 }
 
-////////////////////////////////////////////
-
-void LinkedList::Showchar() {                                  //Muestra la lista
+/*----------------------------------------------------------------------------------------------------------*/
+/*! Muestra la lista */
+void LinkedList::Showchar() {
     Curr = Head;
-    while (Curr!=NULL){                                        //Se recorre la lista con Curr y Curr.next
-        cout << Curr->getLetter() << "->";                     //En cada punto imprime el char
-        Curr = Curr->getNext();
+    while (Curr!= nullptr){
+        cout << Curr->getLetter() << "->"; /*! Se recorre la lista con Curr y Curr.next*/
+        Curr = Curr->getNext(); /*! En cada punto imprime el char */
     }
-    cout<<endl;
 }
 
-////////////////////////////////////////////
-
-void LinkedList::Showint() {                                   //Mismo funcionamiento solo que imprime el int no char
+/*----------------------------------------------------------------------------------------------------------*/
+void LinkedList::Showint() {
     Curr = Head;
-    while (Curr!=NULL){
+    while (Curr!= nullptr){
         cout << Curr->getValue() << "->";
         Curr = Curr->getNext();
     }
     cout<<endl;
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 bool LinkedList::Seek(int number) {
     Curr=Head;
-    while(Curr != NULL && Curr->getValue()!=number){
+    while(Curr != nullptr && Curr->getValue()!=number){
         Curr=Curr->getNext();
     }
-    if (Curr==NULL){
+
+    if (Curr == nullptr){
         return false;
     }
     else{
         return true;
     }
-
-
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 char LinkedList::bring(int pos) {
     Curr=Head;
     int count=0;
+
     while(count!=pos){
         Curr=Curr->getNext();
         count=count+1;
@@ -244,12 +242,12 @@ char LinkedList::bring(int pos) {
     return result;
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 int LinkedList::size() {
     Curr=Head;
     int count=0;
-    while(Curr!=NULL){
+
+    while(Curr != nullptr){
         Curr=Curr->getNext();
         count=count+1;
     }
@@ -258,20 +256,20 @@ int LinkedList::size() {
     return count;
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 Node LinkedList::getLast() {
     Curr = Head;
-    while (Curr->getNext()!=NULL){
+    while (Curr->getNext()!= nullptr){
         Curr=Curr->getNext();
     }
     return *Curr;
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
 Node* LinkedList::getpos(int x, int y) {
     Curr=pointer(y);
     //Curr=Head;
-    while (Curr!=NULL){
+    while (Curr!= nullptr){
         if (Curr->getPosX()==x && Curr->getPosY()==y){
             return Curr;
         } else{
@@ -280,13 +278,13 @@ Node* LinkedList::getpos(int x, int y) {
     }
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::putletter(char data,int x, int y) {
     getpos(x,y)->setLetter(data);
     Showmat();
 }
 
-////////////////////////////////////////////
-
+/*----------------------------------------------------------------------------------------------------------*/
 LinkedList LinkedList::moveletters(char *letters) {
     LinkedList L1;
     int count=0;
@@ -297,94 +295,100 @@ LinkedList LinkedList::moveletters(char *letters) {
     return L1;
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::multipliers(){
     Node* Usable;
+
     for (int i=0;i<14;i++){
         if (i==6 || i==8){
             Usable=getpos(i,i);
-            Usable->setMultiplierl(3);
+            Usable->setMultiplierL(3);
             i++;
         }
         if (i==0){
             Usable=getpos(i,i);
-            Usable->setMultiplierp(3);
+            Usable->setMultiplierP(3);
             i++;
         }
         Usable = getpos(i,i);
-        Usable->setMultiplierl(2);
+        Usable->setMultiplierL(2);
     }
+
     Usable = getpos(14,14);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(0,14);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(14,0);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(0,7);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(7,0);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(14,7);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
     Usable = getpos(7,14);
-    Usable->setMultiplierp(3);
+    Usable->setMultiplierP(3);
+
     for (int i=1; i<14;i++){
         for (int j=13;j>0;j--){
             if (i==8 || i==6){
                 if (i+j==14) {
                     Usable = getpos(i,j);
-                    Usable->setMultiplierl(3);
+                    Usable->setMultiplierL(3);
                 }
             }
             else{
                 if (i+j==14){
                     Usable = getpos(i,j);
-                    Usable->setMultiplierl(2);
+                    Usable->setMultiplierL(2);
             }
             }
         }
     }
+
     Usable = getpos(1,5);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(2,6);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(3,7);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(2,8);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(1,9);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(5,1);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(6,2);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(7,3);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(8,2);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(9,1);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(5,13);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(6,12);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(7,11);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(8,12);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(9,13);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(13,5);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
     Usable = getpos(12,6);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(11,7);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(12,8);
-    Usable->setMultiplierl(2);
+    Usable->setMultiplierL(2);
     Usable = getpos(13,9);
-    Usable->setMultiplierp(2);
+    Usable->setMultiplierP(2);
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
 Node* LinkedList::pointer(int y) {
     if (y==0) return N0;
     if (y==1) return N1;
@@ -401,4 +405,4 @@ Node* LinkedList::pointer(int y) {
     if (y==12) return N12;
     if (y==13) return N13;
     if (y==14) return N14;
-    }
+}

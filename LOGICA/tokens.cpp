@@ -1,30 +1,28 @@
-//
-// Created by josu on 11/03/19.
-//
 #include <iostream>
 #include "tokens.h"
 #include "linkedlist.h"
 #include <cstdlib>
+
 using namespace std;
 
-Tokens::Tokens(LinkedList letterlist) {
+Tokens::Tokens(LinkedList _letterlist) {
     int count=0;
+
     while(count<8){
-        int random = rand()%(letterlist.size()-1);
+        int random = rand()%(_letterlist.size()-1);
         char alo;
-        alo = letterlist.bring(random);
+        alo = _letterlist.bring(random);
         L1.Add(alo);
         count=count+1;
-
     }
+
     cout<<"Lista"<<endl;
-    letterlist.Showchar();
+    _letterlist.Showchar();
     cout<<endl;
     cout<<"Letras restantes"<<endl;
-    letterlist.size();
+    _letterlist.size();
     cout<<endl;
 
     L1.Showchar();
     cout<<endl;
 }
-
