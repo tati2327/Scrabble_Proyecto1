@@ -73,3 +73,21 @@ int Node::getPosY() const {
 void Node::setPosY(int posY) {
     Node::posY = posY;
 }
+
+int Node::getMultiplierl() const {
+    return multiplierl;
+}
+
+void Node::setMultiplierl(int multiplierl) {
+    Node::multiplierl = multiplierl;
+}
+
+int Node::getMultiplierp() const {
+    return multiplierp;
+}
+
+void Node::setMultiplierp(int multiplierp) {
+    Node::multiplierp = multiplierp;
+}
+
+
