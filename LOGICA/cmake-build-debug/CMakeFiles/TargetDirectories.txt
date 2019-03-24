@@ -1,3 +1,0 @@
-/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/Josu.dir
-/home/tati2327/Documentos/GITHUB/Project1/LOGICA/cmake-build-debug/CMakeFiles/edit_cache.dir
