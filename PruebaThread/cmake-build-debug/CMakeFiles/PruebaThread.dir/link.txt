@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/PruebaThread.dir/main.cpp.o  -o PruebaThread 
+/usr/bin/c++  -g   CMakeFiles/PruebaThread.dir/main.cpp.o  -o PruebaThread -pthread 

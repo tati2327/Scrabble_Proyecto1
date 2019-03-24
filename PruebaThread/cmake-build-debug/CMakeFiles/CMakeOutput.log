@@ -631,3 +631,17 @@ make[1]: se sale del directorio '/home/tati2327/Documentos/GITHUB/Project1/Prueb
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/tati2327/Documentos/GITHUB/Project1/PruebaThread/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94a3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94a3b.dir/build.make CMakeFiles/cmTC_94a3b.dir/build
+make[1]: se entra en el directorio '/home/tati2327/Documentos/GITHUB/Project1/PruebaThread/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94a3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_94a3b.dir/CheckIncludeFile.c.o   -c /home/tati2327/Documentos/GITHUB/Project1/PruebaThread/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_94a3b
+/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a3b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_94a3b.dir/CheckIncludeFile.c.o  -o cmTC_94a3b 
+make[1]: se sale del directorio '/home/tati2327/Documentos/GITHUB/Project1/PruebaThread/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
