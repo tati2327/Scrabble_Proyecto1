@@ -201,6 +201,7 @@ void LinkedList::Showchar() {
         cout << Curr->getLetter() << "->"; /*! Se recorre la lista con Curr y Curr.next*/
         Curr = Curr->getNext(); /*! En cada punto imprime el char */
     }
+    cout<<endl;
 }
 
 /*----------------------------------------------------------------------------------------------------------*/

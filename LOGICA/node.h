@@ -32,6 +32,7 @@ class Node {
         void setValue(int value);
     
         Node *getNext() const;
+
         void setNext(Node *next);
 
         /*!
@@ -40,6 +41,10 @@ class Node {
          * @return un puntero de tipo void*
          */
         void* operator new(size_t size);
+
+        /*!
+         * Libera la memoria del puntero que se le pasa por parametro
+         * @param void* */
         void operator delete(void*);
     
         int getPosX() const;
