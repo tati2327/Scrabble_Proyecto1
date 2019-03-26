@@ -7,10 +7,16 @@
  */
 class Board {
     private:
-
+        LinkedList board;
     public:
-        LinkedList L1;
+        /*!
+         * Constructo de la clase*/
         Board();
+
+        /*!
+        * Getters and setters*/
+        const LinkedList &getBoard() const;
+        void setBoard(const LinkedList &board);
 };
 
 #endif //UNTITLED1_KEYBOARD_H

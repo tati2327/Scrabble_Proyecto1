@@ -9,17 +9,26 @@ Board::Board() {
     int x=0;
     int y=0;
 
-    while(count<225){
+    while(count<225){  /*! Se agregan las 225 posiciones de la matriz con su valor en "x" y "y"
+                        * ademas se le asigna un cero de char para representar que no hay letra*/
         if(x==15){
             x=0;
             y=y+1;
         }
 
-        L1.Add('0',x,y);
+        board.Add('0',x,y);
         count=count+1;
         x=x+1;
     }
 
-    L1.multipliers();
-    L1.Showmat();
+    board.multipliers();
+    board.Showmat();
+}
+
+const LinkedList &Board::getBoard() const {
+    return board;
+}
+
+void Board::setBoard(const LinkedList &board) {
+    Board::board = board;
 }

@@ -12,7 +12,21 @@ class LinkedList {
         Node* Head; /*! <Head es la cabeza de la lista. */
         Node* Tmp; /*! <Tmp sirve para guardar nodos que se pueden usar luego */
         Node* Curr; /*! <Curr sera el un puntero por si se recorre la lista para saber por donde va.*/
-
+        Node* N0;   /*! Punteros de inicio de fila*/
+        Node* N1;
+        Node* N2;
+        Node* N3;
+        Node* N4;
+        Node* N5;
+        Node* N6;
+        Node* N7;
+        Node* N8;
+        Node* N9;
+        Node* N10;
+        Node* N11;
+        Node* N12;
+        Node* N13;
+        Node* N14;
     public:
         LinkedList(); /*! <Constructor de la clase */
 
@@ -37,46 +51,66 @@ class LinkedList {
          */
         void Add(char data, int x, int y);
 
-        void Delete(int pos);              //Borrar nodos por valor
+        /*!
+         * Funcion para borrar por posicion en la lista
+         * @param pos, posicion en la lista*/
+        void Delete(int pos);
         void Delete(char data);
         void Delete(int posx, int posy);
 
-        void Showmat();                     //Mustra la matriz
-        void Showint();                     //Muestra las listas
+        /*!
+         * Funcion para mostrar la matriz de juego*/
+        void Showmat();
+
+        /*!
+         * Funcion para mostrar la lista de ints*/
+        void Showint();
+        /*!
+         * Funcion para mostrar la lista de chars*/
         void Showchar();
 
-        bool Seek(int number);              //Retorna un booleano si se encuentra un valor indicado
+        bool Seek(int number);
 
-        char bring(int pos);                //Retorna un char encontrado en una lista
+        /*!
+         * Funcion para retornar el char de una lista
+         * @param pos, posicion del nodo
+         * @return char obtenido de la poscion*/
+        char bring(int pos);
 
-        int size();                        //Dimension de la lista
-
+        /*!
+         * Funcion que retorna la dimension de una lista
+         * @return int, dimension de la lista*/
+        int size();
         Node getLast();
 
+        /*!
+         * Funcion que retorna un puntero segun la posicion en "x" y "y" de la matriz de juego
+         * @param x posicion de la matriz
+         * @param y posicion de la matriz
+         * @return puntero a Nodo*/
         Node* getpos(int x, int y);
 
+        /*!
+         * Funcion que coloca una letra en la matriz de juego
+         * @param data, letra que se quiere poner
+         * @param x, posicion en x
+         * @param y, posicion en y*/
         void putletter(char data, int x, int y);
 
-        LinkedList moveletters(char letters[100]);  //Funcion para convertir las letras en una lista para darles uso
-
+        /*!
+         * Funcion que convierte el char de letras de juego en una lista con las mismas letras pero en Nodos
+         * @param letters, array con las letras
+         * @return linked list con los nodos*/
+        LinkedList moveletters(char letters[100]);
+        /*!
+         * Funcion para asignar multiplicadores a la matriz*/
         void multipliers();
-
+        /*!
+         * Funcion que retorna un puntero al inicio de la fila pedida de la matriz
+         * @param y, numeor de fila
+         * @return puntero de nodo al inicio de la fila*/
         Node* pointer(int y);
 
-        Node* N0;
-        Node* N1;
-        Node* N2;
-        Node* N3;
-        Node* N4;
-        Node* N5;
-        Node* N6;
-        Node* N7;
-        Node* N8;
-        Node* N9;
-        Node* N10;
-        Node* N11;
-        Node* N12;
-        Node* N13;
-        Node* N14;
+
 };
 #endif //UNTITLED1_LINKEDLIST_H

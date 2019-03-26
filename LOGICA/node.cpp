@@ -37,12 +37,12 @@ void Node::setNext(Node *next) {
     Node::next = next;
 }
 
-void* Node::operator new(size_t size){
+void* Node::operator new(size_t size){ /*! <Sobrecarga de new, haciendo malloc*/
     void* PPP = malloc(size);
     return PPP;
 }
 
-void Node::operator delete(void* PPP){
+void Node::operator delete(void* PPP){ /*! <SO=obrecarga de delete pasando por parametro el puntero*/
     free(PPP);
 }
 

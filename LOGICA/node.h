@@ -12,28 +12,23 @@
 class Node {
     
     private:
-        int value;                                           
-        char letter;                                         
-        Node* next;                                          
-        int posX;
-        int posY;
-        int multiplierL;
-        int multiplierP;
+        int value;               /*! Valor int*/
+        char letter;             /*! Valor char*/
+        Node* next;              /*!Puntero a siguiente */
+        int posX;                /*! Posicion en x, valido solo para la lista de matriz*/
+        int posY;                /*! Posicion en y, valido solo para la lista de matriz*/
+        int multiplierL;         /*! Multiplicador de letra, valido solo para la lista de matriz*/
+        int multiplierP;         /*! Multiplicadore de palabra, valido solo para la lista de matriz*/
 
     public:
+        /*! Constructor de Nodo tipo int*/
         Node(int _value);
+        /*! Construcor de Nodo tipo char */
         Node(char _letter);
+        /*! COnstructor de Nodo tipo matriz */
         Node(char _letter, int x, int y);
     
-        char getLetter() const;
-        void setLetter(char letter);
-    
-        int getValue() const;
-        void setValue(int value);
-    
-        Node *getNext() const;
 
-        void setNext(Node *next);
 
         /*!
          * Sobrecarga de new y delete para hacer malloc y tener la memoria en el heap
@@ -46,7 +41,9 @@ class Node {
          * Libera la memoria del puntero que se le pasa por parametro
          * @param void* */
         void operator delete(void*);
-    
+
+        /*!
+         * Getters and setters */
         int getPosX() const;
         void setPosX(int posX);
     
@@ -58,6 +55,15 @@ class Node {
     
         int getMultiplierP() const;
         void setMultiplierP(int multiplierp);
-};
+
+        char getLetter() const;
+       void setLetter(char letter);
+
+        int getValue() const;
+        void setValue(int value);
+
+        Node *getNext() const;
+        void setNext(Node *next);
+    };
 
 #endif //UNTITLED1_NODE_H

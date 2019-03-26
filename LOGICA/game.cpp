@@ -6,24 +6,32 @@
 using namespace std;
 
 Game::Game(int players, int turn) {
-    letterlist = letterlist.moveletters(letters);
+    letterlist = letterlist.moveletters(letters); /*! Llena la bolsa de fichas*/
     Board K1;
-    keyboard = K1.L1;
-    Player P1(letterlist, keyboard);
-    Player P2(letterlist,keyboard);
-    P1.rail.Showchar();
-    P2.rail.Showchar();
-    P1.putLetter(3,1,2);
-    P2.putLetter(4,3,5);
-    P1.rail.Showchar();
-    P2.rail.Showchar();
-    P1.putLetter(1,1,2);
+    board = K1.getBoard();                        /*!Llama a la matriz de juego*/
+
+
 }
 
 int Game::getTurn() const {
     return turn;
 }
-
 void Game::setTurn(int turn) {
     Game::turn = turn;
+}
+
+const LinkedList &Game::getLetterlist() const {
+    return letterlist;
+}
+
+void Game::setLetterlist(const LinkedList &letterlist) {
+    Game::letterlist = letterlist;
+}
+
+const LinkedList &Game::getBoard() const {
+    return board;
+}
+
+void Game::setBoard(const LinkedList &board) {
+    Game::board = board;
 }

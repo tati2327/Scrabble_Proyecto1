@@ -10,7 +10,7 @@ LinkedList::LinkedList(){
     Curr = nullptr;
 }
  /*----------------------------------------------------------------------------------------------------------*/
-void LinkedList::Add(char _data) {
+void LinkedList::Add(char _data) { /*!<Agrega por dato char*/
 
     Node* newPtr = new Node(_data); /*! Se usa el new sobrecargado para agregar un char a una lista*/
 
@@ -33,11 +33,12 @@ void LinkedList::Add(char _data) {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-/*! Mismo funcionamiento que el Add anterior */
-void LinkedList::Add(char _data,int x, int y) {
+/*! Mismo funcionamiento que el Add anterior, este tiene la diferencia que declara los punteros N0, N1, ... ,
+ * N14 como referencias a las filas de la matriz*/
+void LinkedList::Add(char _data,int x, int y) { /*!<Agrega por dato int*/
     Node* newPtr = new Node(_data,x,y);
 
-    if (x==0){
+    if (x==0){                            /*! En esta linea se asignan los punteros a los inicios de cada fila*/
         if (y==0) N0 = newPtr;
         if (y==1) N1 = newPtr;
         if (y==2) N2 = newPtr;
@@ -85,37 +86,47 @@ void LinkedList::Add(int _data) {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-/*! Borra por dato*/
-void LinkedList::Delete(char data) {
-    Node* deleted = nullptr;
+
+void LinkedList::Delete(char data) {    /*! <Borra por dato*/
+    Node* deleted = nullptr;            /*! Aqui se tienen que usar tanto el Tmp como el Curr
+                                         * ya que como se va a borrar un elemento en una lista que solo
+                                         * tiene next se borra el Curr y el Tmp que siempre va a estar uno atras
+                                         * del Curr se le asigna como siguiente el siguiente del Curr por lo cual
+                                         * este queda "flotando y luego se borra"*/
     Tmp = Head;
     Curr = Head;
 
     while (Curr != nullptr && Curr->getLetter() != data){
+                                        /*! Aqui se nota como el Tmp esta antes del Curr y se recorre la lista hasta
+                                         * encontrar el valor*/
         Tmp=Curr;
         Curr = Curr->getNext();
     }
 
-    if (Curr == nullptr){
+    if (Curr == nullptr){               /*! Como se puede borrar por dato puede ser que no se encuentre, si el Curr
+                                         * llegara a ser nullptr despues de recorrer toda la lista significa que
+                                         * no lo logro encontrar*/
         cout<<"Not found";
-        delete deleted;
+        delete(deleted);                 /*! Se borrar el puntero deleted*/
     }
     else{
-        deleted=Curr;
+        deleted=Curr;                   /*!Se asigna el puntero deleted el valor de Curr que es el puntero o nodo que se
+                                        * desea borrar, y se asigna a otra variable porque todvia necesitamos el puntero
+                                        * Curr y su siguiente para unir las listas despues de eliminar el elemento*/
         Curr = Curr->getNext();
         Tmp->setNext(Curr);
 
-        if (deleted==Head){
+        if (deleted==Head){             /*!Si se borra el Head se vuelve a asignar*/
             Head = Head->getNext();
             Tmp = nullptr;
         }
-        delete deleted;
+        delete(deleted);                 /*!Se hace delete que ya esta sobrecargado*/
     }
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-/*! Borra por posicion*/
-void LinkedList::Delete(int pos) {
+
+void LinkedList::Delete(int pos) {    /*! <Borra por posicion, mismo funcionamiento que el Delete por char*/
     Node* deleted = nullptr;
     Tmp = Head;
     Curr = Head;
@@ -129,7 +140,7 @@ void LinkedList::Delete(int pos) {
 
     if (Curr == nullptr){
         cout<<"Not found";
-        delete deleted;
+        delete(deleted);
     }
     else{
         deleted=Curr;
@@ -140,7 +151,7 @@ void LinkedList::Delete(int pos) {
             Head = Head->getNext();
             Tmp = nullptr;
         }
-        delete deleted;
+        delete(deleted);
     }
 }
 
@@ -157,7 +168,7 @@ void LinkedList::Delete(int posx, int posy) {
 
     if (Curr == nullptr){
         cout<<"Not found";
-        delete deleted;
+        delete(deleted);
     }
     else{
         deleted=Curr;
@@ -167,12 +178,12 @@ void LinkedList::Delete(int posx, int posy) {
             Head = Head->getNext();
             Tmp = nullptr;
         }
-        delete deleted;
+        delete(deleted);
     }
 
 }
 /*----------------------------------------------------------------------------------------------------------*/
-void LinkedList::Showmat(){
+void LinkedList::Showmat(){ /*!<Imprime la matriz de juego*/
     Curr = Head;
     int cont= 0;
     for(int i=0; i<15;i++){
@@ -194,8 +205,8 @@ void LinkedList::Showmat(){
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-/*! Muestra la lista */
-void LinkedList::Showchar() {
+
+void LinkedList::Showchar() { /*! <Muestra la lista hecha por char*/
     Curr = Head;
     while (Curr!= nullptr){
         cout << Curr->getLetter() << "->"; /*! Se recorre la lista con Curr y Curr.next*/
@@ -205,7 +216,7 @@ void LinkedList::Showchar() {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-void LinkedList::Showint() {
+void LinkedList::Showint() {  /*!< Muestra la lista hecha por int*/
     Curr = Head;
     while (Curr!= nullptr){
         cout << Curr->getValue() << "->";
@@ -230,25 +241,28 @@ bool LinkedList::Seek(int number) {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-char LinkedList::bring(int pos) {
+char LinkedList::bring(int pos) { /*! <Devuleve un char segun la posicion que se le de*/
     Curr=Head;
     int count=0;
 
-    while(count!=pos){
+    while(count!=pos){              /*! Como se hace por posicion la busqueda se va recorriendo la lista con el
+                                     * .getNext() y se aumenta un count para que cuando haga match con la posicion
+                                     * lo retorne*/
         Curr=Curr->getNext();
         count=count+1;
     }
-    char result = Curr->getLetter();
-    Delete(pos);
+    char result = Curr->getLetter();     /*! Se asigna un char porque el nodo se borra de la lista */
+    Delete(pos);                         /*! Eliminacion del nodo*/
     return result;
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-int LinkedList::size() {
+int LinkedList::size() {         /*! <Retorna la dimension de la lista  */
     Curr=Head;
     int count=0;
 
-    while(Curr != nullptr){
+    while(Curr != nullptr){     /*! La lista se recorre con .getNext() y se tiene un contador para que
+                                 *  crezca segun se recorra la lista*/
         Curr=Curr->getNext();
         count=count+1;
     }
@@ -267,11 +281,13 @@ Node LinkedList::getLast() {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-Node* LinkedList::getpos(int x, int y) {
-    Curr=pointer(y);
+Node* LinkedList::getpos(int x, int y) {    /*! <Se retorna el puntero a un nodo de la matriz de juego*/
+    Curr=pointer(y);                        /*! Para no recorrer toda la lista se asigna a Curr el puntero de
+                                            * la fila en la que esta*/
     //Curr=Head;
     while (Curr!= nullptr){
-        if (Curr->getPosX()==x && Curr->getPosY()==y){
+        if (Curr->getPosX()==x && Curr->getPosY()==y){  /*! La validacion para encontrar el nodo es que la posx y posy
+                                                         * y sean iguales*/
             return Curr;
         } else{
             Curr=Curr->getNext();
@@ -280,16 +296,18 @@ Node* LinkedList::getpos(int x, int y) {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-void LinkedList::putletter(char data,int x, int y) {
+void LinkedList::putletter(char data,int x, int y) {  /*! <Funcion para poner letras en el tablero*/
     getpos(x,y)->setLetter(data);
     Showmat();
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-LinkedList LinkedList::moveletters(char *letters) {
+LinkedList LinkedList::moveletters(char *letters) {     /*! <Pasar un array de letras a lista*/
     LinkedList L1;
     int count=0;
-    while(count<100){
+    while(count<100){                                   /*! Como las letras de juego estan en un array y a este se
+                                                         * puede acceder con indices se recorrer con el contador count
+                                                         * de 0 a 100 y se agrega a una lista que luego sera retornada*/
         L1.Add(letters[count]);
         count=count+1;
     }
@@ -297,7 +315,8 @@ LinkedList LinkedList::moveletters(char *letters) {
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-void LinkedList::multipliers(){
+void LinkedList::multipliers(){        /*! <Funcion para asignar a ciertos nodos multiplicadores, sirve solo para la
+                                        * matriz de juego*/
     Node* Usable;
 
     for (int i=0;i<14;i++){
@@ -390,7 +409,7 @@ void LinkedList::multipliers(){
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
-Node* LinkedList::pointer(int y) {
+Node* LinkedList::pointer(int y) { /*! <Retorna el puntero al inicio de cada fila segun el valor de "y" que se le pase*/
     if (y==0) return N0;
     if (y==1) return N1;
     if (y==2) return N2;

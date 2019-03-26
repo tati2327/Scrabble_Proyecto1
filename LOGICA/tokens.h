@@ -8,11 +8,15 @@
  */
 class Tokens {
     private:
-
+        LinkedList L1;  /*! Lista de letras, o "bolsa"*/
     public:
+        /*! Contructor de la clase*/
         Tokens(LinkedList _letterlist);
-        int random;
-        LinkedList L1;
+
+    /*!
+     * Getters and Setters*/
+    const LinkedList &getL1() const;
+    void setL1(const LinkedList &L1);
 };
 
 #endif //UNTITLED1_TOKENS_H
