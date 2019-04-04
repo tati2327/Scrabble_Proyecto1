@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-03-26T13:22:51
+# Project created by QtCreator 2019-04-03T12:19:29
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Interfaz
+TARGET = Try2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,14 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    Board.cpp
+        widget.cpp
 
 HEADERS += \
-    Board.h
+        widget.h
 
 FORMS += \
-    Board.ui
-
+        widget.ui
+QMAKE_CXXFLAGS += -std=gnu++14
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
