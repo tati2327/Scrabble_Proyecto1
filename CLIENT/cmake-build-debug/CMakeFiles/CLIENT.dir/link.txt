@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CLIENT.dir/main.cpp.o CMakeFiles/CLIENT.dir/LinkedList.cpp.o CMakeFiles/CLIENT.dir/Node.cpp.o CMakeFiles/CLIENT.dir/Board.cpp.o CMakeFiles/CLIENT.dir/Player.cpp.o  -o CLIENT 
