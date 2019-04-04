@@ -18,8 +18,8 @@ class Node {
         Node* next;              /*!Puntero a siguiente */
         int posX;                /*! Posicion en x, valido solo para la lista de matriz*/
         int posY;                /*! Posicion en y, valido solo para la lista de matriz*/
-        int multiplierL=0;         /*! Multiplicador de letra, valido solo para la lista de matriz*/
-        int multiplierP=0;         /*! Multiplicadore de palabra, valido solo para la lista de matriz*/
+        int multiplierL;         /*! Multiplicador de letra, valido solo para la lista de matriz*/
+        int multiplierP;         /*! Multiplicadore de palabra, valido solo para la lista de matriz*/
 
     public:
         /*! Constructor de Nodo tipo int*/
