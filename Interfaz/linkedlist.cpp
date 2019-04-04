@@ -407,8 +407,6 @@ void LinkedList::multipliers(){        /*! <Funcion para asignar a ciertos nodos
    Usable->setMultiplierL(2);
    Usable = getpos(13,9);
    Usable->setMultiplierP(2);
-   Usable = getpos(0,0);
-   Usable->setMultiplierL(0);
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
