@@ -27,11 +27,25 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         widget.cpp \
-    client.cpp
+    client.cpp \
+    node.cpp \
+    linkedlist.cpp \
+    tokens.cpp \
+    player.cpp \
+    keyboard.cpp \
+    game.cpp \
+    dictionary.cpp
 
 HEADERS += \
         widget.h \
-    client.h
+    client.h \
+    node.h \
+    linkedlist.h \
+    tokens.h \
+    player.h \
+    keyboard.h \
+    game.h \
+    dictionary.h
 
 FORMS += \
         widget.ui
@@ -40,3 +54,6 @@ QMAKE_CXXFLAGS += -std=gnu++14
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    dicitionary

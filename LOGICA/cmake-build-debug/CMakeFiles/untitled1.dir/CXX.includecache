@@ -6,15 +6,43 @@
 
 #IncludeRegexTransform: 
 
+/home/josu/Documents/Github/Proyecto1/LOGICA/game.cpp
+iostream
+-
+cstdlib
+/home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
+keyboard.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.h
+player.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.h
+game.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/game.h
+
 /home/josu/Documents/Github/Proyecto1/LOGICA/game.h
 linkedlist.h
 /home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
 player.h
 /home/josu/Documents/Github/Proyecto1/LOGICA/player.h
 
+/home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.cpp
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
+keyboard.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.h
+iostream
+-
+
 /home/josu/Documents/Github/Proyecto1/LOGICA/keyboard.h
 linkedlist.h
 /home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.cpp
+cstdlib
+-
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
+iostream
+-
 
 /home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
 node.h
@@ -38,6 +66,8 @@ iostream
 stdlib.h
 -
 
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.cpp
+player.h
 /home/josu/Documents/Github/Proyecto1/LOGICA/player.h
 iostream
 -
@@ -45,6 +75,24 @@ cstdlib
 /home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
 tokens.h
 /home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/player.h
+iostream
+-
+cstdlib
+/home/josu/Documents/Github/Proyecto1/LOGICA/cstdlib
+tokens.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.cpp
+iostream
+-
+tokens.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
+linkedlist.h
+/home/josu/Documents/Github/Proyecto1/LOGICA/linkedlist.h
+cstdlib
+-
 
 /home/josu/Documents/Github/Proyecto1/LOGICA/tokens.h
 linkedlist.h
