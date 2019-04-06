@@ -11,7 +11,183 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15480be1-8895-485d-9df3-bf833ff2b773" name="Default Changelist" comment="" />
+    <list default="true" id="15480be1-8895-485d-9df3-bf833ff2b773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/Server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Server.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Client.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Client" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Client.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Client.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/Trabajo_Ectraclase1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Trabajo_Ectraclase1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Trabajo_Ectraclase1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Trabajo_Ectraclase1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/Trabajo_Ectraclase1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/Collector_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/List_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/Node_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classCollector-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classCollector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classCollector__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classCollector__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classList-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classList__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classList__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classNode-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classNode__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classNode__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/doxygen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/functions_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/functions_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/graph_legend.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/graph_legend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/graph_legend.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/menudata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/all_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/classes_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/functions_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/mag_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/search/variables_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/annotated.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classCollector.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classCollector.tex.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classCollector__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classCollector__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classList.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classList__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classList__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classNode.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classNode__coll__graph.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/classNode__coll__graph.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/latex/refman.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +221,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="60">
               <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Server.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -58,13 +243,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Server.cpp">
+        <entry file="file:///usr/include/c++/7/thread">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="126" column="24" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/invoke.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -72,11 +263,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#49#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,33 +272,47 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Server.h" />
         <option value="$PROJECT_DIR$/Server.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
-    <option name="width" value="683" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="683" />
+    <option name="y" value="27" />
+    <option name="width" value="663" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Imágenes/Client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocketsFuncionan/Client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -147,14 +349,15 @@
       <workItem from="1554352960685" duration="3945000" />
       <workItem from="1554377177292" duration="1248000" />
       <workItem from="1554378495565" duration="3613000" />
+      <workItem from="1554489838639" duration="8361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13579000" />
+    <option name="totallyTimeSpent" value="21940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="683" height="743" extended-state="4" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -168,7 +371,7 @@
       <window_info anchor="bottom" id="CMake" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32736155" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32736155" />
@@ -214,10 +417,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/include/c++/7/bits/invoke.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="128">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -230,28 +440,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#49#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="211">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="15">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

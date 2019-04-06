@@ -43,10 +43,10 @@ RM = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tati2327/Descargas/Server
+CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/P1/Server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tati2327/Descargas/Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/main.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/main.cpp.o -c /home/tati2327/Descargas/Server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/main.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/Server/main.cpp
 
 CMakeFiles/Server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Descargas/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/Server/main.cpp > CMakeFiles/Server.dir/main.cpp.i
 
 CMakeFiles/Server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Descargas/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/Server/main.cpp -o CMakeFiles/Server.dir/main.cpp.s
 
 CMakeFiles/Server.dir/Server.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Server.cpp.o: ../Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server.cpp.o -c /home/tati2327/Descargas/Server/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/Server/Server.cpp
 
 CMakeFiles/Server.dir/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Descargas/Server/Server.cpp > CMakeFiles/Server.dir/Server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/Server/Server.cpp > CMakeFiles/Server.dir/Server.cpp.i
 
 CMakeFiles/Server.dir/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Descargas/Server/Server.cpp -o CMakeFiles/Server.dir/Server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/Server/Server.cpp -o CMakeFiles/Server.dir/Server.cpp.s
 
 # Object files for target Server
 Server_OBJECTS = \
@@ -95,7 +95,7 @@ Server: CMakeFiles/Server.dir/main.cpp.o
 Server: CMakeFiles/Server.dir/Server.cpp.o
 Server: CMakeFiles/Server.dir/build.make
 Server: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd /home/tati2327/Descargas/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tati2327/Descargas/Server /home/tati2327/Descargas/Server /home/tati2327/Descargas/Server/cmake-build-debug /home/tati2327/Descargas/Server/cmake-build-debug /home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tati2327/Documentos/GITHUB/P1/Server /home/tati2327/Documentos/GITHUB/P1/Server /home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug /home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug /home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Server.dir/depend
 

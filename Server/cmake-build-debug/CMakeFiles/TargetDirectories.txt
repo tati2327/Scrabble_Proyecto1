@@ -1,3 +1,3 @@
-/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles/Server.dir
-/home/tati2327/Descargas/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles/Server.dir
+/home/tati2327/Documentos/GITHUB/P1/Server/cmake-build-debug/CMakeFiles/edit_cache.dir

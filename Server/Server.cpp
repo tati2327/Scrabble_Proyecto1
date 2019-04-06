@@ -17,8 +17,13 @@ void Server::initServer(){
     if(!flirtSO())
         cerr << "Error al conectar con el S.O." << endl;
 
-    Server::addClient();
-    Server::read();
+    /*!
+     * inicio el hilo de escuchar
+     */
+    thread t_add(&Server::addClient, this);
+    t_add.join();
+//    Server::addClient();
+//    Server::read();
 }
 
 bool Server::newServer() {
@@ -50,13 +55,16 @@ void Server::addClient() {
         socklen_t clientSize = sizeof(client);
 
         cout << "Esperando cliente" << endl;
-        clientSocket = accept(serverSocket, (sockaddr *) &client, &clientSize);
+        clientSocket = accept(serverSocket, (sockaddr *) &client, &clientSize); /*!< Funcion bloqueante */
 
+        /*! Se agrega el cliente a un vector */
         clients.push_back(clientSocket);
         countClients += 1;
 
         char host[NI_MAXHOST]; /*!< Client's remote name*/
         char service[NI_MAXSERV]; /*!< Service (i.e. port) the client is connect on*/
+
+        cout<<55<<endl;
 
         memset(host, 0, NI_MAXHOST);
         memset(service, 0, NI_MAXSERV);
@@ -68,19 +76,26 @@ void Server::addClient() {
             cout << host << " connected on port " << ntohs(client.sin_port) << endl;
         }
 
+        /*! Cada ves que se acepte un cliente se debe poner a administrar en un hilo */
+        thread t_manage(&Server::manageClient, this, &clientSocket);
+        t_manage.join();
+
+        cout<<6666<<endl;
+
         // Close serverSocket socket
         //close(serverSocket);
     }
 }
 
-void Server::read(){
+void Server::manageClient(int* _client){
     char buf[4096];
 
     while (true){
         memset(buf, 0, 4096);
 
-        // Wait for client to send data
-        int bytesReceived = recv(clientSocket, buf, 4096, 0);
+        // Wait for client to send data_client
+        int bytesReceived = recv(*_client, buf, 4096, 0); /*!< Funcion bloqueante */
+        cout<<1<<endl;
         if (bytesReceived == -1){
             cerr << "Error in recv(). Quitting" << endl;
             break;
@@ -93,10 +108,21 @@ void Server::read(){
 
         cout << string(buf, 0, bytesReceived) << endl;
 
-        // Echo message back to client
-        send(clientSocket, buf, bytesReceived + 1, 0);
-    }
+        /*! Aqui se habre un hilo para que el servidor brinde una respuesta */
+        //thread t_send(&Server::sendMessage, this, &_client);
+        //t_send.join();
 
-    // Close the socket
+        // Echo message back to client
+//        sendMessage(clientSocket,buf, bytesReceived, 0);
+    }
     close(clientSocket);
+}
+
+void Server::sendMessage(int *_clientServer){
+    cout<<1<<endl;
+    char* messageServer;
+    while(serverSocket > 0){
+        cin>> messageServer;
+        send(*_clientServer, messageServer, 4096, 0);
+    }
 }
