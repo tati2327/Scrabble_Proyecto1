@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tati2327/Descargas/SERVER/Board.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Board.cpp.o"
-  "/home/tati2327/Descargas/SERVER/Dictionary.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Dictionary.cpp.o"
-  "/home/tati2327/Descargas/SERVER/Game.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Game.cpp.o"
-  "/home/tati2327/Descargas/SERVER/LinkedList.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/LinkedList.cpp.o"
-  "/home/tati2327/Descargas/SERVER/Node.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Node.cpp.o"
-  "/home/tati2327/Descargas/SERVER/Player.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Player.cpp.o"
-  "/home/tati2327/Descargas/SERVER/Server.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Server.cpp.o"
-  "/home/tati2327/Descargas/SERVER/main.cpp" "/home/tati2327/Descargas/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/main.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Board.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Board.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Dictionary.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Dictionary.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Game.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Game.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/LinkedList.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/LinkedList.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Node.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Node.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Player.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Player.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/Server.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Server.cpp.o"
+  "/home/tati2327/Documentos/GITHUB/P1/SERVER/main.cpp" "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tati2327/Descargas/SERVER/./include/rapidjson 
+CXX_INCLUDES = -I/home/tati2327/Documentos/GITHUB/P1/SERVER/./include/rapidjson 
 

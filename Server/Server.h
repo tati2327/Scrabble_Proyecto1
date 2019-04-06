@@ -33,7 +33,7 @@ class Server {
         void addClient();
         void manageClient(int _client);
         void initServer();
-        void sendMessage(int *_clientServer);
+        void sendMessage(int _clientServer);
 };
 
 #endif //SERVER_SERVER_H

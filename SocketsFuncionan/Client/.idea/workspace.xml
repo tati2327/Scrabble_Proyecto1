@@ -15,9 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/Server.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Server/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/Server.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/cmake-build-debug/CMakeFiles/Server.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Server/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/cmake-build-debug/Server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Server/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Server/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -143,12 +140,12 @@
       <workItem from="1553052372835" duration="164000" />
       <workItem from="1553052581045" duration="32000" />
       <workItem from="1554378384891" duration="856000" />
-      <workItem from="1554507671626" duration="6949000" />
+      <workItem from="1554507671626" duration="8267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10634000" />
+    <option name="totallyTimeSpent" value="11952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="25" width="683" height="743" extended-state="4" />
@@ -159,7 +156,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

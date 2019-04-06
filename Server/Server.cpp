@@ -119,8 +119,8 @@ void Server::manageClient(int _client){
         cout << string(buf, 0, bytesReceived) << endl;
 
         /*! Aqui se habre un hilo para que el servidor brinde una respuesta */
-        //thread t_send(&Server::sendMessage, this, &_client);
-        //t_send.join();
+        thread t_send(&Server::sendMessage, this, _client);
+        t_send.join();
 
         // Echo message back to client
 //        sendMessage(clientSocket,buf, bytesReceived, 0);
@@ -128,12 +128,12 @@ void Server::manageClient(int _client){
     close(clientSocket);
 }
 
-void Server::sendMessage(int *_clientServer){
+void Server::sendMessage(int _clientServer){
     cout<<1<<endl;
     char* messageServer;
 
     while(serverSocket > 0){
         cin>> messageServer;
-        send(*_clientServer, messageServer, 4096, 0);
+        send(_clientServer, messageServer, 4096, 0);
     }
 }

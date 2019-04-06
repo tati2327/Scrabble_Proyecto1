@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PruebaObserver.dir/main.cpp.o CMakeFiles/PruebaObserver.dir/Subject.cpp.o CMakeFiles/PruebaObserver.dir/Observer.cpp.o CMakeFiles/PruebaObserver.dir/Product.cpp.o CMakeFiles/PruebaObserver.dir/Client.cpp.o  -o PruebaObserver 
