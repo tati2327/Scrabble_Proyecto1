@@ -16,6 +16,7 @@ class Server {
     public:
         int serverSocket;
         sockaddr_in hint{};
+        int players = 0;
 
         int clientSocket;
         vector<int> clients;
@@ -30,7 +31,7 @@ class Server {
         bool flirtSO();
 
         void addClient();
-        void manageClient(int *_client);
+        void manageClient(int _client);
         void initServer();
         void sendMessage(int *_clientServer);
 };

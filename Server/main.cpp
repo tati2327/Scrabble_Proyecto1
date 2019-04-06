@@ -9,7 +9,10 @@ Server *s;
 int main() {
 
     s = new Server();
-    s->initServer();
+    thread t(&Server::initServer,s);
+    t.join();
+    while(true){
 
+    }
     return 0;
 }

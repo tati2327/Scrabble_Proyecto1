@@ -12,18 +12,34 @@
 using namespace std;
 
 void Server::initServer(){
-    if(!newServer())
+    if(!newServer()) {
         cerr << "Error al crear el socket" << endl;
-    if(!flirtSO())
+        return;
+    }
+    if(!flirtSO()) {
         cerr << "Error al conectar con el S.O." << endl;
+        return;
+    }
+    bool accept = true;
+    while(accept){
+        cout<<"¿Cuantos jugadores son? "<<endl;
+        cin>> players;
 
-    /*!
-     * inicio el hilo de escuchar
-     */
+        if(players<=4){
+            accept = false;
+        }
+    }
+
+    /*! Inicio el hilo de escuchar */
     thread t_add(&Server::addClient, this);
     t_add.join();
-//    Server::addClient();
-//    Server::read();
+
+    for(int i = 0; i <= (players-1); i++){
+        cout<<"Se creo el hilo "<<i<<endl;
+        cout<<clients[i]<<endl;
+        thread t_manage(&Server::manageClient, this, clients[i]);
+        t_manage.detach();
+    }
 }
 
 bool Server::newServer() {
@@ -50,52 +66,46 @@ bool Server::flirtSO() {
 }
 
 void Server::addClient() {
-    while(countClients < 5) {
-        sockaddr_in client{};
+    while(countClients < players) {
+        sockaddr_in client {};
         socklen_t clientSize = sizeof(client);
 
         cout << "Esperando cliente" << endl;
         clientSocket = accept(serverSocket, (sockaddr *) &client, &clientSize); /*!< Funcion bloqueante */
+        cout<<clientSocket<<endl;
 
         /*! Se agrega el cliente a un vector */
         clients.push_back(clientSocket);
         countClients += 1;
 
-        char host[NI_MAXHOST]; /*!< Client's remote name*/
+        char host[NI_MAXHOST]; /*!< Client's     cout<<55555<<endl;
+remote name*/
         char service[NI_MAXSERV]; /*!< Service (i.e. port) the client is connect on*/
-
-        cout<<55<<endl;
 
         memset(host, 0, NI_MAXHOST);
         memset(service, 0, NI_MAXSERV);
 
-        if (getnameinfo((sockaddr *) &client, sizeof(client), host, NI_MAXHOST, service, NI_MAXSERV, 0) == 0) {
+        if (getnameinfo((sockaddr *) &clientSocket, sizeof(clientSocket), host, NI_MAXHOST, service, NI_MAXSERV, 0) == 0) {
             cout << host << " connected on port " << service << endl;
         } else {
             inet_ntop(AF_INET, &client.sin_addr, host, NI_MAXHOST);
             cout << host << " connected on port " << ntohs(client.sin_port) << endl;
         }
-
-        /*! Cada ves que se acepte un cliente se debe poner a administrar en un hilo */
-        thread t_manage(&Server::manageClient, this, &clientSocket);
-        t_manage.join();
-
-        cout<<6666<<endl;
-
-        // Close serverSocket socket
-        //close(serverSocket);
     }
+    close(serverSocket);
 }
 
-void Server::manageClient(int* _client){
+void Server::manageClient(int _client){
     char buf[4096];
 
+    cout<<"MANAGECLIENT DE "<<_client<<endl;
     while (true){
         memset(buf, 0, 4096);
 
         // Wait for client to send data_client
-        int bytesReceived = recv(*_client, buf, 4096, 0); /*!< Funcion bloqueante */
-        cout<<1<<endl;
+        int bytesReceived = recv(_client, buf, 4096, 0); /*!< Funcion bloqueante */
+
+        cout<<"BYTES "<<bytesReceived<<endl;
         if (bytesReceived == -1){
             cerr << "Error in recv(). Quitting" << endl;
             break;
@@ -121,6 +131,7 @@ void Server::manageClient(int* _client){
 void Server::sendMessage(int *_clientServer){
     cout<<1<<endl;
     char* messageServer;
+
     while(serverSocket > 0){
         cin>> messageServer;
         send(*_clientServer, messageServer, 4096, 0);
