@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
 #include <QLabel>
 #include "linkedlist.h"
 #include <string>
@@ -19,6 +20,8 @@ public:
   bool playing=true;
   void probar(LinkedList used);
   LinkedList used;
+  LinkedList L1;
+  QPushButton* putletterback(int pos);
   QString name;
   int id;
   void setthis();

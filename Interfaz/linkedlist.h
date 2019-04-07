@@ -52,7 +52,7 @@ class LinkedList {
          * @param y
          */
         void Add(char data, int x, int y);
-
+        int bringint(int pos);
         /*!
          * Funcion para borrar por posicion en la lista
          * @param pos, posicion en la lista*/

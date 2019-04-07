@@ -239,7 +239,20 @@ bool LinkedList::Seek(int number) {
         return true;
     }
 }
+int LinkedList::bringint(int pos){
+  Curr=Head;
+  int count=0;
 
+  while(count!=pos){              /*! Como se hace por posicion la busqueda se va recorriendo la lista con el
+                                   * .getNext() y se aumenta un count para que cuando haga match con la posicion
+                                   * lo retorne*/
+      Curr=Curr->getNext();
+      count=count+1;
+  }
+  int result = Curr->getValue();     /*! Se asigna un char porque el nodo se borra de la lista */
+  Delete(pos);                         /*! Eliminacion del nodo*/
+  return result;
+}
 /*----------------------------------------------------------------------------------------------------------*/
 char LinkedList::bring(int pos) { /*! <Devuleve un char segun la posicion que se le de*/
     Curr=Head;

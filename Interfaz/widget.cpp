@@ -299,6 +299,7 @@ void Widget::on_pushButton_released()
                 string nombre2 = nombre.toStdString();
                 char a = nombre2.at(0);
                 used.Add(a,x,y);
+                L1.Add(0);
                 ui->pushButton->setText("0");
             }
         }
@@ -313,6 +314,7 @@ void Widget::on_pushButton_released()
                   string nombre2 = nombre.toStdString();
                   char a = nombre2.at(0);
                   used.Add(a,x,y);
+                  L1.Add(0);
                   ui->pushButton->setText("0");
                   can=true;
             }
@@ -349,6 +351,7 @@ void Widget::on_pushButton_2_released()
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(1);
             ui->pushButton_2->setText("0");
         }
     }
@@ -363,6 +366,7 @@ void Widget::on_pushButton_2_released()
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(1);
               ui->pushButton_2->setText("0");
               can=true;
         }
@@ -398,6 +402,7 @@ void Widget::on_pushButton_3_released()
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(2);
             ui->pushButton_3->setText("0");
         }
     }
@@ -412,6 +417,7 @@ void Widget::on_pushButton_3_released()
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(2);
               ui->pushButton_3->setText("0");
               can=true;
             }
@@ -448,6 +454,7 @@ void Widget::on_pushButton_4_pressed()
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(3);
             ui->pushButton_4->setText("0");
         }
     }
@@ -462,6 +469,7 @@ void Widget::on_pushButton_4_pressed()
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(3);
               ui->pushButton_4->setText("0");
               can=true;
         }
@@ -497,6 +505,7 @@ void Widget::on_pushButton_5_released()
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(4);
             ui->pushButton_5->setText("0");
           }
     }
@@ -511,6 +520,7 @@ void Widget::on_pushButton_5_released()
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(4);
               ui->pushButton_5->setText("0");
               can=true;
             }
@@ -546,6 +556,7 @@ void Widget::on_pushButton_6_released()
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(5);
             ui->pushButton_6->setText("0");
         }
     }
@@ -560,6 +571,7 @@ void Widget::on_pushButton_6_released()
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(5);
               ui->pushButton_6->setText("0");
               can=true;
             }\
@@ -595,6 +607,7 @@ if (playing==true){
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(6);
             ui->pushButton_7->setText("0");
         }
     }
@@ -609,6 +622,7 @@ if (playing==true){
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(6);
               ui->pushButton_7->setText("0");
               can=true;
         }
@@ -644,6 +658,7 @@ if (playing==true){
             string nombre2 = nombre.toStdString();
             char a = nombre2.at(0);
             used.Add(a,x,y);
+            L1.Add(7);
             ui->pushButton_8->setText("0");
 
         }
@@ -659,6 +674,7 @@ if (playing==true){
               string nombre2 = nombre.toStdString();
               char a = nombre2.at(0);
               used.Add(a,x,y);
+              L1.Add(7);
               ui->pushButton_8->setText("0");
               can=true;
         }
@@ -667,17 +683,19 @@ if (playing==true){
 }
 }
 void Widget::on_pushButton_9_released()
-{
+{ used.Showchar();
+  L1.Showint();
     probar(used);
-    used.Showchar();
+
 
 }
 
 void Widget::probar(LinkedList used){
+  bool que= true;
   if (used.size()!=0){
       std::cout<<used.size()<<"aaaaaaaa";
       used.Showchar();
-      bool que= true;
+
       int refx=used.getposo(0)->getPosX();
       int refy=used.getposo(0)->getPosY();
       for (int i=0;i<used.size();i++){
@@ -702,10 +720,35 @@ void Widget::probar(LinkedList used){
           playing=false;
         }
 }
+  if (que==false){
+      L1.Showint();
+      L1.size();
+      used.Showchar();
+      used.size();
+      for (int i=0;i<used.size()-1;i++){
+          cout<<"i="<<i<<endl;
+          int Pieza=L1.bringint(i);
+          Node* nodo = used.getposo(i);
+          char let=nodo->getLetter();
+          QString letra=QString(let);
+          putletterback(Pieza)->setText(letra);
+          label(used.getposo(i)->getPosX()+15*used.getposo(i)->getPosY())->setText("0");
+        }
+    }
+
 
 }
 
-
+QPushButton* Widget::putletterback(int pos){
+  if (pos==0) return ui->pushButton;
+  if (pos==1) return ui->pushButton_2;
+  if (pos==2) return ui->pushButton_3;
+  if (pos==3) return ui->pushButton_4;
+  if (pos==4) return ui->pushButton_5;
+  if (pos==5) return ui->pushButton_6;
+  if (pos==6) return ui->pushButton_7;
+  if (pos==7) return ui->pushButton_8;
+}
 
 
 
