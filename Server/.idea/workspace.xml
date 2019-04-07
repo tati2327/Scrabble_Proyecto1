@@ -12,12 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15480be1-8895-485d-9df3-bf833ff2b773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PruebaJSON/JSON.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaJSON/JSON.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" afterDir="false" />

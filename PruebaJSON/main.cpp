@@ -5,11 +5,15 @@
 #include <prettywriter.h>
 #include <fwd.h>
 #include <stringbuffer.h>
+#include "JSON.h"
 
 using namespace rapidjson;
 using namespace std;
 
 int main(int, char*[]) {
+
+    JSON j;
+    j.jsonToDocument();
 
 /*!-------------------------------------------------------------------------------------------------------------------------------
  *      1. Parse a JSON text string to a document.

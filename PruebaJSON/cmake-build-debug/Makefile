@@ -123,6 +123,33 @@ PruebaJSON/fast:
 	$(MAKE) -f CMakeFiles/PruebaJSON.dir/build.make CMakeFiles/PruebaJSON.dir/build
 .PHONY : PruebaJSON/fast
 
+JSON.o: JSON.cpp.o
+
+.PHONY : JSON.o
+
+# target to build an object file
+JSON.cpp.o:
+	$(MAKE) -f CMakeFiles/PruebaJSON.dir/build.make CMakeFiles/PruebaJSON.dir/JSON.cpp.o
+.PHONY : JSON.cpp.o
+
+JSON.i: JSON.cpp.i
+
+.PHONY : JSON.i
+
+# target to preprocess a source file
+JSON.cpp.i:
+	$(MAKE) -f CMakeFiles/PruebaJSON.dir/build.make CMakeFiles/PruebaJSON.dir/JSON.cpp.i
+.PHONY : JSON.cpp.i
+
+JSON.s: JSON.cpp.s
+
+.PHONY : JSON.s
+
+# target to generate assembly for a file
+JSON.cpp.s:
+	$(MAKE) -f CMakeFiles/PruebaJSON.dir/build.make CMakeFiles/PruebaJSON.dir/JSON.cpp.s
+.PHONY : JSON.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PruebaJSON"
 	@echo "... edit_cache"
+	@echo "... JSON.o"
+	@echo "... JSON.i"
+	@echo "... JSON.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -240,6 +240,30 @@ emmintrin.h
 arm_neon.h
 -
 
+/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.cpp
+cstdio
+-
+cstring
+-
+JSON.h
+/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.h
+
+/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.h
+iostream
+-
+allocators.h
+-
+cstdio
+-
+prettywriter.h
+-
+fwd.h
+-
+stringbuffer.h
+-
+document.h
+-
+
 /home/tati2327/Documentos/GITHUB/P1/PruebaJSON/main.cpp
 iostream
 -
@@ -255,4 +279,6 @@ fwd.h
 -
 stringbuffer.h
 -
+JSON.h
+/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.h
 

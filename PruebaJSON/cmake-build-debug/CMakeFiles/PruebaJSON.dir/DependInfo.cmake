@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/JSON.cpp.o"
   "/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/main.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

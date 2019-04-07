@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.cpp">
+			<Option target="PruebaJSON"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.h">
+			<Option target="PruebaJSON"/>
+		</Unit>
 		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/main.cpp">
 			<Option target="PruebaJSON"/>
 		</Unit>
