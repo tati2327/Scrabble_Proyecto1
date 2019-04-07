@@ -115,7 +115,7 @@ void JSON::request1(int _id, string _name, int _players) {
     { document["id"].SetInt(_id); }
 
     /*! CAMBIAR NAME*/
-    { document["name"] = "sssss"; }
+    { document["name"].SetString(_name.c_str(), _name.size()); }
 
     /*! CAMBIAR PLAYERS*/
     { document["players"].SetInt(_players); }
@@ -124,7 +124,7 @@ void JSON::request1(int _id, string _name, int _players) {
 /*! Putt Letter */
 void JSON::request2(string _name, string _letter, int _x, int _y) {
     /*! CAMBIAR NAME*/
-    { document["name"] = "sssss"; }
+    { document["name"].SetString(_name.c_str(), _name.size()); }
 
     /*! CAMBIAR LETTER*/
     { document["letter"] = "vcvcvc"; }
@@ -139,13 +139,13 @@ void JSON::request2(string _name, string _letter, int _x, int _y) {
 /*! Send Word*/
 void JSON::request3(string _name) {
     /*! CAMBIAR NAME*/
-    { document["name"] = "sssss"; }
+    { document["name"].SetString(_name.c_str(), _name.size()); }
 }
 
 /*! Validate Word */
 void JSON::request4(string _name, bool _accept, int _score, bool _playing) {
     /*! CAMBIAR NAME*/
-    { document["name"] = "sssss"; }
+    { document["name"].SetString(_name.c_str(), _name.size()); }
 
     /*! CAMBIAR ACCEPT*/
     { document["accept"].SetBool(_accept); }
@@ -160,7 +160,7 @@ void JSON::request4(string _name, bool _accept, int _score, bool _playing) {
 /*! Accept request */
 void JSON::request5(string _name, bool _add) {
     /*! CAMBIAR NAME*/
-    { document["name"] = "sssss"; }
+    { document["name"].SetString(_name.c_str(), _name.size()); }
 
     /*! CAMBIAR ADD*/
     { document["add"].SetBool(_add); }

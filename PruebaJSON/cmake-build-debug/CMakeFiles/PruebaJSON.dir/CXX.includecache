@@ -264,21 +264,3 @@ stringbuffer.h
 document.h
 -
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/main.cpp
-iostream
--
-allocators.h
--
-cstdio
--
-document.h
--
-prettywriter.h
--
-fwd.h
--
-stringbuffer.h
--
-JSON.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaJSON/JSON.h
-
