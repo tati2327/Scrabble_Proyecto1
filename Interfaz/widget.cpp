@@ -30,8 +30,7 @@ void Widget::mouseMoveEvent(QMouseEvent *event){
  QWidget::mouseMoveEvent(event);
 }
 void Widget::mousePressEvent(QMouseEvent *event){
-  ui->label_20->setText(name);
-  ui->label_22->setNum(id);
+
   onMouseEvent(event->pos());
   QWidget::mousePressEvent(event);
 }
@@ -709,3 +708,10 @@ void Widget::probar(LinkedList used){
 
 
 
+
+void Widget::on_pushButton_10_pressed()
+{
+  ui->label_20->setText(name);
+  ui->label_22->setNum(id);
+  ui->pushButton_10->hide();
+}

@@ -163,7 +163,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>asdadad</string>
+    <string> </string>
    </property>
    <property name="textFormat">
     <enum>Qt::AutoText</enum>
@@ -201,7 +201,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string> </string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_9">
@@ -5491,6 +5491,19 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>441</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Jugar</string>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

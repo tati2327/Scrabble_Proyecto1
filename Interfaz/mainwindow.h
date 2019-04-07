@@ -4,6 +4,7 @@
 #include <QWidget>
 
 #include "widget.h"
+#include "putid.h"
 
 namespace Ui {
   class mainWindow;
@@ -17,11 +18,14 @@ public:
   explicit mainWindow(QWidget *parent = nullptr);
   ~mainWindow();
   Widget w;
+  putID p;
 
 private slots:
   void on_textEdit_textChanged();
 
   void on_pushButton_released();
+
+  void on_pushButton_2_pressed();
 
 private:
   Ui::mainWindow *ui;

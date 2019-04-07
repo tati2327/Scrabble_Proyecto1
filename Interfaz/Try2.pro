@@ -30,7 +30,8 @@ SOURCES += \
     client.cpp \
     linkedlist.cpp \
     node.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    putid.cpp
 
 
 HEADERS += \
@@ -38,11 +39,13 @@ HEADERS += \
     client.h \
     linkedlist.h \
     node.h \
-    mainwindow.h
+    mainwindow.h \
+    putid.h
 
 FORMS += \
         widget.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    putid.ui
 QMAKE_CXXFLAGS += -std=gnu++14
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

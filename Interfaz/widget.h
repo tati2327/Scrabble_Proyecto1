@@ -49,6 +49,8 @@ private slots:
   void on_pushButton_9_released();
 
 
+  void on_pushButton_10_pressed();
+
 private:
   void onMouseEvent(const QPoint &pos);
   QLabel* label(int number);

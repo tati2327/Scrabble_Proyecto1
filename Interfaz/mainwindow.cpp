@@ -55,3 +55,8 @@ void mainWindow::on_pushButton_released()
     }
 
 }
+
+void mainWindow::on_pushButton_2_pressed()
+{
+    p.show();
+}
