@@ -20,7 +20,7 @@ class Board {
         /*!
         * Getters and setters
         */
-        const LinkedList &getBoard() const;
+        const LinkedList &getBoard();
         void setBoard(const LinkedList &board);
 };
 

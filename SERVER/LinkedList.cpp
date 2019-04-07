@@ -33,6 +33,41 @@ void LinkedList::Add(char _data) { /*!<Agrega por dato char*/
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
+
+void LinkedList::Add(string _data,int x, int y) { /*!<Agrega por dato int*/
+    Node* newPtr = new Node(_data,x,y);
+
+    if (x==0){                            /*! En esta linea se asignan los punteros a los inicios de cada fila*/
+        if (y==0) N0 = newPtr;
+        if (y==1) N1 = newPtr;
+        if (y==2) N2 = newPtr;
+        if (y==3) N3 = newPtr;
+        if (y==4) N4 = newPtr;
+        if (y==5) N5 = newPtr;
+        if (y==6) N6 = newPtr;
+        if (y==7) N7 = newPtr;
+        if (y==8) N8 = newPtr;
+        if (y==9) N9 = newPtr;
+        if (y==10) N10 = newPtr;
+        if (y==11) N11 = newPtr;
+        if (y==12) N12 = newPtr;
+        if (y==13) N13 = newPtr;
+        if (y==14) N14 = newPtr;
+    }
+
+    if (Head != nullptr){
+        Curr = Head;
+        while (Curr->getNext() != nullptr){
+            Curr = Curr->getNext();
+        }
+        Curr->setNext(newPtr);
+    }
+    else{
+        Head = newPtr;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
 /*! Mismo funcionamiento que el Add anterior, este tiene la diferencia que declara los punteros N0, N1, ... ,
  * N14 como referencias a las filas de la matriz*/
 void LinkedList::Add(char _data,int x, int y) { /*!<Agrega por dato int*/
@@ -204,6 +239,13 @@ void LinkedList::Showmat(){ /*!<Imprime la matriz de juego*/
     cout<<endl;
 }
 
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+Node* LinkedList::getHead() {
+    return Head;
+}
+
 /*----------------------------------------------------------------------------------------------------------*/
 
 void LinkedList::Showchar() { /*! <Muestra la lista hecha por char*/
@@ -256,6 +298,21 @@ char LinkedList::bring(int pos) { /*! <Devuleve un char segun la posicion que se
     return result;
 }
 
+
+/*----------------------------------------------------------------------------------------------------------*/
+Node* LinkedList::bringNode(int pos) { /*! <Devuleve un char segun la posicion que se le de*/
+    Curr=Head;
+    int count=0;
+
+    while(count!=pos){              /*! Como se hace por posicion la busqueda se va recorriendo la lista con el
+                                     * .getNext() y se aumenta un count para que cuando haga match con la posicion
+                                     * lo retorne*/
+        Curr=Curr->getNext();
+        count=count+1;
+    }
+    Node* result = Curr;
+    return result;
+}
 /*----------------------------------------------------------------------------------------------------------*/
 int LinkedList::size() {         /*! <Retorna la dimension de la lista  */
     Curr=Head;
@@ -295,10 +352,23 @@ Node* LinkedList::getpos(int x, int y) {    /*! <Se retorna el puntero a un nodo
     }
 }
 
+Node* LinkedList::getposo(int x, int y) {    /*! <Se retorna el puntero a un nodo de la matriz de juego*/
+                            /*! Para no recorrer toda la lista se asigna a Curr el puntero de
+                                            * la fila en la que esta*/
+    Curr=Head;
+    while (Curr!= nullptr){
+        if (Curr->getPosX()==x && Curr->getPosY()==y){  /*! La validacion para encontrar el nodo es que la posx y posy
+                                                         * y sean iguales*/
+            return Curr;
+        } else{
+            Curr=Curr->getNext();
+        }
+    }
+}
 /*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::putletter(char data,int x, int y) {  /*! <Funcion para poner letras en el tablero*/
     getpos(x,y)->setLetter(data);
-    Showmat();
+    //Showmat();
 }
 
 /*----------------------------------------------------------------------------------------------------------*/

@@ -6,7 +6,7 @@
 
 #include<iostream>
 #include<stdlib.h>
-#include "node.h"
+#include "Node.h"
 
 using namespace std;
 
@@ -23,6 +23,13 @@ Node::Node(char _letter) {
 Node::Node(char _letter, int x, int y) {
     setNext(nullptr);
     setLetter(_letter);
+    setPosY(y);
+    setPosX(x);
+}
+
+Node::Node(string _word, int x, int y) {
+    setNext(nullptr);
+    setWord(_word);
     setPosY(y);
     setPosX(x);
 }
@@ -58,6 +65,14 @@ char Node::getLetter() const {
 
 void Node::setLetter(char letter) {
     Node::letter = letter;
+}
+
+string Node::getWord() const {
+    return word;
+}
+
+void Node::setWord(string word) {
+    Node::word = word;
 }
 
 int Node::getPosX() const {

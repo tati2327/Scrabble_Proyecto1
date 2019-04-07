@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string.h>
 #include <stdlib.h>
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -15,7 +16,8 @@ class Dictionary {
         ifstream dictionary; /*!< variable de tipo ifstream que permite un flujo de entrada para operar en archivos. */
         string word; /*!< variable de tipo string para guardar la palabra que se va a buscar en el archivo de texto. */
         bool found = false; /*!< variable booleana para retornar si se encontró o no el elemento. */
-        bool searchWord(string _word);
+        bool searchWord(LinkedList listTemp);
+
 };
 
 #endif //SERVER_DICTIONARY_H

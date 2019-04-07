@@ -7,7 +7,7 @@
 
 
 class basura {
-
+    void manageRequest();
 };
 
 

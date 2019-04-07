@@ -7,6 +7,9 @@
 
 
 #include "Node.h"
+#include <string>
+
+using namespace std;
 
 /*!
  * Clase LinkedList
@@ -57,6 +60,8 @@ class LinkedList {
          */
         void Add(char data, int x, int y);
 
+        void Add(string data, int x, int y);
+
         /*!
          * Funcion para borrar por posicion en la lista
          * @param pos, posicion en la lista*/
@@ -75,6 +80,8 @@ class LinkedList {
          * Funcion para mostrar la lista de chars*/
         void Showchar();
 
+        Node* getHead();
+
         bool Seek(int number);
 
         /*!
@@ -82,6 +89,7 @@ class LinkedList {
          * @param pos, posicion del nodo
          * @return char obtenido de la poscion*/
         char bring(int pos);
+        Node* bringNode(int pos);
 
         /*!
          * Funcion que retorna la dimension de una lista
@@ -95,6 +103,7 @@ class LinkedList {
          * @param y posicion de la matriz
          * @return puntero a Nodo*/
         Node* getpos(int x, int y);
+        Node* getposo(int x, int y);
 
         /*!
          * Funcion que coloca una letra en la matriz de juego
