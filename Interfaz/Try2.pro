@@ -28,27 +28,21 @@ SOURCES += \
         main.cpp \
         widget.cpp \
     client.cpp \
-    node.cpp \
     linkedlist.cpp \
-    tokens.cpp \
-    player.cpp \
-    keyboard.cpp \
-    game.cpp \
-    dictionary.cpp
+    node.cpp \
+    mainwindow.cpp
+
 
 HEADERS += \
         widget.h \
     client.h \
-    node.h \
     linkedlist.h \
-    tokens.h \
-    player.h \
-    keyboard.h \
-    game.h \
-    dictionary.h
+    node.h \
+    mainwindow.h
 
 FORMS += \
-        widget.ui
+        widget.ui \
+    mainwindow.ui
 QMAKE_CXXFLAGS += -std=gnu++14
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

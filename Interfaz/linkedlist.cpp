@@ -1,4 +1,3 @@
-
 #include <cstdlib>
 #include "linkedlist.h"
 #include <iostream>
@@ -256,6 +255,16 @@ char LinkedList::bring(int pos) { /*! <Devuleve un char segun la posicion que se
     Delete(pos);                         /*! Eliminacion del nodo*/
     return result;
 }
+Node* LinkedList::getposo(int pos) { /*! <Devuleve un char segun la posicion que se le de*/
+    Curr=Head;
+    int count=0;
+
+    while(count!=pos){
+        Curr=Curr->getNext();
+        count=count+1;
+    }
+    return Curr;
+}
 
 /*----------------------------------------------------------------------------------------------------------*/
 int LinkedList::size() {         /*! <Retorna la dimension de la lista  */
@@ -318,97 +327,95 @@ LinkedList LinkedList::moveletters(char *letters) {     /*! <Pasar un array de l
 /*----------------------------------------------------------------------------------------------------------*/
 void LinkedList::multipliers(){        /*! <Funcion para asignar a ciertos nodos multiplicadores, sirve solo para la
                                         * matriz de juego*/
-  Node* Usable;
+    Node* Usable;
 
-   for (int i=0;i<14;i++){
-       if (i==6 || i==8){
-           Usable=getpos(i,i);
-           Usable->setMultiplierL(3);
-           i++;
-       }
-       if (i==0){
-           Usable=getpos(i,i);
-           Usable->setMultiplierP(3);
-           i++;
-       }
-       Usable = getpos(i,i);
-       Usable->setMultiplierL(2);
-   }
+    for (int i=0;i<14;i++){
+        if (i==6 || i==8){
+            Usable=getpos(i,i);
+            Usable->setMultiplierL(3);
+            i++;
+        }
+        if (i==0){
+            Usable=getpos(i,i);
+            Usable->setMultiplierP(3);
+            i++;
+        }
+        Usable = getpos(i,i);
+        Usable->setMultiplierL(2);
+    }
 
-   Usable = getpos(14,14);
-   Usable->setMultiplierP(3);
-   Usable = getpos(0,14);
-   Usable->setMultiplierP(3);
-   Usable = getpos(14,0);
-   Usable->setMultiplierP(3);
-   Usable = getpos(0,7);
-   Usable->setMultiplierP(3);
-   Usable = getpos(7,0);
-   Usable->setMultiplierP(3);
-   Usable = getpos(14,7);
-   Usable->setMultiplierP(3);
-   Usable = getpos(7,14);
-   Usable->setMultiplierP(3);
+    Usable = getpos(14,14);
+    Usable->setMultiplierP(3);
+    Usable = getpos(0,14);
+    Usable->setMultiplierP(3);
+    Usable = getpos(14,0);
+    Usable->setMultiplierP(3);
+    Usable = getpos(0,7);
+    Usable->setMultiplierP(3);
+    Usable = getpos(7,0);
+    Usable->setMultiplierP(3);
+    Usable = getpos(14,7);
+    Usable->setMultiplierP(3);
+    Usable = getpos(7,14);
+    Usable->setMultiplierP(3);
 
-   for (int i=1; i<14;i++){
-       for (int j=13;j>0;j--){
-           if (i==8 || i==6){
-               if (i+j==14) {
-                   Usable = getpos(i,j);
-                   Usable->setMultiplierL(3);
-               }
-           }
-           else{
-               if (i+j==14){
-                   Usable = getpos(i,j);
-                   Usable->setMultiplierL(2);
-           }
-           }
-       }
-   }
+    for (int i=1; i<14;i++){
+        for (int j=13;j>0;j--){
+            if (i==8 || i==6){
+                if (i+j==14) {
+                    Usable = getpos(i,j);
+                    Usable->setMultiplierL(3);
+                }
+            }
+            else{
+                if (i+j==14){
+                    Usable = getpos(i,j);
+                    Usable->setMultiplierL(2);
+            }
+            }
+        }
+    }
 
-   Usable = getpos(1,5);
-   Usable->setMultiplierP(2);
-   Usable = getpos(2,6);
-   Usable->setMultiplierL(2);
-   Usable = getpos(3,7);
-   Usable->setMultiplierL(2);
-   Usable = getpos(2,8);
-   Usable->setMultiplierL(2);
-   Usable = getpos(1,9);
-   Usable->setMultiplierP(2);
-   Usable = getpos(5,1);
-   Usable->setMultiplierP(2);
-   Usable = getpos(6,2);
-   Usable->setMultiplierL(2);
-   Usable = getpos(7,3);
-   Usable->setMultiplierL(2);
-   Usable = getpos(8,2);
-   Usable->setMultiplierL(2);
-   Usable = getpos(9,1);
-   Usable->setMultiplierP(2);
-   Usable = getpos(5,13);
-   Usable->setMultiplierP(2);
-   Usable = getpos(6,12);
-   Usable->setMultiplierL(2);
-   Usable = getpos(7,11);
-   Usable->setMultiplierL(2);
-   Usable = getpos(8,12);
-   Usable->setMultiplierL(2);
-   Usable = getpos(9,13);
-   Usable->setMultiplierP(2);
-   Usable = getpos(13,5);
-   Usable->setMultiplierP(2);
-   Usable = getpos(12,6);
-   Usable->setMultiplierL(2);
-   Usable = getpos(11,7);
-   Usable->setMultiplierL(2);
-   Usable = getpos(12,8);
-   Usable->setMultiplierL(2);
-   Usable = getpos(13,9);
-   Usable->setMultiplierP(2);
-   Usable = getpos(0,0);
-   Usable->setMultiplierL(0);
+    Usable = getpos(1,5);
+    Usable->setMultiplierP(2);
+    Usable = getpos(2,6);
+    Usable->setMultiplierL(2);
+    Usable = getpos(3,7);
+    Usable->setMultiplierL(2);
+    Usable = getpos(2,8);
+    Usable->setMultiplierL(2);
+    Usable = getpos(1,9);
+    Usable->setMultiplierP(2);
+    Usable = getpos(5,1);
+    Usable->setMultiplierP(2);
+    Usable = getpos(6,2);
+    Usable->setMultiplierL(2);
+    Usable = getpos(7,3);
+    Usable->setMultiplierL(2);
+    Usable = getpos(8,2);
+    Usable->setMultiplierL(2);
+    Usable = getpos(9,1);
+    Usable->setMultiplierP(2);
+    Usable = getpos(5,13);
+    Usable->setMultiplierP(2);
+    Usable = getpos(6,12);
+    Usable->setMultiplierL(2);
+    Usable = getpos(7,11);
+    Usable->setMultiplierL(2);
+    Usable = getpos(8,12);
+    Usable->setMultiplierL(2);
+    Usable = getpos(9,13);
+    Usable->setMultiplierP(2);
+    Usable = getpos(13,5);
+    Usable->setMultiplierP(2);
+    Usable = getpos(12,6);
+    Usable->setMultiplierL(2);
+    Usable = getpos(11,7);
+    Usable->setMultiplierL(2);
+    Usable = getpos(12,8);
+    Usable->setMultiplierL(2);
+    Usable = getpos(13,9);
+    Usable->setMultiplierP(2);
 }
 
 /*----------------------------------------------------------------------------------------------------------*/

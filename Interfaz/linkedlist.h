@@ -91,6 +91,7 @@ class LinkedList {
          * @param y posicion de la matriz
          * @return puntero a Nodo*/
         Node* getpos(int x, int y);
+        Node* getposo(int pos);
 
         /*!
          * Funcion que coloca una letra en la matriz de juego

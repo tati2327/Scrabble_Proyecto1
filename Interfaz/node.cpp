@@ -1,6 +1,8 @@
 #include "node.h"
+
 #include<iostream>
 #include<stdlib.h>
+#include "node.h"
 
 using namespace std;
 

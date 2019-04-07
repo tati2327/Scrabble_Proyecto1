@@ -1,22 +1,28 @@
+
 #include "widget.h"
 #include "ui_widget.h"
 #include "QMouseEvent"
 #include "QDebug"
-
+#include <iostream>
+#include <string>
+using namespace std;
 Widget::Widget(QWidget *parent)
   :QWidget(parent),
   ui(new Ui::Widget)
 {
+
   ui->setupUi(this);
+
+  QApplication::processEvents();
+
 }
 
 Widget::~Widget()
 {
   delete ui;
 }
-
 void Widget::mouseDoubleClickEvent(QMouseEvent *event){
- onMouseEvent(event->pos());
+  onMouseEvent(event->pos());
  QWidget::mouseDoubleClickEvent(event);
 }
 void Widget::mouseMoveEvent(QMouseEvent *event){
@@ -24,6 +30,8 @@ void Widget::mouseMoveEvent(QMouseEvent *event){
  QWidget::mouseMoveEvent(event);
 }
 void Widget::mousePressEvent(QMouseEvent *event){
+  ui->label_20->setText(name);
+  ui->label_22->setNum(id);
   onMouseEvent(event->pos());
   QWidget::mousePressEvent(event);
 }
@@ -34,8 +42,7 @@ void Widget::mouseReleaseEvent(QMouseEvent *event){
 
 void Widget::onMouseEvent(const QPoint &pos){
   ui->spinBox->setValue(pos.x());
-  ui->spinBox_2->setValue(pos.y());
-}
+  ui->spinBox_2->setValue(pos.y());}
 
 
 QLabel* Widget::label(int number){
@@ -268,201 +275,437 @@ QLabel* Widget::label(int number){
 
 void Widget::on_pushButton_released()
 {
-  int a = ui->spinBox->value();
-  int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-    if (y==0){
-        lb=label(x);
-      }
-    else {
-        qDebug()<<x+(15*y);
-        lb=label(x+(15*y));
-      }
+  if (playing==true){
+      int a = ui->spinBox->value();
+      int b = ui->spinBox_2->value();
+      int x = (a-71)/31;
+      int y = int ((b-32)/25);
+      if (can==true){
 
-    if (lb->text()=="0"){
-        lb->setText(ui->pushButton->text());
-        ui->pushButton->setText("0");
-      }
+          qDebug()<<x;
+          qDebug()<<y;
+          QLabel *lb;
+          if(71<a&&a<531&&31<b&&b<399){
+            if (y==0){
+                lb=label(x);
+              }
+            else {
+                qDebug()<<x+(15*y);
+                lb=label(x+(15*y));
+              }
+
+            if (lb->text()=="0"){
+                lb->setText(ui->pushButton->text());
+                QString nombre= ui->pushButton->text().at(0);
+                string nombre2 = nombre.toStdString();
+                char a = nombre2.at(0);
+                used.Add(a,x,y);
+                ui->pushButton->setText("0");
+            }
+        }
+        }
+      else{
+          if(x==7 && y==7){
+              QLabel *lb;
+              lb=label(112);
+              if (lb->text()=="0"){
+                  lb->setText(ui->pushButton->text());
+                  QString nombre= ui->pushButton->text().at(0);
+                  string nombre2 = nombre.toStdString();
+                  char a = nombre2.at(0);
+                  used.Add(a,x,y);
+                  ui->pushButton->setText("0");
+                  can=true;
+            }
+        }
     }
+    }
+
 }
 
 void Widget::on_pushButton_2_released()
 {
+  if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-    if (y==0){
-        lb=label(x);
-      }
-    else {
-        qDebug()<<x+(15*y);
-        lb=label(x+(15*y));
-      }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-    if (lb->text()=="0"){
-        lb->setText(ui->pushButton_2->text());
-        ui->pushButton_2->setText("0");
-      }
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_2->text());
+            QString nombre= ui->pushButton_2->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_2->setText("0");
+        }
     }
+    }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_2->text());
+              QString nombre= ui->pushButton_2->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_2->setText("0");
+              can=true;
+        }
+    }
+}
+}
 }
 
 void Widget::on_pushButton_3_released()
 {
+  if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-    if (y==0){
-        lb=label(x);
-      }
-    else {
-        qDebug()<<x+(15*y);
-        lb=label(x+(15*y));
-      }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-    if (lb->text()=="0"){
-        lb->setText(ui->pushButton_3->text());
-        ui->pushButton_3->setText("0");
-      }
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_3->text());
+            QString nombre= ui->pushButton_3->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_3->setText("0");
+        }
     }
+    }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_3->text());
+              QString nombre= ui->pushButton_3->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_3->setText("0");
+              can=true;
+            }
+    }
+}
+}
 }
 
 
 void Widget::on_pushButton_4_pressed()
 {
+  if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-  if (y==0){
-      lb=label(x);
-    }
-  else {
-      qDebug()<<x+(15*y);
-      lb=label(x+(15*y));
-    }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-  if (lb->text()=="0"){
-      lb->setText(ui->pushButton_4->text());
-      ui->pushButton_4->setText("0");
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_4->text());
+            QString nombre= ui->pushButton_4->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_4->setText("0");
+        }
     }
+    }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_4->text());
+              QString nombre= ui->pushButton_4->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_4->setText("0");
+              can=true;
+        }
+    }
+}
     }
 }
 
 void Widget::on_pushButton_5_released()
 {
+  if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-  if (y==0){
-      lb=label(x);
-    }
-  else {
-      qDebug()<<x+(15*y);
-      lb=label(x+(15*y));
-    }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-  if (lb->text()=="0"){
-      lb->setText(ui->pushButton_5->text());
-      ui->pushButton_5->setText("0");
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);\
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_5->text());
+            QString nombre= ui->pushButton_5->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_5->setText("0");
+          }
     }
     }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_5->text());
+              QString nombre= ui->pushButton_5->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_5->setText("0");
+              can=true;
+            }
+    }
+}
+}
 }
 
 void Widget::on_pushButton_6_released()
 {
+  if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-  if (y==0){
-      lb=label(x);
-    }
-  else {
-      qDebug()<<x+(15*y);
-      lb=label(x+(15*y));
-    }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-  if (lb->text()=="0"){
-      lb->setText(ui->pushButton_6->text());
-      ui->pushButton_6->setText("0");
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_6->text());
+            QString nombre= ui->pushButton_6->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_6->setText("0");
+        }
     }
     }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_6->text());
+              QString nombre= ui->pushButton_6->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_6->setText("0");
+              can=true;
+            }\
+    }
+}
+}
 }
 
 void Widget::on_pushButton_7_released()
 {
+if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-  if (y==0){
-      lb=label(x);
-    }
-  else {
-      qDebug()<<x+(15*y);
-      lb=label(x+(15*y));
-    }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-  if (lb->text()=="0"){
-      lb->setText(ui->pushButton_7->text());
-      ui->pushButton_7->setText("0");
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_7->text());
+            QString nombre= ui->pushButton_7->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_7->setText("0");
+        }
     }
     }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_7->text());
+              QString nombre= ui->pushButton_7->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_7->setText("0");
+              can=true;
+        }
+    }
+}
+}
 }
 
 void Widget::on_pushButton_8_released()
 {
+if (playing==true){
   int a = ui->spinBox->value();
   int b = ui->spinBox_2->value();
-  int x = (a-92)/25;
-  int y = int ((b-32)/27);
-  qDebug()<<x;
-  qDebug()<<y;
-  QLabel *lb;
-  if(91<a&&a<469&&31<b&&b<431){
-  if (y==0){
-      lb=label(x);
-    }
-  else {
-      qDebug()<<x+(15*y);
-      lb=label(x+(15*y));
-    }
+  int x = (a-71)/31;
+  int y = int ((b-32)/25);
+  if (can==true){
 
-  if (lb->text()=="0"){
-      lb->setText(ui->pushButton_8->text());
-      ui->pushButton_8->setText("0");
+      qDebug()<<x;
+      qDebug()<<y;
+      QLabel *lb;
+      if(71<a&&a<531&&31<b&&b<399){
+        if (y==0){
+            lb=label(x);
+          }
+        else {
+            qDebug()<<x+(15*y);
+            lb=label(x+(15*y));
+          }
+
+        if (lb->text()=="0"){
+            lb->setText(ui->pushButton_8->text());
+            QString nombre= ui->pushButton_8->text().at(0);
+            string nombre2 = nombre.toStdString();
+            char a = nombre2.at(0);
+            used.Add(a,x,y);
+            ui->pushButton_8->setText("0");
+
+        }
     }
+    }
+  else{
+      if(x==7 && y==7){
+          QLabel *lb;
+          lb=label(112);
+          if (lb->text()=="0"){
+              lb->setText(ui->pushButton_8->text());
+              QString nombre= ui->pushButton_8->text().at(0);
+              string nombre2 = nombre.toStdString();
+              char a = nombre2.at(0);
+              used.Add(a,x,y);
+              ui->pushButton_8->setText("0");
+              can=true;
+        }
     }
 }
+}
+}
+void Widget::on_pushButton_9_released()
+{
+    probar(used);
+    used.Showchar();
+
+}
+
+void Widget::probar(LinkedList used){
+  if (used.size()!=0){
+      std::cout<<used.size()<<"aaaaaaaa";
+      used.Showchar();
+      bool que= true;
+      int refx=used.getposo(0)->getPosX();
+      int refy=used.getposo(0)->getPosY();
+      for (int i=0;i<used.size();i++){
+          if (used.getposo(i)->getPosX()==refx){}
+          else{
+              que=false;
+            }
+        }
+      if (que==false){
+          que=true;
+          for (int i=0;i<used.size();i++){
+              if (used.getposo(i)->getPosY()==refy){}
+              else{
+                  que=false;
+                }
+            }
+          if (que==true){std::cout<<"vvv";
+              playing=false;}
+        }
+      else {
+          std::cout<<"vvv";
+          playing=false;
+        }
+}
+
+}
+
+
+
+

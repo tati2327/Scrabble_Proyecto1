@@ -3,7 +3,8 @@
 
 #include <QWidget>
 #include <QLabel>
-
+#include "linkedlist.h"
+#include <string>
 namespace Ui {
   class Widget;
 }
@@ -14,9 +15,16 @@ class Widget : public QWidget
 
 public:
   explicit Widget(QWidget *parent = nullptr);
-  ~Widget();
+  bool can=false;
+  bool playing=true;
+  void probar(LinkedList used);
+  LinkedList used;
+  QString name;
+  int id;
+  void setthis();
+  ~Widget();Ui::Widget *ui;
 protected:
-  void mouseDoubleClickEvent(QMouseEvent *event) override;
+  void mouseDoubleClickEvent(QMouseEvent *event) override ;
   void mouseMoveEvent(QMouseEvent *event) override;
   void mousePressEvent(QMouseEvent *event) override;
   void mouseReleaseEvent(QMouseEvent *event) override;
@@ -38,10 +46,13 @@ private slots:
 
   void on_pushButton_8_released();
 
+  void on_pushButton_9_released();
+
+
 private:
   void onMouseEvent(const QPoint &pos);
   QLabel* label(int number);
-  Ui::Widget *ui;
+
 };
 
 #endif // WIDGET_H

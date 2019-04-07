@@ -1,9 +1,9 @@
-#ifndef CLIENT_H
-#define CLIENT_H
+#ifndef CLIENT_CLIENT_H
+#define CLIENT_CLIENT_H
 
 class Client {
     public:
         int newClient();
 };
 
-#endif // CLIENT_H
+#endif //CLIENT_CLIENT_H
