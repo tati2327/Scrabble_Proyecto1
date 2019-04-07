@@ -2,33 +2,56 @@
 #include <cstring>
 #include "JSON.h"
 
-/*!-------------------------------------------------------------------------------------------------------------------------------
- *      1. Analizar una cadena de texto JSON a un documento.
- *--------------------------------------------------------------------------------------------------------------------------------*/
-
-void JSON::jsonToDocument(){
-
-    const char jsonInitGame[] = " { \"solicitud\" : 12,  \"id\" : 12, \"name\" : \"_name\", \"letter\" : \"_letter\", \"x\": 1, \"y\": 3, \"accept\" : true, \"score\": 1, \"playing\": true, \"add\" : true } ";
-    cout << "Original JSON: " << jsonInitGame << endl;
-
-    document.Parse(jsonInitGame);
-
-    cout<<"Parsing to document succeeded"<<endl;
+int JSON::jsonToDocument(int request) {
+    /*! Iniciar Juego */
+    if(request == 1) {
+        char json[] = " { \"request\":1,  \"id\":0, \"name\" : \"_name\", \"players\" :0 } ";
+        document.Parse(json);
+    }
+    /*! Putt Letter */
+    if(request == 2) {
+        char json[] = " { \"request\":2, \"name\" : \"_name\", \"letter\" : \"_letter\", \"x\":0, \"y\":0 } ";
+        document.Parse(json);
+    }
+    /*! Send Word*/
+    if(request == 3) {
+        char json[] = " { \"request\":3, \"name\" : \"_name\" } ";
+        document.Parse(json);
+    }
+    /*! Validate Word */
+    if(request == 4) {
+        char json[] = " { \"request\":4, \"name\" : \"_name\", \"accept\" : true, \"score\":0 } ";
+        document.Parse(json);
+    }
+    /*! Accept request */
+    if(request == 5) {
+        char json[] = " { \"request\":5, \"name\" : \"_name\", \"add\" : true } ";
+        document.Parse(json);
+    }
 }
 
-void JSON::accesToDocument() {
+/*! El documento es un valor JSON que representa la raíz de DOM. La raíz puede ser un objeto o una matriz.*/
+
+void JSON::accesToDocument(int request) {
     cout << "Access values in document: "<<endl;
-    assert(document.IsObject()); /*! El documento es un valor JSON que representa la raíz de DOM. La raíz puede ser un objeto o una matriz.*/
+    assert(document.IsObject());
 
     /*! PARA SOLICITUD*/
-    assert(document["solicitud"].IsNumber());   /*!< Number is a JSON type, but C++ needs more specific type.*/
-    assert(document["solicitud"].IsInt());
-    cout<<"solicitud = " <<document["solicitud"].GetInt()<<endl;
+    assert(document["request"].IsNumber());   /*!< Number is a JSON type, but C++ needs more specific type.*/
+    assert(document["request"].IsInt());
+    cout<<"request = " <<document["request"].GetInt()<<endl;
 
-    /*! PARA ID*/
-    assert(document["id"].IsNumber());
-    assert(document["id"].IsInt());
-    cout<<"id = " <<document["id"].GetInt()<<endl;
+    if(request == 1) {
+        /*! PARA ID*/
+        assert(document["id"].IsNumber());
+        assert(document["id"].IsInt());
+        cout << "id = " << document["id"].GetInt() << endl;
+
+        /*! PARA PLAYERS*/
+        assert(document["players"].IsNumber());
+        assert(document["players"].IsInt());
+        cout << "players = " << document["players"].GetInt() << endl;
+    }
 
     /*! PARA NAME*/
     assert(document.HasMember("name"));
@@ -41,41 +64,112 @@ void JSON::accesToDocument() {
     assert(strcmp("_name", name->value.GetString()) == 0);
     (void) name;
 
-    /*! PARA LETTER*/
-    assert(document.HasMember("letter"));
-    assert(document["letter"].IsString());
-    cout<<"letter = "<<document["letter"].GetString()<<endl;
+    if(request == 2) {
+        /*! PARA LETTER*/
+        assert(document.HasMember("letter"));
+        assert(document["letter"].IsString());
+        cout << "letter = " << document["letter"].GetString() << endl;
 
-    Value::MemberIterator letter = document.FindMember("letter");
-    assert(letter != document.MemberEnd());
-    assert(letter->value.IsString());
-    assert(strcmp("_letter", letter->value.GetString()) == 0);
-    (void) letter;
+        Value::MemberIterator letter = document.FindMember("letter");
+        assert(letter != document.MemberEnd());
+        assert(letter->value.IsString());
+        assert(strcmp("_letter", letter->value.GetString()) == 0);
+        (void) letter;
 
-    /*! PARA X*/
-    assert(document["x"].IsNumber());
-    assert(document["x"].IsInt());
-    cout<<"x = " <<document["x"].GetInt()<<endl;
+        /*! PARA X*/
+        assert(document["x"].IsNumber());
+        assert(document["x"].IsInt());
+        cout << "x = " << document["x"].GetInt() << endl;
 
-    /*! PARA Y*/
-    assert(document["y"].IsNumber());
-    assert(document["y"].IsInt());
-    cout<<"y = " <<document["y"].GetInt()<<endl;
+        /*! PARA Y*/
+        assert(document["y"].IsNumber());
+        assert(document["y"].IsInt());
+        cout << "y = " << document["y"].GetInt() << endl;
+    }
 
-    /*! PARA ACCEPT*/
-    assert(document["accept"].IsBool()); /*!< JSON true/false are bool. Can also uses more specific function IsTrue().*/
-    cout<<"accept = "<<document["accept"].GetBool()<<endl;
+    if(request == 4) {
+        /*! PARA ACCEPT*/
+        assert(document["accept"].IsBool()); /*!< JSON true/false are bool. Can also uses more specific function IsTrue().*/
+        cout << "accept = " << document["accept"].GetBool() << endl;
 
-    /*! PARA SCORE*/
-    assert(document["id"].IsNumber());
-    assert(document["id"].IsInt());
-    cout<<"id = " <<document["id"].GetInt()<<endl;
+        /*! PARA SCORE*/
+        assert(document["id"].IsNumber());
+        assert(document["id"].IsInt());
+        cout << "id = " << document["id"].GetInt() << endl;
 
-    /*! PARA PLAYING*/
-    assert(document["playing"].IsBool());
-    cout<<"playing = "<<document["playing"].GetBool()<<endl;
+        /*! PARA PLAYING*/
+        assert(document["playing"].IsBool());
+        cout << "playing = " << document["playing"].GetBool() << endl;
+    }
 
-    /*! PARA ADD*/
-    assert(document["add"].IsBool());
-    cout<<"add = "<<document["add"].GetBool()<<endl;
+    if(request == 5) {
+        /*! PARA ADD*/
+        assert(document["add"].IsBool());
+        cout << "add = " << document["add"].GetBool() << endl;
+    }
+}
+
+/*! Iniciar Juego */
+void JSON::request1(int _id, string _name, int _players) {
+    /*! CAMBIAR ID*/
+    { document["id"].SetInt(_id); }
+
+    /*! CAMBIAR NAME*/
+    { document["name"] = "sssss"; }
+
+    /*! CAMBIAR PLAYERS*/
+    { document["players"].SetInt(_players); }
+}
+
+/*! Putt Letter */
+void JSON::request2(string _name, string _letter, int _x, int _y) {
+    /*! CAMBIAR NAME*/
+    { document["name"] = "sssss"; }
+
+    /*! CAMBIAR LETTER*/
+    { document["letter"] = "vcvcvc"; }
+
+    /*! CAMBIAR X*/
+    { document["x"] = _x; }
+
+    /*! CAMBIAR Y*/
+    { document["y"] = _y; }
+}
+
+/*! Send Word*/
+void JSON::request3(string _name) {
+    /*! CAMBIAR NAME*/
+    { document["name"] = "sssss"; }
+}
+
+/*! Validate Word */
+void JSON::request4(string _name, bool _accept, int _score, bool _playing) {
+    /*! CAMBIAR NAME*/
+    { document["name"] = "sssss"; }
+
+    /*! CAMBIAR ACCEPT*/
+    { document["accept"].SetBool(_accept); }
+
+    /*! CAMBIAR SCORE*/
+    { document["score"].SetBool(_score); }
+
+    /*! CAMBIAR PLAYING*/
+    { document["playing"].SetBool(_playing); }
+}
+
+/*! Accept request */
+void JSON::request5(string _name, bool _add) {
+    /*! CAMBIAR NAME*/
+    { document["name"] = "sssss"; }
+
+    /*! CAMBIAR ADD*/
+    { document["add"].SetBool(_add); }
+}
+
+void JSON::stringifyJSON() {
+    cout<<"Modified JSON with reformatting: "<<endl;
+    StringBuffer sb;
+    PrettyWriter<StringBuffer> writer(sb);
+    document.Accept(writer);    // Accept() traverses the DOM and generates Handler events.
+    puts(sb.GetString());
 }
