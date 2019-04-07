@@ -12,26 +12,167 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3c5e4c-b602-49f7-8579-1e1f0d641c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JSON.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSON.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PruebaJSON" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PruebaJSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PruebaJSON.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PruebaJSON.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/CLIENT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Board.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Board.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/LinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/LinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Node.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/Player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CLIENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CLIENT.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CLIENT/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Scrabble" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Scrabble.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/Tokens.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/Tokens.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/basura.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/basura.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/SERVER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CLIENT/cmake-build-debug/CMakeFiles/CLIENT.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/untitled1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/CMakeFiles/Scrabble.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Proyecto1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/Proyecto1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LOGICA/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../LOGICA/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaTxt/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaTxt/dictionary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Board.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Dictionary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Dictionary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Dictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Dictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/LinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/LinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/SERVER.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/SERVER.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/allocators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/cursorstreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/document.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/encodedstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/encodings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/error/en.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/error/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/filereadstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/filewritestream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/fwd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/biginteger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/diyfp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/dtoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/ieee754.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/itoa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/meta.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/pow10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/regex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/strfunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/strtod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/internal/swap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/istreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/memorybuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/memorystream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/msinttypes/inttypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/msinttypes/stdint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/ostreamwrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/pointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/prettywriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/rapidjson.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/reader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/schema.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/stream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/stringbuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/include/rapidjson/writer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +196,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="-165">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -67,8 +208,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSON.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="166">
+              <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -79,8 +220,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSON.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#95#114#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,9 +238,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/JSON.h" />
         <option value="$PROJECT_DIR$/JSON.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -161,16 +305,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554587048350</updated>
       <workItem from="1554587050319" duration="4083000" />
-      <workItem from="1554619717421" duration="274000" />
+      <workItem from="1554619717421" duration="1711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4357000" />
+    <option name="totallyTimeSpent" value="5794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11969697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -208,15 +351,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSON.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#95#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSON.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="166">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -225,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="-165">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

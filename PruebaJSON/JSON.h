@@ -14,7 +14,7 @@ using namespace std;
 
 class JSON {
     public:
-        char jsonToDocument();
+        void jsonToDocument();
         void accesToDocument();
         //void modifyDocument(int sol, int id, string name, string letter, int x, int y, bool accept, int score, bool playing, bool add);
         //void stringifyJSON();

@@ -14,6 +14,7 @@ int main(int, char*[]) {
 
     JSON j;
     j.jsonToDocument();
+    j.accesToDocument();
 
 /*!-------------------------------------------------------------------------------------------------------------------------------
  *      1. Parse a JSON text string to a document.
