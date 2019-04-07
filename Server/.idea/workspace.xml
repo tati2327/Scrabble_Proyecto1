@@ -14,12 +14,10 @@
     <list default="true" id="15480be1-8895-485d-9df3-bf833ff2b773" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/Server.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/Node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Trabajo_Ectraclase1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -201,8 +199,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+            <state relative-caret-position="247">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -226,12 +224,12 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Server.cpp" />
         <option value="$PROJECT_DIR$/Server.h" />
+        <option value="$PROJECT_DIR$/Server.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="683" />
     <option name="height" value="741" />
@@ -299,18 +297,19 @@
       <workItem from="1554536051571" duration="960000" />
       <workItem from="1554537021646" duration="1520000" />
       <workItem from="1554541270462" duration="77000" />
+      <workItem from="1554597954610" duration="803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35644000" />
+    <option name="totallyTimeSpent" value="36447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="683" height="741" extended-state="4" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16640502" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.08181818" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -396,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+        <state relative-caret-position="247">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>

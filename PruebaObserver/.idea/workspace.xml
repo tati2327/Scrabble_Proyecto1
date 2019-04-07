@@ -12,30 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8bbe307-73d0-41a5-9eae-782bfe95da8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PruebaJSON/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subject.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/SERVER.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/SERVER.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SERVER/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SERVER/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/Server.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/Server.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/cmake-build-debug/Server" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/cmake-build-debug/Server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SocketsFuncionan/Client/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/Observer.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -279,7 +260,7 @@
     <entry file="file://$PROJECT_DIR$/Observer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>

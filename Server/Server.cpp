@@ -78,8 +78,7 @@ void Server::addClient() {
         clients.push_back(clientSocket);
         countClients += 1;
 
-        char host[NI_MAXHOST]; /*!< Client's     cout<<55555<<endl;
-remote name*/
+        char host[NI_MAXHOST]; /*!< Client's     cout<<55555<<endl; remote name*/
         char service[NI_MAXSERV]; /*!< Service (i.e. port) the client is connect on*/
 
         memset(host, 0, NI_MAXHOST);
