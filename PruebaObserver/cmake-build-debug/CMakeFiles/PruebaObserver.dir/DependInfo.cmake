@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Client.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Observer.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Product.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Subject.cpp.o"
-  "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/main.cpp" "/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/main.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.cpp" "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Client.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.cpp" "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Observer.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.cpp" "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Product.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.cpp" "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/Subject.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/main.cpp" "/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

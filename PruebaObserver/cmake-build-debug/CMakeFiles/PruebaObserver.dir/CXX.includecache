@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.cpp
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.cpp
 Client.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.h
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.h
 iostream
 -
 string
@@ -18,39 +18,37 @@ string
 string.h
 -
 Observer.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.h
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.h
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.cpp
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.cpp
 Product.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.h
-Product.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.h
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.h
 Subject.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.h
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.cpp
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.cpp
 Subject.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.h
 Subject.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.h
 algorithm
 -
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.h
 Client.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.h
 vector
 -
 list
 -
 
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/main.cpp
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/main.cpp
 iostream
 -
 Product.h
-/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.h
+/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.h
 

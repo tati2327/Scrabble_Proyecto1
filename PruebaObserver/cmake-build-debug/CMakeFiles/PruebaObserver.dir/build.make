@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/P1/PruebaObserver
+CMAKE_SOURCE_DIR = /home/pablo/Documentos/GIT/Scrabble/PruebaObserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PruebaObserver.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/PruebaObserver.dir/flags.make
 
 CMakeFiles/PruebaObserver.dir/main.cpp.o: CMakeFiles/PruebaObserver.dir/flags.make
 CMakeFiles/PruebaObserver.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaObserver.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/main.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaObserver.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/main.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/main.cpp
 
 CMakeFiles/PruebaObserver.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaObserver.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/main.cpp > CMakeFiles/PruebaObserver.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/main.cpp > CMakeFiles/PruebaObserver.dir/main.cpp.i
 
 CMakeFiles/PruebaObserver.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaObserver.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/main.cpp -o CMakeFiles/PruebaObserver.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/main.cpp -o CMakeFiles/PruebaObserver.dir/main.cpp.s
 
 CMakeFiles/PruebaObserver.dir/Subject.cpp.o: CMakeFiles/PruebaObserver.dir/flags.make
 CMakeFiles/PruebaObserver.dir/Subject.cpp.o: ../Subject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PruebaObserver.dir/Subject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Subject.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PruebaObserver.dir/Subject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Subject.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.cpp
 
 CMakeFiles/PruebaObserver.dir/Subject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaObserver.dir/Subject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.cpp > CMakeFiles/PruebaObserver.dir/Subject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.cpp > CMakeFiles/PruebaObserver.dir/Subject.cpp.i
 
 CMakeFiles/PruebaObserver.dir/Subject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaObserver.dir/Subject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Subject.cpp -o CMakeFiles/PruebaObserver.dir/Subject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Subject.cpp -o CMakeFiles/PruebaObserver.dir/Subject.cpp.s
 
 CMakeFiles/PruebaObserver.dir/Observer.cpp.o: CMakeFiles/PruebaObserver.dir/flags.make
 CMakeFiles/PruebaObserver.dir/Observer.cpp.o: ../Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaObserver.dir/Observer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Observer.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaObserver.dir/Observer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Observer.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.cpp
 
 CMakeFiles/PruebaObserver.dir/Observer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaObserver.dir/Observer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.cpp > CMakeFiles/PruebaObserver.dir/Observer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.cpp > CMakeFiles/PruebaObserver.dir/Observer.cpp.i
 
 CMakeFiles/PruebaObserver.dir/Observer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaObserver.dir/Observer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Observer.cpp -o CMakeFiles/PruebaObserver.dir/Observer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Observer.cpp -o CMakeFiles/PruebaObserver.dir/Observer.cpp.s
 
 CMakeFiles/PruebaObserver.dir/Product.cpp.o: CMakeFiles/PruebaObserver.dir/flags.make
 CMakeFiles/PruebaObserver.dir/Product.cpp.o: ../Product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PruebaObserver.dir/Product.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Product.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PruebaObserver.dir/Product.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Product.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.cpp
 
 CMakeFiles/PruebaObserver.dir/Product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaObserver.dir/Product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.cpp > CMakeFiles/PruebaObserver.dir/Product.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.cpp > CMakeFiles/PruebaObserver.dir/Product.cpp.i
 
 CMakeFiles/PruebaObserver.dir/Product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaObserver.dir/Product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Product.cpp -o CMakeFiles/PruebaObserver.dir/Product.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Product.cpp -o CMakeFiles/PruebaObserver.dir/Product.cpp.s
 
 CMakeFiles/PruebaObserver.dir/Client.cpp.o: CMakeFiles/PruebaObserver.dir/flags.make
 CMakeFiles/PruebaObserver.dir/Client.cpp.o: ../Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PruebaObserver.dir/Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Client.cpp.o -c /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PruebaObserver.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaObserver.dir/Client.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.cpp
 
 CMakeFiles/PruebaObserver.dir/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaObserver.dir/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.cpp > CMakeFiles/PruebaObserver.dir/Client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.cpp > CMakeFiles/PruebaObserver.dir/Client.cpp.i
 
 CMakeFiles/PruebaObserver.dir/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaObserver.dir/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/Client.cpp -o CMakeFiles/PruebaObserver.dir/Client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/Client.cpp -o CMakeFiles/PruebaObserver.dir/Client.cpp.s
 
 # Object files for target PruebaObserver
 PruebaObserver_OBJECTS = \
@@ -140,7 +140,7 @@ PruebaObserver: CMakeFiles/PruebaObserver.dir/Product.cpp.o
 PruebaObserver: CMakeFiles/PruebaObserver.dir/Client.cpp.o
 PruebaObserver: CMakeFiles/PruebaObserver.dir/build.make
 PruebaObserver: CMakeFiles/PruebaObserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PruebaObserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PruebaObserver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PruebaObserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/PruebaObserver.dir/clean:
 .PHONY : CMakeFiles/PruebaObserver.dir/clean
 
 CMakeFiles/PruebaObserver.dir/depend:
-	cd /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tati2327/Documentos/GITHUB/P1/PruebaObserver /home/tati2327/Documentos/GITHUB/P1/PruebaObserver /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug /home/tati2327/Documentos/GITHUB/P1/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Documentos/GIT/Scrabble/PruebaObserver /home/pablo/Documentos/GIT/Scrabble/PruebaObserver /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug /home/pablo/Documentos/GIT/Scrabble/PruebaObserver/cmake-build-debug/CMakeFiles/PruebaObserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PruebaObserver.dir/depend
 

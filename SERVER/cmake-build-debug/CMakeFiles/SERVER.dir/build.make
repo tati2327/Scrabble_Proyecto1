@@ -187,6 +187,45 @@ CMakeFiles/SERVER.dir/basura.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/basura.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/SERVER/basura.cpp -o CMakeFiles/SERVER.dir/basura.cpp.s
 
+CMakeFiles/SERVER.dir/Subject.cpp.o: CMakeFiles/SERVER.dir/flags.make
+CMakeFiles/SERVER.dir/Subject.cpp.o: ../Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SERVER.dir/Subject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/Subject.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.cpp
+
+CMakeFiles/SERVER.dir/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/Subject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.cpp > CMakeFiles/SERVER.dir/Subject.cpp.i
+
+CMakeFiles/SERVER.dir/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/Subject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.cpp -o CMakeFiles/SERVER.dir/Subject.cpp.s
+
+CMakeFiles/SERVER.dir/Observer.cpp.o: CMakeFiles/SERVER.dir/flags.make
+CMakeFiles/SERVER.dir/Observer.cpp.o: ../Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SERVER.dir/Observer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/Observer.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.cpp
+
+CMakeFiles/SERVER.dir/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/Observer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.cpp > CMakeFiles/SERVER.dir/Observer.cpp.i
+
+CMakeFiles/SERVER.dir/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/Observer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.cpp -o CMakeFiles/SERVER.dir/Observer.cpp.s
+
+CMakeFiles/SERVER.dir/Client.cpp.o: CMakeFiles/SERVER.dir/flags.make
+CMakeFiles/SERVER.dir/Client.cpp.o: ../Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SERVER.dir/Client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SERVER.dir/Client.cpp.o -c /home/pablo/Documentos/GIT/Scrabble/SERVER/Client.cpp
+
+CMakeFiles/SERVER.dir/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SERVER.dir/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documentos/GIT/Scrabble/SERVER/Client.cpp > CMakeFiles/SERVER.dir/Client.cpp.i
+
+CMakeFiles/SERVER.dir/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SERVER.dir/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documentos/GIT/Scrabble/SERVER/Client.cpp -o CMakeFiles/SERVER.dir/Client.cpp.s
+
 # Object files for target SERVER
 SERVER_OBJECTS = \
 "CMakeFiles/SERVER.dir/main.cpp.o" \
@@ -198,7 +237,10 @@ SERVER_OBJECTS = \
 "CMakeFiles/SERVER.dir/Player.cpp.o" \
 "CMakeFiles/SERVER.dir/Dictionary.cpp.o" \
 "CMakeFiles/SERVER.dir/Tokens.cpp.o" \
-"CMakeFiles/SERVER.dir/basura.cpp.o"
+"CMakeFiles/SERVER.dir/basura.cpp.o" \
+"CMakeFiles/SERVER.dir/Subject.cpp.o" \
+"CMakeFiles/SERVER.dir/Observer.cpp.o" \
+"CMakeFiles/SERVER.dir/Client.cpp.o"
 
 # External object files for target SERVER
 SERVER_EXTERNAL_OBJECTS =
@@ -213,9 +255,12 @@ SERVER: CMakeFiles/SERVER.dir/Player.cpp.o
 SERVER: CMakeFiles/SERVER.dir/Dictionary.cpp.o
 SERVER: CMakeFiles/SERVER.dir/Tokens.cpp.o
 SERVER: CMakeFiles/SERVER.dir/basura.cpp.o
+SERVER: CMakeFiles/SERVER.dir/Subject.cpp.o
+SERVER: CMakeFiles/SERVER.dir/Observer.cpp.o
+SERVER: CMakeFiles/SERVER.dir/Client.cpp.o
 SERVER: CMakeFiles/SERVER.dir/build.make
 SERVER: CMakeFiles/SERVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SERVER"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable SERVER"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SERVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

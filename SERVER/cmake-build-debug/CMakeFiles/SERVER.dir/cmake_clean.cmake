@@ -9,6 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/SERVER.dir/Dictionary.cpp.o"
   "CMakeFiles/SERVER.dir/Tokens.cpp.o"
   "CMakeFiles/SERVER.dir/basura.cpp.o"
+  "CMakeFiles/SERVER.dir/Subject.cpp.o"
+  "CMakeFiles/SERVER.dir/Observer.cpp.o"
+  "CMakeFiles/SERVER.dir/Client.cpp.o"
   "SERVER.pdb"
   "SERVER"
 )

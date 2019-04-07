@@ -90,6 +90,12 @@
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Board.h">
 			<Option target="SERVER"/>
 		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Client.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Client.h">
+			<Option target="SERVER"/>
+		</Unit>
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Dictionary.cpp">
 			<Option target="SERVER"/>
 		</Unit>
@@ -114,6 +120,12 @@
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Node.h">
 			<Option target="SERVER"/>
 		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.h">
+			<Option target="SERVER"/>
+		</Unit>
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Player.cpp">
 			<Option target="SERVER"/>
 		</Unit>
@@ -124,6 +136,12 @@
 			<Option target="SERVER"/>
 		</Unit>
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Server.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.h">
 			<Option target="SERVER"/>
 		</Unit>
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/Tokens.cpp">

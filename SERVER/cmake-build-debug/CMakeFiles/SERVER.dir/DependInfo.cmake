@@ -5,12 +5,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Board.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Board.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/SERVER/Client.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Client.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Dictionary.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Dictionary.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Game.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Game.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/LinkedList.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/LinkedList.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Node.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Node.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/SERVER/Observer.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Observer.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Player.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Player.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Server.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Server.cpp.o"
+  "/home/pablo/Documentos/GIT/Scrabble/SERVER/Subject.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Subject.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/Tokens.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/Tokens.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/basura.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/basura.cpp.o"
   "/home/pablo/Documentos/GIT/Scrabble/SERVER/main.cpp" "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/CMakeFiles/SERVER.dir/main.cpp.o"

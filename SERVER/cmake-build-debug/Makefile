@@ -150,6 +150,33 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
+Client.o: Client.cpp.o
+
+.PHONY : Client.o
+
+# target to build an object file
+Client.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.o
+.PHONY : Client.cpp.o
+
+Client.i: Client.cpp.i
+
+.PHONY : Client.i
+
+# target to preprocess a source file
+Client.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.i
+.PHONY : Client.cpp.i
+
+Client.s: Client.cpp.s
+
+.PHONY : Client.s
+
+# target to generate assembly for a file
+Client.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.s
+.PHONY : Client.cpp.s
+
 Dictionary.o: Dictionary.cpp.o
 
 .PHONY : Dictionary.o
@@ -258,6 +285,33 @@ Node.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
+Observer.o: Observer.cpp.o
+
+.PHONY : Observer.o
+
+# target to build an object file
+Observer.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.o
+.PHONY : Observer.cpp.o
+
+Observer.i: Observer.cpp.i
+
+.PHONY : Observer.i
+
+# target to preprocess a source file
+Observer.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.i
+.PHONY : Observer.cpp.i
+
+Observer.s: Observer.cpp.s
+
+.PHONY : Observer.s
+
+# target to generate assembly for a file
+Observer.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.s
+.PHONY : Observer.cpp.s
+
 Player.o: Player.cpp.o
 
 .PHONY : Player.o
@@ -311,6 +365,33 @@ Server.s: Server.cpp.s
 Server.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Server.cpp.s
 .PHONY : Server.cpp.s
+
+Subject.o: Subject.cpp.o
+
+.PHONY : Subject.o
+
+# target to build an object file
+Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.o
+.PHONY : Subject.cpp.o
+
+Subject.i: Subject.cpp.i
+
+.PHONY : Subject.i
+
+# target to preprocess a source file
+Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.i
+.PHONY : Subject.cpp.i
+
+Subject.s: Subject.cpp.s
+
+.PHONY : Subject.s
+
+# target to generate assembly for a file
+Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.s
+.PHONY : Subject.cpp.s
 
 Tokens.o: Tokens.cpp.o
 
@@ -405,6 +486,9 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
+	@echo "... Client.o"
+	@echo "... Client.i"
+	@echo "... Client.s"
 	@echo "... Dictionary.o"
 	@echo "... Dictionary.i"
 	@echo "... Dictionary.s"
@@ -417,12 +501,18 @@ help:
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
+	@echo "... Observer.o"
+	@echo "... Observer.i"
+	@echo "... Observer.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
+	@echo "... Subject.o"
+	@echo "... Subject.i"
+	@echo "... Subject.s"
 	@echo "... Tokens.o"
 	@echo "... Tokens.i"
 	@echo "... Tokens.s"

@@ -1,10 +1,12 @@
 #ifndef SERVER_SERVER_H
 #define SERVER_SERVER_H
 
-class Server {
-    public:
+#include "Subject.h"
+#include "Board.h"
 
-    private:
+class Server : public Subject {
+    public:
+        void changeBoard(Board newBoard);
 };
 
 #endif //SERVER_SERVER_H
