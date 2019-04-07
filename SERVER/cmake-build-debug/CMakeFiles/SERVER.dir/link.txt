@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 /usr/bin/c++  -g   CMakeFiles/SERVER.dir/main.cpp.o CMakeFiles/SERVER.dir/Server.cpp.o CMakeFiles/SERVER.dir/Game.cpp.o CMakeFiles/SERVER.dir/Board.cpp.o CMakeFiles/SERVER.dir/LinkedList.cpp.o CMakeFiles/SERVER.dir/Node.cpp.o CMakeFiles/SERVER.dir/Player.cpp.o CMakeFiles/SERVER.dir/Dictionary.cpp.o CMakeFiles/SERVER.dir/Tokens.cpp.o CMakeFiles/SERVER.dir/basura.cpp.o  -o SERVER 
-=======
-/usr/bin/c++  -g   CMakeFiles/SERVER.dir/main.cpp.o CMakeFiles/SERVER.dir/Server.cpp.o CMakeFiles/SERVER.dir/Game.cpp.o CMakeFiles/SERVER.dir/Board.cpp.o CMakeFiles/SERVER.dir/LinkedList.cpp.o CMakeFiles/SERVER.dir/Node.cpp.o CMakeFiles/SERVER.dir/Player.cpp.o CMakeFiles/SERVER.dir/Dictionary.cpp.o  -o SERVER 
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5

@@ -21,18 +21,11 @@ Board::Board() {
         x=x+1;
     }
     board.multipliers();
-<<<<<<< HEAD
     //board.Showmat();
 }
 
 const LinkedList &Board::getBoard() {
     //board.Showmat();
-=======
-    board.Showmat();
-}
-
-const LinkedList &Board::getBoard() const {
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
     return board;
 }
 

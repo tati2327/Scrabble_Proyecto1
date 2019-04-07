@@ -6,11 +6,7 @@
 
 #include<iostream>
 #include<stdlib.h>
-<<<<<<< HEAD
 #include "Node.h"
-=======
-#include "node.h"
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 using namespace std;
 
@@ -31,7 +27,6 @@ Node::Node(char _letter, int x, int y) {
     setPosX(x);
 }
 
-<<<<<<< HEAD
 Node::Node(string _word, int x, int y) {
     setNext(nullptr);
     setWord(_word);
@@ -39,8 +34,6 @@ Node::Node(string _word, int x, int y) {
     setPosX(x);
 }
 
-=======
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 int Node::getValue() const {
     return value;
 }
@@ -74,7 +67,6 @@ void Node::setLetter(char letter) {
     Node::letter = letter;
 }
 
-<<<<<<< HEAD
 string Node::getWord() const {
     return word;
 }
@@ -83,8 +75,6 @@ void Node::setWord(string word) {
     Node::word = word;
 }
 
-=======
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 int Node::getPosX() const {
     return posX;
 }

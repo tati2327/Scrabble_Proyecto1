@@ -1,5 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
 #include "Board.h"
 #include "Game.h"
 #include "Player.h"
@@ -46,10 +45,6 @@ int main() {
 
 
    G1.validateWords(L1,hola);
-=======
-
-int main() {
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
     return 0;
 }

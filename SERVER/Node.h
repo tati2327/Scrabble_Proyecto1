@@ -2,13 +2,9 @@
 #define SERVER_NODE_H
 
 #include <cstdlib>
-<<<<<<< HEAD
 #include <string>
 
 using namespace std;
-=======
-
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 /*!
  * Clase Node
  * Se tienen dos valores para los nodos porque bien pueden ser
@@ -20,10 +16,7 @@ class Node {
     private:
         int value;               /*! Valor int*/
         char letter;             /*! Valor char*/
-<<<<<<< HEAD
         string word;
-=======
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         Node* next;              /*!Puntero a siguiente */
         int posX;                /*! Posicion en x, valido solo para la lista de matriz*/
         int posY;                /*! Posicion en y, valido solo para la lista de matriz*/
@@ -37,10 +30,7 @@ class Node {
         Node(char _letter);
         /*! COnstructor de Nodo tipo matriz */
         Node(char _letter, int x, int y);
-<<<<<<< HEAD
         Node (string _word, int x, int y);
-=======
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 
 
@@ -73,12 +63,9 @@ class Node {
         char getLetter() const;
         void setLetter(char letter);
 
-<<<<<<< HEAD
         string getWord() const;
         void setWord(string _word);
 
-=======
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         int getValue() const;
         void setValue(int value);
 

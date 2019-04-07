@@ -1,20 +1,12 @@
-<<<<<<< HEAD
 #include <iostream>
 #include "cstdlib"
 #include "Board.h"
 #include "Player.h"
 #include "Game.h"
-=======
-#include "Game.h"
-#include <iostream>
-#include "cstdlib"
-#include "Board.h"
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 using namespace std;
 
 Game::Game(int players, int turn) {
-<<<<<<< HEAD
     letterlist = letterlist.moveletters(letters); /*! Llena la bolsa de fichas*/
     Board K1;
     board = K1.getBoard();                        /*!Llama a la matriz de juego*/
@@ -164,24 +156,12 @@ bool Game::rowscolums(LinkedList temp) {
     }
 
     return false;
-=======
-    letterlist = letterlist.moveletters(letters); /*!< Llena la bolsa de fichas*/
-    Board temp;
-    board = temp.getBoard(); /*!< Llama a la matriz de juego*/
-}
-
-bool Game::validateWord() {
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 }
 
 int Game::getTurn() const {
     return turn;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 void Game::setTurn(int turn) {
     Game::turn = turn;
 }
@@ -202,7 +182,6 @@ void Game::setBoard(const LinkedList &board) {
     Game::board = board;
 }
 
-<<<<<<< HEAD
 const LinkedList &Game::getPlayedWords() const {
     return playedWords;
 }
@@ -210,18 +189,3 @@ const LinkedList &Game::getPlayedWords() const {
 void Game::setPlayedWords(const LinkedList &playedWords) {
     Game::playedWords = playedWords;
 }
-=======
-LinkedList* Game::fillRail(LinkedList *rail){
-    if(rail->size() != 8){
-        int count = 8-rail->size();
-        while(count != 0){
-            int random = rand()%(letterlist.size()-1); /*!< Se escoje una ficha al azar de la bolsa*/
-            char letter = letterlist.bring(random); /*!< Asignacion de la letra*/
-            rail->Add(letter); /*!< Se agrega al rail del jugador*/
-            letterlist.Delete(letter); /*! Se elimina la letra de la bolsa*/
-            count=count-1;
-        }
-    }
-    return rail;
-}
->>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
