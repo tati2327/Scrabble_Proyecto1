@@ -33,6 +33,7 @@ void LinkedList::Add(char _data) { /*!<Agrega por dato char*/
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
+<<<<<<< HEAD
 
 void LinkedList::Add(string _data,int x, int y) { /*!<Agrega por dato int*/
     Node* newPtr = new Node(_data,x,y);
@@ -68,6 +69,8 @@ void LinkedList::Add(string _data,int x, int y) { /*!<Agrega por dato int*/
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 /*! Mismo funcionamiento que el Add anterior, este tiene la diferencia que declara los punteros N0, N1, ... ,
  * N14 como referencias a las filas de la matriz*/
 void LinkedList::Add(char _data,int x, int y) { /*!<Agrega por dato int*/
@@ -239,6 +242,7 @@ void LinkedList::Showmat(){ /*!<Imprime la matriz de juego*/
     cout<<endl;
 }
 
+<<<<<<< HEAD
 
 /*----------------------------------------------------------------------------------------------------------*/
 
@@ -246,6 +250,8 @@ Node* LinkedList::getHead() {
     return Head;
 }
 
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 /*----------------------------------------------------------------------------------------------------------*/
 
 void LinkedList::Showchar() { /*! <Muestra la lista hecha por char*/
@@ -298,6 +304,7 @@ char LinkedList::bring(int pos) { /*! <Devuleve un char segun la posicion que se
     return result;
 }
 
+<<<<<<< HEAD
 
 /*----------------------------------------------------------------------------------------------------------*/
 Node* LinkedList::bringNode(int pos) { /*! <Devuleve un char segun la posicion que se le de*/
@@ -313,6 +320,8 @@ Node* LinkedList::bringNode(int pos) { /*! <Devuleve un char segun la posicion q
     Node* result = Curr;
     return result;
 }
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 /*----------------------------------------------------------------------------------------------------------*/
 int LinkedList::size() {         /*! <Retorna la dimension de la lista  */
     Curr=Head;
@@ -352,6 +361,7 @@ Node* LinkedList::getpos(int x, int y) {    /*! <Se retorna el puntero a un nodo
     }
 }
 
+<<<<<<< HEAD
 Node* LinkedList::getposo(int x, int y) {    /*! <Se retorna el puntero a un nodo de la matriz de juego*/
                             /*! Para no recorrer toda la lista se asigna a Curr el puntero de
                                             * la fila en la que esta*/
@@ -369,6 +379,12 @@ Node* LinkedList::getposo(int x, int y) {    /*! <Se retorna el puntero a un nod
 void LinkedList::putletter(char data,int x, int y) {  /*! <Funcion para poner letras en el tablero*/
     getpos(x,y)->setLetter(data);
     //Showmat();
+=======
+/*----------------------------------------------------------------------------------------------------------*/
+void LinkedList::putletter(char data,int x, int y) {  /*! <Funcion para poner letras en el tablero*/
+    getpos(x,y)->setLetter(data);
+    Showmat();
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 }
 
 /*----------------------------------------------------------------------------------------------------------*/

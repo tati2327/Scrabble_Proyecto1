@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec5fc2e-a98d-4762-893f-e5be80e457e3" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Tokens.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tokens.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/basura.cpp" afterDir="false" />
@@ -73,6 +74,28 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SERVER.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SERVER.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../PruebaJSON/JSON.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaJSON/JSON.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/PruebaJSON.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/cmake-build-debug/PruebaJSON.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaJSON/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaJSON/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebaObserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,6 +106,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
@@ -122,11 +146,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" selection-start-line="4" selection-end-line="5" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Game.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -140,23 +173,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
               <caret line="62" selection-start-line="62" selection-end-line="62" />
+=======
+        <entry file="file://$PROJECT_DIR$/LinkedList.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Game.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
@@ -170,6 +219,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-17">
               <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+=======
+        <entry file="file://$PROJECT_DIR$/include/rapidjson/encodedstream.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
             </state>
           </provider>
         </entry>
@@ -179,11 +234,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bring</find>
+<<<<<<< HEAD
       <find>showma</find>
       <find>showMat</find>
       <find>getpo</find>
       <find>br</find>
       <find>putl</find>
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,10 +250,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/Dictionary.cpp" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         <option value="$PROJECT_DIR$/Dictionary.h" />
         <option value="$PROJECT_DIR$/Node.cpp" />
         <option value="$PROJECT_DIR$/Tokens.h" />
         <option value="$PROJECT_DIR$/Tokens.cpp" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Node.h" />
         <option value="$PROJECT_DIR$/Server.cpp" />
         <option value="$PROJECT_DIR$/Server.h" />
@@ -211,13 +274,32 @@
         <option value="$PROJECT_DIR$/Dictionary.cpp" />
         <option value="$PROJECT_DIR$/Game.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+=======
+        <option value="$PROJECT_DIR$/LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList.h" />
+        <option value="$PROJECT_DIR$/Node.h" />
+        <option value="$PROJECT_DIR$/Server.cpp" />
+        <option value="$PROJECT_DIR$/Server.h" />
+        <option value="$PROJECT_DIR$/Board.cpp" />
+        <option value="$PROJECT_DIR$/Game.h" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
+        <option value="$PROJECT_DIR$/Board.h" />
+        <option value="$PROJECT_DIR$/Player.h" />
+        <option value="$PROJECT_DIR$/Player.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="683" />
+<<<<<<< HEAD
     <option name="height" value="743" />
+=======
+    <option name="height" value="741" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -227,6 +309,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,15 +324,26 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PruebaJSON" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,12 +375,19 @@
       <option name="presentableId" value="Default" />
       <updated>1554333788277</updated>
       <workItem from="1554333789923" duration="723000" />
+<<<<<<< HEAD
       <workItem from="1554334535599" duration="9966000" />
       <workItem from="1554544242070" duration="26977000" />
+=======
+      <workItem from="1554334535599" duration="10645000" />
+      <workItem from="1554406068606" duration="577000" />
+      <workItem from="1554587240081" duration="2330000" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="37666000" />
   </component>
   <component name="TodoView">
@@ -315,6 +419,29 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
+=======
+    <option name="totallyTimeSpent" value="14275000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28560606" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,6 +449,7 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" weight="0.13355593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -338,6 +466,23 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28560606" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -349,6 +494,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -400,10 +546,56 @@
           <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="e#48#67#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tokens.h" />
+    <entry file="file://$PROJECT_DIR$/Tokens.cpp" />
+    <entry file="file://$PROJECT_DIR$/Dictionary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Board.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Board.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Player.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -480,19 +672,97 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Player.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/rapidjson/encodedstream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="718">
           <caret line="371" column="1" lean-forward="true" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="1" />
+=======
+        <state relative-caret-position="157">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Game.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -510,5 +780,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
   </component>
 </project>

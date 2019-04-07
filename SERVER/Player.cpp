@@ -1,6 +1,7 @@
 #include "Player.h"
 #include <iostream>
 #include "cstdlib"
+<<<<<<< HEAD
 #include "Tokens.h"
 
 
@@ -17,6 +18,28 @@ void Player::makeitplay() {
     cout<<"SE ASIGNAN LAS FICHAS ..."<<endl;
     rail.Showmat();
 }
+=======
+#include "Game.h"
+
+using namespace std;
+
+void Player::refillRail() {
+    rail = myGame.fillRail(rail);  /*! Asignacion de primeras fichas de juego*/
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+void Player::putLetter(int letter, int posx, int posy) { /*!< Pone la letra en la matriz */
+    if (board.getpos(posx,posy)->getLetter() != '0'){    /*! Si donde se quiere poner la letra no hay un cero
+                                                          * entonces no se puede poner una letra porque ya habria otra*/
+        cout <<"Ya hay una letra aquí";
+    }else{
+        board.putletter(rail->bring(letter),posx,posy); /*!< Se pone la letra*/
+        myGame.fillRail(rail); /*!< Una vez puesta la letra se recoge otra de la bolsa para
+                                * reponerla, se le pide una letra a Game*/
+    }
+}
+
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 /*----------------------------------------------------------------------------------------------------------*/
 bool Player::getPlaying() const {
     return playing;
@@ -35,6 +58,7 @@ int Player::getScore() const {
 /*----------------------------------------------------------------------------------------------------------*/
 void Player::setScore(int _score) {
     Player::score = _score;
+<<<<<<< HEAD
 }
 
 /*----------------------------------------------------------------------------------------------------------*/
@@ -51,4 +75,6 @@ void Player::putLetter(int letter, int posx, int posy) { /*!< Pone la letra en l
         letter = letterlist.bring(random);
         rail.Add(letter);
     }
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 }

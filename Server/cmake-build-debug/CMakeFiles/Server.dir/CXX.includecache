@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tati2327/Documentos/GITHUB/P1/Server/Server.cpp
+Server.h
+/home/tati2327/Documentos/GITHUB/P1/Server/Server.h
+iostream
+-
+sys/types.h
+-
+unistd.h
+-
+sys/socket.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+string.h
+-
+string
+-
+thread
+-
+
+/home/tati2327/Documentos/GITHUB/P1/Server/Server.h
+netinet/in.h
+-
+vector
+-
+iostream
+-
+
+/home/tati2327/Documentos/GITHUB/P1/Server/main.cpp
+iostream
+-
+Server.h
+/home/tati2327/Documentos/GITHUB/P1/Server/Server.h
+thread
+-
+

@@ -7,9 +7,12 @@
 
 
 #include "Node.h"
+<<<<<<< HEAD
 #include <string>
 
 using namespace std;
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 /*!
  * Clase LinkedList
@@ -60,8 +63,11 @@ class LinkedList {
          */
         void Add(char data, int x, int y);
 
+<<<<<<< HEAD
         void Add(string data, int x, int y);
 
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         /*!
          * Funcion para borrar por posicion en la lista
          * @param pos, posicion en la lista*/
@@ -80,8 +86,11 @@ class LinkedList {
          * Funcion para mostrar la lista de chars*/
         void Showchar();
 
+<<<<<<< HEAD
         Node* getHead();
 
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
         bool Seek(int number);
 
         /*!
@@ -89,7 +98,10 @@ class LinkedList {
          * @param pos, posicion del nodo
          * @return char obtenido de la poscion*/
         char bring(int pos);
+<<<<<<< HEAD
         Node* bringNode(int pos);
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
         /*!
          * Funcion que retorna la dimension de una lista
@@ -103,7 +115,10 @@ class LinkedList {
          * @param y posicion de la matriz
          * @return puntero a Nodo*/
         Node* getpos(int x, int y);
+<<<<<<< HEAD
         Node* getposo(int x, int y);
+=======
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
         /*!
          * Funcion que coloca una letra en la matriz de juego

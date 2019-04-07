@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/pablo/Documentos/GIT/Scrabble/SERVER
+=======
+# Install script for directory: /home/tati2327/Documentos/GITHUB/P1/SERVER
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -30,10 +31,38 @@
 			<Target title="SERVER">
 				<Option output="/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug"/>
+=======
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SERVER">
+				<Option output="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug"/>
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+=======
+					<Add directory="/home/tati2327/Documentos/GITHUB/P1/SERVER/./include/rapidjson"/>
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -44,6 +73,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -53,10 +83,25 @@
 			<Target title="SERVER/fast">
 				<Option output="/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SERVER/fast">
+				<Option output="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/SERVER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug"/>
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
+=======
+					<Add directory="/home/tati2327/Documentos/GITHUB/P1/SERVER/./include/rapidjson"/>
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -67,6 +112,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pablo/Documentos/GIT/Scrabble/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -142,6 +188,71 @@
 			<Option target="SERVER"/>
 		</Unit>
 		<Unit filename="/home/pablo/Documentos/GIT/Scrabble/SERVER/CMakeLists.txt">
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 SERVER/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Board.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Board.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Dictionary.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Dictionary.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Game.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Game.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/LinkedList.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/LinkedList.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Node.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Node.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Player.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Player.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Server.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/Server.h">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/main.cpp">
+			<Option target="SERVER"/>
+		</Unit>
+		<Unit filename="/home/tati2327/Documentos/GITHUB/P1/SERVER/CMakeLists.txt">
+>>>>>>> 86051104b3c242bc2ce8b42f95538b55a1b0cfb5
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

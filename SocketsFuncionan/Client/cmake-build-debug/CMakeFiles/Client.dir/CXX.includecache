@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tati2327/Documentos/GITHUB/Project1/Sockets/Client/Client.cpp
+/home/tati2327/Documentos/GITHUB/P1/SocketsFuncionan/Client/Client.cpp
 Client.h
-/home/tati2327/Documentos/GITHUB/Project1/Sockets/Client/Client.h
+/home/tati2327/Documentos/GITHUB/P1/SocketsFuncionan/Client/Client.h
 iostream
 -
 sys/types.h
@@ -26,11 +26,11 @@ string.h
 string
 -
 
-/home/tati2327/Documentos/GITHUB/Project1/Sockets/Client/Client.h
+/home/tati2327/Documentos/GITHUB/P1/SocketsFuncionan/Client/Client.h
 
-/home/tati2327/Documentos/GITHUB/Project1/Sockets/Client/main.cpp
+/home/tati2327/Documentos/GITHUB/P1/SocketsFuncionan/Client/main.cpp
 iostream
 -
 Client.h
-/home/tati2327/Documentos/GITHUB/Project1/Sockets/Client/Client.h
+/home/tati2327/Documentos/GITHUB/P1/SocketsFuncionan/Client/Client.h
 
