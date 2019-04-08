@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QWidget>
-
 #include "widget.h"
 #include "putid.h"
 

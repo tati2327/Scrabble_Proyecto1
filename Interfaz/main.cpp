@@ -4,14 +4,21 @@
 #include "client.h"
 #include <iostream>
 #include "cstdlib"
+
 int main(int argc, char *argv[])
 {
   QApplication a(argc, argv);
   a.setStyle("fusion");
+
+  //mThread2.start();
+
+
   mainWindow mw;
+
   mw.show();
-  Client c;
-  c.newClient();
+  //thread.join();
+
 
   return a.exec();
+
 }

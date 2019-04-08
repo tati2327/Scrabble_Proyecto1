@@ -693,7 +693,6 @@ void Widget::on_pushButton_9_released()
 void Widget::probar(LinkedList used){
   bool que= true;
   if (used.size()!=0){
-      std::cout<<used.size()<<"aaaaaaaa";
       used.Showchar();
 
       int refx=used.getposo(0)->getPosX();
@@ -733,10 +732,15 @@ void Widget::probar(LinkedList used){
           QString letra=QString(let);
           putletterback(Pieza)->setText(letra);
           label(used.getposo(i)->getPosX()+15*used.getposo(i)->getPosY())->setText("0");
+
         }
+     // putletterback(L1.bringint(used.size()-1))->setText(QString(used.getposo(used.size()-1)->getLetter()));
+     // label.used.getposo(used.size()-1)->getPosX()+15*used.getposo(i)->getPosY())->setText("0");
+}
+  while(used.size()!=0){
+      used.Delete(0);
     }
-
-
+cout<<used.size()<<"perro1";
 }
 
 QPushButton* Widget::putletterback(int pos){

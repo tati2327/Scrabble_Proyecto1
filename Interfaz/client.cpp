@@ -7,6 +7,8 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
+#include <QtCore>
+#include <QDebug>
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunknown-pragmas"
@@ -24,7 +26,7 @@ int Client::newClient()
 
     //	Create a hint structure for the server we're connecting with
     int port = 54000;
-    string ipAddress = "127.0.0.1";
+    string ipAddress = "192.168.100.9";
 
     sockaddr_in hint{};
     hint.sin_family = AF_INET;
@@ -32,7 +34,7 @@ int Client::newClient()
     inet_pton(AF_INET, ipAddress.c_str(), &hint.sin_addr);
 
     //	Connect to the server on the socket
-    int connectRes = connect(sock, (sockaddr*)&hint, sizeof(hint));
+    int connectRes = connect(sock, (sockaddr*)&hint, (socklen_t)sizeof(hint));
     if (connectRes == -1)
     {
         return 1;
@@ -42,21 +44,22 @@ int Client::newClient()
     char buf[4096];
     string userInput;
 
-
     do {
         //		Enter lines of text
         cout << "> ";
-        getline(cin, userInput);
+        string message = "jjjj";
+        //cin >> message;
+        //getline(cin, userInput);
 
-        //		Send to server
-        int sendRes = static_cast<int>(send(sock, userInput.c_str(), userInput.size() + 1, 0));
-        if (sendRes == -1)
-        {
+        //Send to server
+        cout<<"EL MENSAJE ES "<<message<<endl;
+        send(sock, message.c_str(), strlen(message.c_str()) + 1, 0);
+
+        /*if (sendRes == -1){
             cout << "Could not send to server! Whoops!\r\n";
             continue;
-        }
-
-        //		Wait for response
+        }*/
+        //Wait for response
         memset(buf, 0, 4096);
         int bytesReceived = static_cast<int>(recv(sock, buf, 4096, 0));
         if (bytesReceived == -1)
