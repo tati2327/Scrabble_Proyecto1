@@ -48,10 +48,10 @@ RM = /home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/P1/SERVER
+CMAKE_SOURCE_DIR = /home/tati2327/Documentos/GITHUB/Scrabble/SERVER
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tati2327/Documentos/GITHUB/Scrabble/SERVER/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles /home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/Scrabble/SERVER/cmake-build-debug/CMakeFiles /home/tati2327/Documentos/GITHUB/Scrabble/SERVER/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/P1/SERVER/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tati2327/Documentos/GITHUB/Scrabble/SERVER/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,33 +150,6 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
-Client.o: Client.cpp.o
-
-.PHONY : Client.o
-
-# target to build an object file
-Client.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.o
-.PHONY : Client.cpp.o
-
-Client.i: Client.cpp.i
-
-.PHONY : Client.i
-
-# target to preprocess a source file
-Client.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.i
-.PHONY : Client.cpp.i
-
-Client.s: Client.cpp.s
-
-.PHONY : Client.s
-
-# target to generate assembly for a file
-Client.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Client.cpp.s
-.PHONY : Client.cpp.s
-
 Dictionary.o: Dictionary.cpp.o
 
 .PHONY : Dictionary.o
@@ -230,6 +203,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+JSON.o: JSON.cpp.o
+
+.PHONY : JSON.o
+
+# target to build an object file
+JSON.cpp.o:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/JSON.cpp.o
+.PHONY : JSON.cpp.o
+
+JSON.i: JSON.cpp.i
+
+.PHONY : JSON.i
+
+# target to preprocess a source file
+JSON.cpp.i:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/JSON.cpp.i
+.PHONY : JSON.cpp.i
+
+JSON.s: JSON.cpp.s
+
+.PHONY : JSON.s
+
+# target to generate assembly for a file
+JSON.cpp.s:
+	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/JSON.cpp.s
+.PHONY : JSON.cpp.s
 
 LinkedList.o: LinkedList.cpp.o
 
@@ -285,33 +285,6 @@ Node.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
-Observer.o: Observer.cpp.o
-
-.PHONY : Observer.o
-
-# target to build an object file
-Observer.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.o
-.PHONY : Observer.cpp.o
-
-Observer.i: Observer.cpp.i
-
-.PHONY : Observer.i
-
-# target to preprocess a source file
-Observer.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.i
-.PHONY : Observer.cpp.i
-
-Observer.s: Observer.cpp.s
-
-.PHONY : Observer.s
-
-# target to generate assembly for a file
-Observer.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Observer.cpp.s
-.PHONY : Observer.cpp.s
-
 Player.o: Player.cpp.o
 
 .PHONY : Player.o
@@ -366,33 +339,6 @@ Server.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Server.cpp.s
 .PHONY : Server.cpp.s
 
-Subject.o: Subject.cpp.o
-
-.PHONY : Subject.o
-
-# target to build an object file
-Subject.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.o
-.PHONY : Subject.cpp.o
-
-Subject.i: Subject.cpp.i
-
-.PHONY : Subject.i
-
-# target to preprocess a source file
-Subject.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.i
-.PHONY : Subject.cpp.i
-
-Subject.s: Subject.cpp.s
-
-.PHONY : Subject.s
-
-# target to generate assembly for a file
-Subject.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Subject.cpp.s
-.PHONY : Subject.cpp.s
-
 Tokens.o: Tokens.cpp.o
 
 .PHONY : Tokens.o
@@ -419,33 +365,6 @@ Tokens.s: Tokens.cpp.s
 Tokens.cpp.s:
 	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/Tokens.cpp.s
 .PHONY : Tokens.cpp.s
-
-basura.o: basura.cpp.o
-
-.PHONY : basura.o
-
-# target to build an object file
-basura.cpp.o:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/basura.cpp.o
-.PHONY : basura.cpp.o
-
-basura.i: basura.cpp.i
-
-.PHONY : basura.i
-
-# target to preprocess a source file
-basura.cpp.i:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/basura.cpp.i
-.PHONY : basura.cpp.i
-
-basura.s: basura.cpp.s
-
-.PHONY : basura.s
-
-# target to generate assembly for a file
-basura.cpp.s:
-	$(MAKE) -f CMakeFiles/SERVER.dir/build.make CMakeFiles/SERVER.dir/basura.cpp.s
-.PHONY : basura.cpp.s
 
 main.o: main.cpp.o
 
@@ -486,39 +405,30 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
-	@echo "... Client.o"
-	@echo "... Client.i"
-	@echo "... Client.s"
 	@echo "... Dictionary.o"
 	@echo "... Dictionary.i"
 	@echo "... Dictionary.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... JSON.o"
+	@echo "... JSON.i"
+	@echo "... JSON.s"
 	@echo "... LinkedList.o"
 	@echo "... LinkedList.i"
 	@echo "... LinkedList.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"
-	@echo "... Observer.o"
-	@echo "... Observer.i"
-	@echo "... Observer.s"
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
-	@echo "... Subject.o"
-	@echo "... Subject.i"
-	@echo "... Subject.s"
 	@echo "... Tokens.o"
 	@echo "... Tokens.i"
 	@echo "... Tokens.s"
-	@echo "... basura.o"
-	@echo "... basura.i"
-	@echo "... basura.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

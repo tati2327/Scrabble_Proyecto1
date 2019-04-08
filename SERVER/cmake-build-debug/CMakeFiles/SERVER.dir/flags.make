@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/tati2327/Documentos/GITHUB/Scrabble/SERVER/./include/rapidjson 
 

@@ -222,7 +222,8 @@ void LinkedList::Showmat(){ /*!<Imprime la matriz de juego*/
     Curr = Head;
     int cont= 0;
     for(int i=0; i<15;i++){
-        cout << "L" << " " << "ML" << " " << "MP    ";}
+        cout << "L" << " " << "ML" << " " << "MP    ";
+    }
     cout<< endl;
 
     while (Curr != nullptr) {

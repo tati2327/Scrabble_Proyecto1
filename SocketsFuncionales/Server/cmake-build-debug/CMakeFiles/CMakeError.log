@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eed0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eed0c.dir/build.make CMakeFiles/cmTC_eed0c.dir/build
+make[1]: se entra en el directorio '/home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eed0c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eed0c.dir/CheckSymbolExists.c.o   -c /home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eed0c
+/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eed0c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_eed0c.dir/CheckSymbolExists.c.o  -o cmTC_eed0c 
+CMakeFiles/cmTC_eed0c.dir/CheckSymbolExists.c.o: En la función `main':
+CheckSymbolExists.c:(.text+0x1b): referencia a `pthread_create' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eed0c.dir/build.make:86: recipe for target 'cmTC_eed0c' failed
+make[1]: *** [cmTC_eed0c] Error 1
+make[1]: se sale del directorio '/home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_eed0c/fast' failed
+make: *** [cmTC_eed0c/fast] Error 2
+
+File /home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37226/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37226.dir/build.make CMakeFiles/cmTC_37226.dir/build
+make[1]: se entra en el directorio '/home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37226.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_37226.dir/CheckFunctionExists.c.o   -c /home/tati2327/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_37226
+/home/tati2327/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37226.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_37226.dir/CheckFunctionExists.c.o  -o cmTC_37226 -lpthreads 
+/usr/bin/ld: no se puede encontrar -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_37226.dir/build.make:86: recipe for target 'cmTC_37226' failed
+make[1]: *** [cmTC_37226] Error 1
+make[1]: se sale del directorio '/home/tati2327/Documentos/GITHUB/Scrabble/SocketsFuncionales/Server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_37226/fast' failed
+make: *** [cmTC_37226/fast] Error 2
+
+

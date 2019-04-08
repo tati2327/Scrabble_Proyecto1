@@ -8,7 +8,7 @@
  */
 class Board {
     private:
-        LinkedList board;
+        LinkedList board; /*!< Lista enlazada que va a guardar el tablero del juego */
 
     public:
 
@@ -18,9 +18,14 @@ class Board {
         Board();
 
         /*!
-        * Getters and setters
+        * Getter del board
         */
         const LinkedList &getBoard();
+
+        /*!
+         * Setter del board
+         * @param board
+         */
         void setBoard(const LinkedList &board);
 };
 

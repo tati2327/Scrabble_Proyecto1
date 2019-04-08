@@ -13,10 +13,6 @@
 
 using namespace std;
 
-void Server::changeBoard(Board newBoard){
-    Notify(newBoard);
-}
-
 void Server::initServer(){
     if(!newServer()) {
         cerr << "Error al crear el socket" << endl;
@@ -26,6 +22,7 @@ void Server::initServer(){
         cerr << "Error al conectar con el S.O." << endl;
         return;
     }
+
     bool accept = true;
     while(accept){
         cout<<"¿Cuantos jugadores son? "<<endl;
@@ -41,9 +38,8 @@ void Server::initServer(){
     t_add.join();
 
     for(int i = 0; i <= (players-1); i++){
-        cout<<"Se creo el hilo "<<i<<endl;
-        cout<<clients[i]<<endl;
-        thread t_manage(&Server::manageClient, this, clients[i]);
+        cout<<"Se creo el hilo "<<i<<" para el jugador "<<clients[i].name<<endl;
+        thread t_manage(&Server::manageClient, this, clients[i].clientSocket);
         t_manage.detach();
     }
 }
@@ -57,7 +53,7 @@ bool Server::newServer() {
 
     hint.sin_family = AF_INET;
     hint.sin_port = htons(54000);
-    inet_pton(AF_INET, "127.0.0.1", &hint.sin_addr);
+    inet_pton(AF_INET, "192.168.43.207", &hint.sin_addr);
     return true;
 }
 
@@ -73,15 +69,13 @@ bool Server::flirtSO() {
 
 void Server::addClient() {
     while(countClients < players) {
-        sockaddr_in client {};
         socklen_t clientSize = sizeof(client);
 
         cout << "Esperando cliente" << endl;
-        clientSocket = accept(serverSocket, (sockaddr *) &client, &clientSize); /*!< Funcion bloqueante */
-        cout<<clientSocket<<endl;
+        client.clientSocket = accept(serverSocket, (sockaddr *) &client.info, &clientSize); /*!< Funcion bloqueante */
 
         /*! Se agrega el cliente a un vector */
-        clients.push_back(clientSocket);
+        clients.push_back(client);
         countClients += 1;
 
         char host[NI_MAXHOST]; /*!< Client's     cout<<55555<<endl; remote name*/
@@ -90,11 +84,11 @@ void Server::addClient() {
         memset(host, 0, NI_MAXHOST);
         memset(service, 0, NI_MAXSERV);
 
-        if (getnameinfo((sockaddr *) &clientSocket, sizeof(clientSocket), host, NI_MAXHOST, service, NI_MAXSERV, 0) == 0) {
+        if (getnameinfo((sockaddr *) &client.clientSocket, sizeof(client.clientSocket), host, NI_MAXHOST, service, NI_MAXSERV, 0) == 0) {
             cout << host << " connected on port " << service << endl;
         } else {
-            inet_ntop(AF_INET, &client.sin_addr, host, NI_MAXHOST);
-            cout << host << " connected on port " << ntohs(client.sin_port) << endl;
+            inet_ntop(AF_INET, &client.info.sin_addr, host, NI_MAXHOST);
+            cout << host << " connected on port " << ntohs(client.info.sin_port) << endl;
         }
     }
     close(serverSocket);
@@ -121,24 +115,51 @@ void Server::manageClient(int _client){
             break;
         }
 
-        cout << string(buf, 0, bytesReceived) << endl;
+        string messageClient = string(buf, 0, bytesReceived);
+        //readMessage(messageClient);
 
-        /*! Aqui se habre un hilo para que el servidor brinde una respuesta */
-        thread t_send(&Server::sendMessage, this, _client);
+        /*! Aqui se abre un hilo para que el servidor brinde una respuesta */
+        int request;
+        cout<<"¿Cual es tu solicitud?"<<endl;
+        cin>>request;
+        thread t_send(&Server::sendMessage, this, _client, request);
         t_send.join();
 
-        // Echo message back to client
-//        sendMessage(clientSocket,buf, bytesReceived, 0);
+        cout << string(buf, 0, bytesReceived) << endl;
     }
-    close(clientSocket);
+    close(client.clientSocket);
 }
 
-void Server::sendMessage(int _clientServer){
-    cout<<1<<endl;
-    char* messageServer;
+void Server::sendMessage(int _clientServer, int request){
+    /*! Se crea el JSON */
+    myJson.jsonToDocument(request);
 
-    while(serverSocket > 0){
-        cin>> messageServer;
-        send(_clientServer, messageServer, 4096, 0);
+    string messageServer;
+
+    /*! Se pasa a string el json*/
+    messageServer = myJson.stringifyJSON();
+    /*!Se envia el mensaje*/
+    send(_clientServer, messageServer.c_str(), sizeof(messageServer), 0);
+}
+
+void Server::sendWord(LinkedList words){
+    Node *current = new Node("0",0,0);
+    string letter = " ";
+    int x, y, count = 0;
+
+    myJson.jsonToDocument(2);
+    string messageServer;
+
+    while(count != (words.size() - 1)){
+        letter = current->getLetter();
+        x = current->getPosX();
+        y = current->getPosY();
+        count++;
+        current = words.bringNode(count);
+
+        myJson.request2("All", letter, x, y);
+        messageServer = myJson.stringifyJSON();
+
+        send(clients[count].clientSocket, messageServer.c_str(), sizeof(messageServer), 0);
     }
 }

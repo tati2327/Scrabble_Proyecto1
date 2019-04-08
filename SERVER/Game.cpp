@@ -12,13 +12,13 @@ Game::Game(int players, int turn) {
     board = K1.getBoard();                        /*!Llama a la matriz de juego*/
 }
 
-bool Game::validateWords(LinkedList toValidate, Node* hola) {
 
-    Node* current = hola;
+bool Game::validateWords(LinkedList toValidate) {
+    Node* current = toValidate.getHead();
     LinkedList listTemp;
     board.putletter('a',1,1);
-    board.putletter('e',1,2);
-    board.putletter('u',1,3);
+    board.putletter('e',2,1);
+    board.putletter('u',3,1);
     bool rowcolum= rowscolums(toValidate);
     if (rowcolum){
         cout<<"t"<<endl;
@@ -29,10 +29,9 @@ bool Game::validateWords(LinkedList toValidate, Node* hola) {
 
     string word = "";
     if (rowcolum== true){
-        current=hola;
+        current=toValidate.getHead();
         while (current != nullptr) {
-            //int x = current->getPosX();
-            //int y = current->getPosY();
+
             int cont = 0;
             while (cont < 15) {
                 Node *temp = board.getpos(current->getPosX(), cont);
@@ -61,7 +60,7 @@ bool Game::validateWords(LinkedList toValidate, Node* hola) {
             }
             current = current->getNext();
         }
-        current=hola;
+        current=toValidate.getHead();
         int cont = 0;
         while (cont < 15) {
             Node *temp = board.getpos(cont, current->getPosY());
@@ -117,7 +116,7 @@ bool Game::validateWords(LinkedList toValidate, Node* hola) {
             }
             current = current->getNext();
         }
-        current=hola;
+        current=toValidate.getHead();
         int cont = 0;
         while (cont < 15) {
             Node *temp = board.getpos(current->getPosX(), cont);
@@ -137,7 +136,6 @@ bool Game::validateWords(LinkedList toValidate, Node* hola) {
                 }
             }
             else {
-
                 cont++;
             }
         }
@@ -146,6 +144,7 @@ bool Game::validateWords(LinkedList toValidate, Node* hola) {
     cout<<listTemp.size()<<"size lista"<<endl;
     return dictionary.searchWord(listTemp);
 }
+
 bool Game::rowscolums(LinkedList temp) {
     int posx=temp.bringNode(0)->getPosX();
 
@@ -154,9 +153,7 @@ bool Game::rowscolums(LinkedList temp) {
             return true;
         }
     }
-
     return false;
-
 }
 
 int Game::getTurn() const {

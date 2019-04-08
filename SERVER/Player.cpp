@@ -3,7 +3,6 @@
 #include "cstdlib"
 #include "Tokens.h"
 
-
 using namespace std;
 
 Player::Player(LinkedList _letterlist, LinkedList _board) {
@@ -14,8 +13,7 @@ void Player::makeitplay() {
     LinkedList L1 = Tokens(letterlist).getL1();  /*! Asignacion de primeras fichas de juego*/
     setPlaying(false);
     rail = L1;
-    cout<<"SE ASIGNAN LAS FICHAS ..."<<endl;
-    rail.Showmat();
+    cout<<"SE ASIGNARON LAS FICHAS ..."<<endl;
 }
 /*----------------------------------------------------------------------------------------------------------*/
 bool Player::getPlaying() const {
