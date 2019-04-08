@@ -16,9 +16,9 @@ public:Ui::putID *ui;
   ~putID();
 
 private slots:
-  void on_pushButton_pressed();
+  void on_pushButton_pressed();    /*!Boton para validar ID*/
 
-  void on_textEdit_textChanged();
+  void on_textEdit_textChanged(); /*!Tex edit para meter ID*/
 
 private:
 

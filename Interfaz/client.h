@@ -2,7 +2,7 @@
 #define CLIENT_CLIENT_H
 #include <QThread>
 class Client {
-    public:
+    public:                 /*! Cliente*/
         int newClient();
 };
 

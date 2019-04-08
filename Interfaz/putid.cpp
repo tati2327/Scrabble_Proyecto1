@@ -1,6 +1,6 @@
 #include "putid.h"
 #include "ui_putid.h"
-
+#include "widget.h"
 #include "QMessageBox"
 
 putID::putID(QWidget *parent) :
@@ -18,8 +18,9 @@ putID::~putID()
 void putID::on_pushButton_pressed()
 {
   if (idgame==ui->textEdit->toPlainText()){
+      Widget w;
+      w.show();
       this->close();
-
     }
   else{
       QMessageBox::critical(this,

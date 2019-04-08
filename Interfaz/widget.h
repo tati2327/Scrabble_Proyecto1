@@ -33,26 +33,26 @@ protected:
   void mouseReleaseEvent(QMouseEvent *event) override;
 private slots:
 
-  void on_pushButton_released();
+  void on_pushButton_released();  /*!Boton para poner letra*/
 
-  void on_pushButton_2_released();
+  void on_pushButton_2_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_3_released();
+  void on_pushButton_3_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_4_pressed();
+  void on_pushButton_4_pressed(); /*!Boton para poner letra*/
 
-  void on_pushButton_5_released();
+  void on_pushButton_5_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_6_released();
+  void on_pushButton_6_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_7_released();
+  void on_pushButton_7_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_8_released();
+  void on_pushButton_8_released(); /*!Boton para poner letra*/
 
-  void on_pushButton_9_released();
+  void on_pushButton_9_released(); /*!Boton para validar el movimiento*/
 
 
-  void on_pushButton_10_pressed();
+  void on_pushButton_10_pressed(); /*!Boton para empezar a jugar*/
 
 private:
   void onMouseEvent(const QPoint &pos);
